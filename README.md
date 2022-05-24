@@ -1,6 +1,7 @@
-# Factorio Calculator
+# Foundry Calculator
 
-This is the repostory for the [Factorio Calculator](https://kirkmcdonald.github.io/calc.html), a tool for calculating resource requirements and production ratios in the game [Factorio](https://factorio.com/).
+This is the repostory for the [Foundry Calculator](https://erkle64.github.io/Foundry-Calculator/calc.html), a tool for calculating resource requirements and production ratios in the game [Foundry](https://www.foundry-game.com/).
+It is adapted from [Factorio Calculator](https://kirkmcdonald.github.io/calc.html).
 
 ## Running locally
 
@@ -9,13 +10,3 @@ The calculator consists entirely of static files (HTML, JS, CSS), and may be run
 ```text
 $ python3 -m http.server 8000
 ```
-
-An experimental standalone version of the calculator named `factoriocalc`, which will automatically obtain the game data from your locally installed mods, is also available from the [factorio-tools](https://github.com/KirkMcDonald/factorio-tools) repository. A Windows build is available from [the project's releases page](https://github.com/KirkMcDonald/factorio-tools/releases).
-
-## Dumping new datasets
-
-The utility for dumping datasets from the game, as well as assembling the sprite sheets, is called `factoriodump`, and may be found in the [factorio-tools](https://github.com/KirkMcDonald/factorio-tools) repository.
-
-## Support the calculator
-
-Please consider donating to [my Patreon campaign](https://www.patreon.com/kirkmcdonald). Any amount helps. And thank you!
