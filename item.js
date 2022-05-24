@@ -66,7 +66,7 @@ Item.prototype = {
         var title = document.createElement("h3")
         var im = getImage(this, true)
         title.appendChild(im)
-        title.appendChild(new Text(formatName(this.name)))
+        title.appendChild(new Text(formatName(this.displayName)))
         t.appendChild(title)
         if (extra) {
             t.appendChild(extra)
