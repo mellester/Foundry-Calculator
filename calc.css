@@ -64,8 +64,8 @@ button#debug_button {
 img.icon {
     background-repeat: no-repeat;
     display: inline-block;
-    height: 32px;
-    width: 32px;
+    height: 64px;
+    width: 64px;
     vertical-align: middle;
 }
 /* "recent changes" box */

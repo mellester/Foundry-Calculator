@@ -310,9 +310,7 @@ RocketSilo.prototype.recipeRate = function(spec, recipe) {
 }
 
 var assembly_machine_categories = {
-    "advanced-crafting": true,
-    "crafting": true,
-    "crafting-with-fluid": true,
+    "assembler": true
 }
 
 function compareFactories(a, b) {
@@ -342,9 +340,9 @@ function FactorySpec(factories) {
         this.factories[category].sort(compareFactories)
     }
     this.setMinimum("1")
-    var smelters = this.factories["smelting"]
-    this.furnace = smelters[smelters.length - 1]
-    DEFAULT_FURNACE = this.furnace.name
+    // var smelters = this.factories["smelting"]
+    // this.furnace = smelters[smelters.length - 1]
+    // DEFAULT_FURNACE = this.furnace.name
     this.miningProd = zero
     this.ignore = {}
 
@@ -358,22 +356,17 @@ FactorySpec.prototype = {
     // min is a string like "1", "2", or "3".
     setMinimum: function(min) {
         var minIndex = Number(min) - 1
-        this.minimum = this.factories["crafting"][minIndex]
+        this.minimum = this.factories["assembler"][minIndex]
     },
     useMinimum: function(recipe) {
         return recipe.category in assembly_machine_categories
     },
     setFurnace: function(name) {
-        var smelters = this.factories["smelting"]
-        for (var i = 0; i < smelters.length; i++) {
-            if (smelters[i].name == name) {
-                this.furnace = smelters[i]
-                return
-            }
-        }
+        this.furnace = null
+        return
     },
     useFurnace: function(recipe) {
-        return recipe.category == "smelting"
+        return false
     },
     getFactoryDef: function(recipe) {
         if (this.useFurnace(recipe)) {
@@ -499,125 +492,19 @@ function renderTooltipBase() {
 
 function getFactories(data) {
     var factories = []
-    var pumpDef = data["offshore-pump"]["offshore-pump"]
-    var pump = new FactoryDef(
-        "offshore-pump",
-        pumpDef.icon_col,
-        pumpDef.icon_row,
-        ["water"],
-        1,
-        one,
-        0,
-        zero,
-        null
-    )
-    pump.renderTooltip = renderTooltipBase
-    factories.push(pump)
-    var reactorDef = data["reactor"]["nuclear-reactor"]
-    var reactor = new FactoryDef(
-        "nuclear-reactor",
-        reactorDef.icon_col,
-        reactorDef.icon_row,
-        ["nuclear"],
-        1,
-        one,
-        0,
-        zero,
-        null
-    )
-    reactor.renderTooltip = renderTooltipBase
-    factories.push(reactor)
-    var boilerDef = data["boiler"]["boiler"]
-    // XXX: Should derive this from game data.
-    var boiler_energy
-    if (useLegacyCalculations) {
-        boiler_energy = RationalFromFloat(3600000)
-    } else {
-        boiler_energy = RationalFromFloat(1800000)
-    }
-    var boiler = new FactoryDef(
-        "boiler",
-        boilerDef.icon_col,
-        boilerDef.icon_row,
-        ["boiler"],
-        1,
-        one,
-        0,
-        boiler_energy,
-        "chemical"
-    )
-    boiler.renderTooltip = renderTooltipBase
-    factories.push(boiler)
-    var siloDef = data["rocket-silo"]["rocket-silo"]
-    var launch = new RocketLaunchDef(
-        "rocket-silo",
-        siloDef.icon_col,
-        siloDef.icon_row,
-        ["rocket-launch"],
-        2,
-        one,
-        0,
-        zero,
-        null
-    )
-    launch.renderTooltip = renderTooltipBase
-    factories.push(launch)
-    for (var type in {"assembling-machine": true, "furnace": true}) {
-        for (var name in data[type]) {
-            var d = data[type][name]
-            var fuel = null
-            if (d.energy_source && d.energy_source.type === "burner") {
-                fuel = d.energy_source.fuel_category
-            }
-            factories.push(new FactoryDef(
-                d.name,
-                d.icon_col,
-                d.icon_row,
-                d.crafting_categories,
-                d.ingredient_count,
-                RationalFromFloat(d.crafting_speed),
-                d.module_slots,
-                RationalFromFloat(d.energy_usage),
-                fuel
-            ))
+    for (var name in data["machine"]) {
+        var d = data["machine"][name]
+        var fuel = null
+        if (d.energy_source && d.energy_source.type === "burner") {
+            fuel = d.energy_source.fuel_category
         }
-    }
-    for (var name in data["rocket-silo"]) {
-        var d = data["rocket-silo"][name]
-        factories.push(new RocketSiloDef(
+        factories.push(new FactoryDef(
             d.name,
             d.icon_col,
             d.icon_row,
             d.crafting_categories,
             d.ingredient_count,
             RationalFromFloat(d.crafting_speed),
-            d.module_slots,
-            RationalFromFloat(d.energy_usage),
-            null
-        ))
-    }
-    for (var name in data["mining-drill"]) {
-        var d = data["mining-drill"][name]
-        if (d.name == "pumpjack") {
-            continue
-        }
-        var fuel = null
-        if (d.energy_source && d.energy_source.type === "burner") {
-            fuel = d.energy_source.fuel_category
-        }
-        var power
-        if (d.mining_power) {
-            power = RationalFromFloat(d.mining_power)
-        } else {
-            power = null
-        }
-        factories.push(new MinerDef(
-            d.name,
-            d.icon_col,
-            d.icon_row,
-            ["mining-basic-solid"],
-            power,
-            RationalFromFloat(d.mining_speed),
             d.module_slots,
             RationalFromFloat(d.energy_usage),
             fuel

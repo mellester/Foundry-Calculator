@@ -37,8 +37,12 @@ function makeIngredient(data, i, items) {
     return new Ingredient(RationalFromFloat(amount), getItem(data, items, name))
 }
 
-function Recipe(name, col, row, category, time, ingredients, products) {
+function Recipe(name, displayName, col, row, category, time, ingredients, products) {
+    if(!displayName) {
+        console.log(name)
+    }
     this.name = name
+    this.displayName = displayName
     this.icon_col = col
     this.icon_row = row
     this.category = category
@@ -106,7 +110,7 @@ Recipe.prototype = {
         var title = document.createElement("h3")
         var im = getImage(this, true)
         title.appendChild(im)
-        var name = formatName(this.name)
+        var name = formatName(this.displayName)
         if (this.products.length === 1 && this.products[0].item.name === this.name && one.less(this.products[0].amount)) {
             name = this.products[0].amount.toDecimal() + " \u00d7 " + name
         }
@@ -162,24 +166,24 @@ function makeRecipe(data, d, items) {
     for (var i=0; i < d.ingredients.length; i++) {
         ingredients.push(makeIngredient(data, d.ingredients[i], items))
     }
-    return new Recipe(d.name, d.icon_col, d.icon_row, d.category, time, ingredients, products)
+    return new Recipe(d.name, d.localized_name.en, d.icon_col, d.icon_row, d.category, time, ingredients, products)
 }
 
 function ResourceRecipe(item) {
-    Recipe.call(this, item.name, item.icon_col, item.icon_row, null, zero, [], [new Ingredient(one, item)])
+    Recipe.call(this, item.name, item.displayName, item.icon_col, item.icon_row, null, zero, [], [new Ingredient(one, item)])
 }
 ResourceRecipe.prototype = Object.create(Recipe.prototype)
 ResourceRecipe.prototype.makesResource = function() {
     return true
 }
 
-function MiningRecipe(name, col, row, category, hardness, mining_time, ingredients, products) {
+function MiningRecipe(name, displayName, col, row, category, hardness, mining_time, ingredients, products) {
     this.hardness = hardness
     this.mining_time = mining_time
     if (!ingredients) {
         ingredients = []
     }
-    Recipe.call(this, name, col, row, category, zero, ingredients, products)
+    Recipe.call(this, name, displayName, col, row, category, zero, ingredients, products)
 }
 MiningRecipe.prototype = Object.create(Recipe.prototype)
 MiningRecipe.prototype.makesResource = function() {
@@ -196,52 +200,6 @@ function ignoreRecipe(d) {
 function getRecipeGraph(data) {
     var recipes = {}
     var items = getItems(data)
-    var water = getItem(data, items, "water")
-    recipes["water"] = new Recipe(
-        "water",
-        water.icon_col,
-        water.icon_row,
-        "water",
-        RationalFromFloats(1, 1200),
-        [],
-        [new Ingredient(one, water)]
-    )
-    var reactor = data.items["nuclear-reactor"]
-    recipes["nuclear-reactor-cycle"] = new Recipe(
-        "nuclear-reactor-cycle",
-        reactor.icon_col,
-        reactor.icon_row,
-        "nuclear",
-        RationalFromFloat(200),
-        [new Ingredient(one, getItem(data, items, "uranium-fuel-cell"))],
-        [
-            new Ingredient(one, getItem(data, items, "used-up-uranium-fuel-cell")),
-            new Ingredient(one, items["nuclear-reactor-cycle"]),
-        ]
-    )
-    var rocket = data.items["rocket-silo"]
-    recipes["rocket-launch"] = new Recipe(
-        "rocket-launch",
-        rocket.icon_col,
-        rocket.icon_row,
-        "rocket-launch",
-        one,
-        [
-            new Ingredient(RationalFromFloat(100), getItem(data, items, "rocket-part")),
-            new Ingredient(one, getItem(data, items, "satellite"))
-        ], [new Ingredient(RationalFromFloat(1000), getItem(data, items, "space-science-pack"))]
-    )
-    var steam = data.items["steam"]
-    recipes["steam"] = new Recipe(
-        "steam",
-        steam.icon_col,
-        steam.icon_row,
-        "boiler",
-        RationalFromFloats(1, 60),
-        [new Ingredient(one, getItem(data, items, "water"))],
-        [new Ingredient(one, getItem(data, items, "steam"))]
-    )
-
     for (var name in data.recipes) {
         var recipe = data.recipes[name]
         if (ignoreRecipe(recipe)) {
@@ -279,6 +237,7 @@ function getRecipeGraph(data) {
             hardness = null
         }
         recipes[name] = new MiningRecipe(
+            name,
             name,
             entity.icon_col,
             entity.icon_row,

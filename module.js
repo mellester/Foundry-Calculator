@@ -134,7 +134,7 @@ function moduleDropdown(selection, name, selected, callback, filter) {
     )
     labels.append(d => {
         if (d === null) {
-            let noModImage = getExtraImage("slot_icon_module")
+            let noModImage = getExtraImage("clock")
             noModImage.title = NO_MODULE
             return noModImage
         } else {

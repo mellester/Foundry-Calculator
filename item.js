@@ -13,8 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.*/
 "use strict"
 
-function Item(name, col, row, phase, group, subgroup, order) {
+function Item(name, displayName, col, row, phase, group, subgroup, order) {
     this.name = name
+    this.displayName = displayName
     this.icon_col = col
     this.icon_row = row
     this.recipes = []
@@ -79,6 +80,9 @@ function getItem(data, items, name) {
         return items[name]
     } else {
         var d = data.items[name]
+        if (d === undefined) {
+            console.log(name)
+        }
         var phase
         if (d.type == "fluid") {
             phase = "fluid"
@@ -86,7 +90,8 @@ function getItem(data, items, name) {
             phase = "solid"
         }
         var item = new Item(
-            name,
+            d.name,
+            d.localized_name.en,
             d.icon_col,
             d.icon_row,
             phase,
@@ -101,16 +106,5 @@ function getItem(data, items, name) {
 
 function getItems(data) {
     var items = {}
-    var cycleName = "nuclear-reactor-cycle"
-    var reactor = data.items["nuclear-reactor"]
-    items[cycleName] = new Item(
-        cycleName,
-        reactor.icon_col,
-        reactor.icon_row,
-        "abstract",
-        "production",
-        "energy",
-        "f[nuclear-energy]-d[reactor-cycle]",
-    )
     return items
 }

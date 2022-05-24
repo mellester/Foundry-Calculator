@@ -67,7 +67,7 @@ function PipeConfig(rate) {
     var def = defaultPipe(rate)
     this.minLanes = rate.div(RationalFromFloat(12000)).ceil()
     this.element = document.createElement("td")
-    var pipeItem = solver.items["pipe"]
+    var pipeItem = solver.items["_base_pipe"]
     this.element.appendChild(getImage(pipeItem))
     this.element.appendChild(new Text(" \u00d7 "))
     this.laneInput = document.createElement("input")

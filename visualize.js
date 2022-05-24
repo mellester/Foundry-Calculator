@@ -287,7 +287,7 @@ function renderNode(selection, margin, justification, ignore, sheetWidth, sheetH
             .attr("height", sheetHeight)
 }
 
-const iconSize = 32
+const iconSize = 64
 const nodePadding = 32
 const colonWidth = 12
 

@@ -217,7 +217,7 @@ class PipeCells {
         pipeCell.colSpan = 2
         pipeCell.classList.add("pad-right")
         row.appendChild(pipeCell)
-        let pipeItem = solver.items["pipe"]
+        let pipeItem = solver.items["_base_pipe"]
         pipeCell.appendChild(getImage(pipeItem, true))
         this.pipeNode = document.createElement("tt")
         pipeCell.appendChild(this.pipeNode)
@@ -948,7 +948,7 @@ GroupRow.prototype = {
         var power = zero
         for (var i = 0; i < this.factoryRows.length; i++) {
             var p = this.factoryRows[i].power
-            if (p.fuel === "electric") {
+            if (p && p.fuel === "electric") {
                 power = power.add(p.power)
             }
         }

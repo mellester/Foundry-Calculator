@@ -191,7 +191,7 @@ def main():
     icons = sorted(icon_paths, key=lambda p: (os.path.splitext(os.path.basename(p))[0], p))
     im_width = int(math.sqrt(len(icons)))
     im_height = (len(icons) // im_width) + (1 if len(icons) % im_width else 0)
-    px_width, px_height = (32, 32)
+    px_width, px_height = (64, 64)
     sheet = Image.new("RGBA", (im_width * px_width, im_height * px_height))
     for i, path in enumerate(icons):
         im = get_icon(data, path)

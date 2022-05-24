@@ -22,16 +22,17 @@ function Modification(name, filename, legacy, sheetSize) {
 }
 
 var MODIFICATIONS = {
-    "1-1-19": new Modification("Vanilla 1.1.19", "vanilla-1.1.19.json", false, [480, 512]),
-    "1-1-19x": new Modification("Vanilla 1.1.19 - Expensive", "vanilla-1.1.19-expensive.json", false, [480, 512]),
+    "0-4-3-3582-T1": new Modification("Vanilla 0.4.3.3582 T1", "vanilla-0.4.3.3582-T1.json", false, [1024, 1024]),
+    "0-4-3-3582-T2": new Modification("Vanilla 0.4.3.3582 T2", "vanilla-0.4.3.3582-T2.json", false, [1024, 1024]),
+    "0-4-3-3582-T2-5": new Modification("Vanilla 0.4.3.3582 T2.5", "vanilla-0.4.3.3582-T2.5.json", false, [1024, 1024]),
+    "0-4-3-3582-T3": new Modification("Vanilla 0.4.3.3582 T3", "vanilla-0.4.3.3582-T3.json", false, [1024, 1024]),
 }
 
-var DEFAULT_MODIFICATION = "1-1-19"
+var DEFAULT_MODIFICATION = "0-4-3-3582-T1"
 
 function addOverrideOptions(version) {
     var tag = "local-" + version.replace(/\./g, "-")
     MODIFICATIONS[tag] = new Modification("Local game data " + version, "local-" + version + ".json")
-    MODIFICATIONS[tag + "x"] = new Modification("Local game data " + version + " - Expensive", "local-" + version + "-expensive.json")
     DEFAULT_MODIFICATION = tag
 }
 
@@ -192,7 +193,7 @@ function renderMinimumAssembler(settings) {
     if ("use_3" in settings && settings.use_3 == "true") {
         min = "3"
     }
-    var assemblers = spec.factories["crafting"]
+    var assemblers = spec.factories["assembler"]
     if ("min" in settings) {
         min = settings.min
         if (Number(settings.min) > assemblers.length) {
@@ -227,32 +228,32 @@ function setMinimumAssembler(min) {
 var DEFAULT_FURNACE
 
 function renderFurnace(settings) {
-    var furnaceName = DEFAULT_FURNACE
-    if ("furnace" in settings) {
-        furnaceName = settings.furnace
-    }
-    if (furnaceName !== spec.furnace.name) {
-        spec.setFurnace(furnaceName)
-    }
-    var oldNode = document.getElementById("furnace")
-    var cell = oldNode.parentNode
-    var node = document.createElement("span")
-    node.id = "furnace"
-    let furnaces = spec.factories["smelting"]
-    let dropdown = makeDropdown(d3.select(node))
-    let inputs = dropdown.selectAll("div").data(furnaces).join("div")
-    let labels = addInputs(
-        inputs,
-        "furnace_dropdown",
-        d => d.name === furnaceName,
-        changeFurnace,
-    )
-    labels.append(d => getImage(d, false, dropdown.node()))
-    cell.replaceChild(node, oldNode)
+    // var furnaceName = DEFAULT_FURNACE
+    // if ("furnace" in settings) {
+        // furnaceName = settings.furnace
+    // }
+    // if (furnaceName !== spec.furnace.name) {
+        // spec.setFurnace(furnaceName)
+    // }
+    // var oldNode = document.getElementById("furnace")
+    // var cell = oldNode.parentNode
+    // var node = document.createElement("span")
+    // node.id = "furnace"
+    // let furnaces = spec.factories["smelting"]
+    // let dropdown = makeDropdown(d3.select(node))
+    // let inputs = dropdown.selectAll("div").data(furnaces).join("div")
+    // let labels = addInputs(
+        // inputs,
+        // "furnace_dropdown",
+        // d => d.name === furnaceName,
+        // changeFurnace,
+    // )
+    // labels.append(d => getImage(d, false, dropdown.node()))
+    // cell.replaceChild(node, oldNode)
 }
 
 // fuel
-var DEFAULT_FUEL = "coal"
+var DEFAULT_FUEL = "_base_ore_ignium"
 
 var preferredFuel
 
@@ -298,42 +299,38 @@ function Oil(recipeName, priorityName) {
 }
 
 var OIL_OPTIONS = [
-    new Oil("advanced-oil-processing", "default"),
-    new Oil("basic-oil-processing", "basic"),
-    new Oil("coal-liquefaction", "coal")
+    new Oil("_base_olumite", "default")
 ]
 
 var DEFAULT_OIL = "default"
 
 var OIL_EXCLUSION = {
-    "default": {},
-    "basic": {"advanced-oil-processing": true},
-    "coal": {"advanced-oil-processing": true, "basic-oil-processing": true}
+    "default": {}
 }
 
 var oilGroup = DEFAULT_OIL
 
 function renderOil(settings) {
-    var oil = DEFAULT_OIL
-    // Named "p" for historical reasons.
-    if ("p" in settings) {
-        oil = settings.p
-    }
-    setOilRecipe(oil)
-    var oldNode = document.getElementById("oil")
-    var cell = oldNode.parentNode
-    var node = document.createElement("span")
-    node.id = "oil"
-    let dropdown = makeDropdown(d3.select(node))
-    let inputs = dropdown.selectAll("div").data(OIL_OPTIONS).join("div")
-    let labels = addInputs(
-        inputs,
-        "oil_dropdown",
-        d => d.priority === oil,
-        changeOil,
-    )
-    labels.append(d => getImage(solver.recipes[d.name], false, dropdown.node()))
-    cell.replaceChild(node, oldNode)
+    // var oil = DEFAULT_OIL
+    // // Named "p" for historical reasons.
+    // if ("p" in settings) {
+        // oil = settings.p
+    // }
+    // setOilRecipe(oil)
+    // var oldNode = document.getElementById("oil")
+    // var cell = oldNode.parentNode
+    // var node = document.createElement("span")
+    // node.id = "oil"
+    // let dropdown = makeDropdown(d3.select(node))
+    // let inputs = dropdown.selectAll("div").data(OIL_OPTIONS).join("div")
+    // let labels = addInputs(
+        // inputs,
+        // "oil_dropdown",
+        // d => d.priority === oil,
+        // changeOil,
+    // )
+    // labels.append(d => getImage(data.items[d.name], false, dropdown.node()))
+    // cell.replaceChild(node, oldNode)
 }
 
 function setOilRecipe(name) {
@@ -348,13 +345,13 @@ var DEFAULT_KOVAREX = true
 var kovarexEnabled
 
 function renderKovarex(settings) {
-    var k = DEFAULT_KOVAREX
-    if ("k" in settings) {
-        k = settings.k !== "off"
-    }
-    setKovarex(k)
-    var input = document.getElementById("kovarex")
-    input.checked = k
+    // var k = DEFAULT_KOVAREX
+    // if ("k" in settings) {
+        // k = settings.k !== "off"
+    // }
+    // setKovarex(k)
+    // var input = document.getElementById("kovarex")
+    // input.checked = k
 }
 
 function setKovarex(enabled) {
@@ -367,7 +364,7 @@ function setKovarex(enabled) {
 }
 
 // belt
-var DEFAULT_BELT = "transport-belt"
+var DEFAULT_BELT = "_base_conveyor_i"
 
 var preferredBelt = DEFAULT_BELT
 var preferredBeltSpeed = null
@@ -444,52 +441,52 @@ function getMprod() {
 
 // default module
 function renderDefaultModule(settings) {
-    var defaultModule = null
-    if ("dm" in settings) {
-        defaultModule = shortModules[settings.dm]
-    }
-    spec.setDefaultModule(defaultModule)
+    // var defaultModule = null
+    // if ("dm" in settings) {
+        // defaultModule = shortModules[settings.dm]
+    // }
+    // spec.setDefaultModule(defaultModule)
 
-    var oldDefMod = document.getElementById("default_module")
-    var cell = oldDefMod.parentNode
-    var node = document.createElement("span")
-    node.id = "default_module"
-    moduleDropdown(
-        d3.select(node),
-        "default_module_dropdown",
-        d => d === defaultModule,
-        changeDefaultModule,
-    )
-    cell.replaceChild(node, oldDefMod)
+    // var oldDefMod = document.getElementById("default_module")
+    // var cell = oldDefMod.parentNode
+    // var node = document.createElement("span")
+    // node.id = "default_module"
+    // moduleDropdown(
+        // d3.select(node),
+        // "default_module_dropdown",
+        // d => d === defaultModule,
+        // changeDefaultModule,
+    // )
+    // cell.replaceChild(node, oldDefMod)
 }
 
 // default beacon
 function renderDefaultBeacon(settings) {
-    var defaultBeacon = null
-    var defaultCount = zero
-    if ("db" in settings) {
-        defaultBeacon = shortModules[settings.db]
-    }
-    if ("dbc" in settings) {
-        defaultCount = RationalFromString(settings.dbc)
-    }
-    spec.setDefaultBeacon(defaultBeacon, defaultCount)
+    // var defaultBeacon = null
+    // var defaultCount = zero
+    // if ("db" in settings) {
+        // defaultBeacon = shortModules[settings.db]
+    // }
+    // if ("dbc" in settings) {
+        // defaultCount = RationalFromString(settings.dbc)
+    // }
+    // spec.setDefaultBeacon(defaultBeacon, defaultCount)
 
-    var dbcField = document.getElementById("default_beacon_count")
-    dbcField.value = defaultCount.toDecimal(0)
+    // var dbcField = document.getElementById("default_beacon_count")
+    // dbcField.value = defaultCount.toDecimal(0)
 
-    var oldDefMod = document.getElementById("default_beacon")
-    var cell = oldDefMod.parentNode
-    var node = document.createElement("span")
-    node.id = "default_beacon"
-    moduleDropdown(
-        d3.select(node),
-        "default_beacon_dropdown",
-        d => d === defaultBeacon,
-        changeDefaultBeacon,
-        d => d === null || d.canBeacon(),
-    )
-    cell.replaceChild(node, oldDefMod)
+    // var oldDefMod = document.getElementById("default_beacon")
+    // var cell = oldDefMod.parentNode
+    // var node = document.createElement("span")
+    // node.id = "default_beacon"
+    // moduleDropdown(
+        // d3.select(node),
+        // "default_beacon_dropdown",
+        // d => d === defaultBeacon,
+        // changeDefaultBeacon,
+        // d => d === null || d.canBeacon(),
+    // )
+    // cell.replaceChild(node, oldDefMod)
 }
 
 // visualizer settings
@@ -579,7 +576,7 @@ function renderTooltip(settings) {
 }
 
 // debug tab
-var DEFAULT_DEBUG = false
+var DEFAULT_DEBUG = true
 
 var showDebug = DEFAULT_DEBUG
 

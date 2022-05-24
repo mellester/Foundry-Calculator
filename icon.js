@@ -13,8 +13,8 @@ See the License for the specific language governing permissions and
 limitations under the License.*/
 "use strict"
 
-var PX_WIDTH = 32
-var PX_HEIGHT = 32
+var PX_WIDTH = 64
+var PX_HEIGHT = 64
 
 var sheet_hash
 
