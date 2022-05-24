@@ -1032,7 +1032,7 @@
             "icon_row": 4,
             "fuel_value": 0,
             "type": "item",
-            "group": "_base_handhelds",
+            "group": "all",
             "order": "a",
             "fuel_category": ""
         },
@@ -1046,7 +1046,7 @@
             "icon_row": 4,
             "fuel_value": 0,
             "type": "item",
-            "group": "_base_handhelds",
+            "group": "all",
             "order": "a",
             "fuel_category": ""
         },
@@ -1060,7 +1060,7 @@
             "icon_row": 4,
             "fuel_value": 0,
             "type": "item",
-            "group": "_base_super_buildings",
+            "group": "all",
             "order": "a",
             "fuel_category": ""
         },
@@ -1200,7 +1200,7 @@
             "icon_row": 5,
             "fuel_value": 0,
             "type": "item",
-            "group": "_base_handhelds",
+            "group": "all",
             "order": "a",
             "fuel_category": ""
         },
@@ -1368,7 +1368,7 @@
             "icon_row": 6,
             "fuel_value": 0,
             "type": "item",
-            "group": "_base_super_buildings",
+            "group": "all",
             "order": "a",
             "fuel_category": ""
         },
@@ -1382,7 +1382,7 @@
             "icon_row": 6,
             "fuel_value": 0,
             "type": "item",
-            "group": "_base_super_buildings",
+            "group": "all",
             "order": "a",
             "fuel_category": ""
         },
@@ -4498,104 +4498,6 @@
             "subgroup": "all",
             "type": "recipe"
         },
-        "_base_mining_drill": {
-            "category": [],
-            "enabled": false,
-            "energy_required": 8.0,
-            "icon_col": 10,
-            "icon_row": 4,
-            "ingredients": [
-                {
-                    "amount": 2,
-                    "name": "_base_xenoferrite_plates"
-                },
-                {
-                    "amount": 25,
-                    "name": "_base_eic_i"
-                },
-                {
-                    "amount": 25,
-                    "name": "_base_technum_rods"
-                }
-            ],
-            "localized_name": {
-                "en": "Mining Drill"
-            },
-            "name": "_base_mining_drill",
-            "order": "a",
-            "results": [
-                {
-                    "amount": 1,
-                    "name": "_base_mining_drill"
-                }
-            ],
-            "subgroup": "all",
-            "type": "recipe"
-        },
-        "_base_mining_laser": {
-            "category": [],
-            "enabled": false,
-            "energy_required": 10.0,
-            "icon_col": 11,
-            "icon_row": 4,
-            "ingredients": [
-                {
-                    "amount": 2,
-                    "name": "_base_xf_steel_beams"
-                },
-                {
-                    "amount": 15,
-                    "name": "_base_mic_iii"
-                },
-                {
-                    "amount": 15,
-                    "name": "_base_energy_cell"
-                }
-            ],
-            "localized_name": {
-                "en": "Mining Laser"
-            },
-            "name": "_base_mining_laser",
-            "order": "a",
-            "results": [
-                {
-                    "amount": 1,
-                    "name": "_base_mining_laser"
-                }
-            ],
-            "subgroup": "all",
-            "type": "recipe"
-        },
-        "_base_monument": {
-            "category": [],
-            "enabled": false,
-            "energy_required": 30.0,
-            "icon_col": 12,
-            "icon_row": 4,
-            "ingredients": [
-                {
-                    "amount": 400,
-                    "name": "_base_xf_steel_beams"
-                },
-                {
-                    "amount": 200,
-                    "name": "_base_polymer_board"
-                }
-            ],
-            "localized_name": {
-                "en": "Monument"
-            },
-            "name": "_base_monument",
-            "order": "a",
-            "results": [
-                {
-                    "amount": 1,
-                    "name": "_base_monument"
-                }
-            ],
-            "subgroup": "all",
-            "type": "recipe"
-        },
         "_base_olumic_acid": {
             "category": [
                 "chemical_processor"
@@ -4763,32 +4665,6 @@
                 {
                     "amount": 2,
                     "name": "_base_pipeline"
-                }
-            ],
-            "subgroup": "all",
-            "type": "recipe"
-        },
-        "_base_plumber_tool": {
-            "category": [],
-            "enabled": false,
-            "energy_required": 6.0,
-            "icon_col": 6,
-            "icon_row": 5,
-            "ingredients": [
-                {
-                    "amount": 5,
-                    "name": "_base_biomass"
-                }
-            ],
-            "localized_name": {
-                "en": "Plumber Tool"
-            },
-            "name": "_base_plumber_tool",
-            "order": "a",
-            "results": [
-                {
-                    "amount": 1,
-                    "name": "_base_plumber_tool"
                 }
             ],
             "subgroup": "all",
@@ -5161,70 +5037,6 @@
                 {
                     "amount": 1,
                     "name": "_base_railings"
-                }
-            ],
-            "subgroup": "all",
-            "type": "recipe"
-        },
-        "_base_research_lab_i": {
-            "category": [],
-            "enabled": false,
-            "energy_required": 30.0,
-            "icon_col": 2,
-            "icon_row": 6,
-            "ingredients": [
-                {
-                    "amount": 40,
-                    "name": "_base_xenoferrite_plates"
-                },
-                {
-                    "amount": 20,
-                    "name": "_base_mic_i"
-                }
-            ],
-            "localized_name": {
-                "en": "Research Lab I"
-            },
-            "name": "_base_research_lab_i",
-            "order": "a",
-            "results": [
-                {
-                    "amount": 1,
-                    "name": "_base_research_lab_i"
-                }
-            ],
-            "subgroup": "all",
-            "type": "recipe"
-        },
-        "_base_research_lab_ii": {
-            "category": [],
-            "enabled": false,
-            "energy_required": 30.0,
-            "icon_col": 3,
-            "icon_row": 6,
-            "ingredients": [
-                {
-                    "amount": 60,
-                    "name": "_base_xenoferrite_plates"
-                },
-                {
-                    "amount": 30,
-                    "name": "_base_mic_i"
-                },
-                {
-                    "amount": 15,
-                    "name": "_base_eic_i"
-                }
-            ],
-            "localized_name": {
-                "en": "Research Lab II"
-            },
-            "name": "_base_research_lab_ii",
-            "order": "a",
-            "results": [
-                {
-                    "amount": 1,
-                    "name": "_base_research_lab_ii"
                 }
             ],
             "subgroup": "all",
