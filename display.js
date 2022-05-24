@@ -168,6 +168,7 @@ function BeltIcon(beltItem, beltSpeed) {
     this.item = beltItem
     this.speed = beltSpeed
     this.name = this.item.name
+    this.displayName = this.item.displayName
     this.icon_col = this.item.icon_col
     this.icon_row = this.item.icon_row
 }
@@ -179,7 +180,7 @@ BeltIcon.prototype = {
         var title = document.createElement("h3")
         var im = getImage(this, true)
         title.appendChild(im)
-        title.appendChild(new Text(formatName(this.name)))
+        title.appendChild(new Text(formatName(this.displayName)))
         t.appendChild(title)
         var b = document.createElement("b")
         b.textContent = "Max throughput: "

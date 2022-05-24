@@ -150,7 +150,7 @@ Recipe.prototype = {
             p.classList.add("product")
             p.appendChild(getImage(ing.item, true))
             t.appendChild(p)
-            t.appendChild(new Text("\u00A0" + ing.amount.toDecimal() + " \u00d7 " + formatName(ing.item.name)))
+            t.appendChild(new Text("\u00A0" + ing.amount.toDecimal() + " \u00d7 " + formatName(ing.item.displayName)))
         }
         return t
     }
