@@ -340,9 +340,9 @@ function FactorySpec(factories) {
         this.factories[category].sort(compareFactories)
     }
     this.setMinimum("1")
-    // var smelters = this.factories["smelting"]
-    // this.furnace = smelters[smelters.length - 1]
-    // DEFAULT_FURNACE = this.furnace.name
+    var smelters = this.factories["crusher"]
+    this.furnace = smelters[smelters.length - 1]
+    DEFAULT_FURNACE = this.furnace.name
     this.miningProd = zero
     this.ignore = {}
 
@@ -362,11 +362,16 @@ FactorySpec.prototype = {
         return recipe.category in assembly_machine_categories
     },
     setFurnace: function(name) {
-        this.furnace = null
-        return
+        var smelters = this.factories["crusher"]
+        for (var i = 0; i < smelters.length; i++) {
+            if (smelters[i].name == name) {
+                this.furnace = smelters[i]
+                return
+            }
+        }
     },
     useFurnace: function(recipe) {
-        return false
+        return recipe.category == "crusher"
     },
     getFactoryDef: function(recipe) {
         if (this.useFurnace(recipe)) {

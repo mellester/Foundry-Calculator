@@ -228,28 +228,28 @@ function setMinimumAssembler(min) {
 var DEFAULT_FURNACE
 
 function renderFurnace(settings) {
-    // var furnaceName = DEFAULT_FURNACE
-    // if ("furnace" in settings) {
-        // furnaceName = settings.furnace
-    // }
-    // if (furnaceName !== spec.furnace.name) {
-        // spec.setFurnace(furnaceName)
-    // }
-    // var oldNode = document.getElementById("furnace")
-    // var cell = oldNode.parentNode
-    // var node = document.createElement("span")
-    // node.id = "furnace"
-    // let furnaces = spec.factories["smelting"]
-    // let dropdown = makeDropdown(d3.select(node))
-    // let inputs = dropdown.selectAll("div").data(furnaces).join("div")
-    // let labels = addInputs(
-        // inputs,
-        // "furnace_dropdown",
-        // d => d.name === furnaceName,
-        // changeFurnace,
-    // )
-    // labels.append(d => getImage(d, false, dropdown.node()))
-    // cell.replaceChild(node, oldNode)
+    var furnaceName = DEFAULT_FURNACE
+    if ("furnace" in settings) {
+        furnaceName = settings.furnace
+    }
+    if (furnaceName !== spec.furnace.name) {
+        spec.setFurnace(furnaceName)
+    }
+    var oldNode = document.getElementById("furnace")
+    var cell = oldNode.parentNode
+    var node = document.createElement("span")
+    node.id = "furnace"
+    let furnaces = spec.factories["crusher"]
+    let dropdown = makeDropdown(d3.select(node))
+    let inputs = dropdown.selectAll("div").data(furnaces).join("div")
+    let labels = addInputs(
+        inputs,
+        "furnace_dropdown",
+        d => d.name === furnaceName,
+        changeFurnace,
+    )
+    labels.append(d => getImage(d, false, dropdown.node()))
+    cell.replaceChild(node, oldNode)
 }
 
 // fuel

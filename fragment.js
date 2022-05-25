@@ -38,9 +38,9 @@ function formatSettings(targets) {
     if (minimumAssembler != DEFAULT_MINIMUM) {
         settings += "min=" + minimumAssembler + "&"
     }
-    // if (spec.furnace.name != DEFAULT_FURNACE) {
-        // settings += "furnace=" + spec.furnace.name + "&"
-    // }
+    if (spec.furnace.name != DEFAULT_FURNACE) {
+        settings += "furnace=" + spec.furnace.name + "&"
+    }
     if (preferredFuel.name != DEFAULT_FUEL) {
         settings += "fuel=" + preferredFuel.name + "&"
     }
