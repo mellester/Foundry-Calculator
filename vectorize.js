@@ -22,8 +22,9 @@ function MatrixSolver(spec, recipes) {
     for (var recipeName in recipes) {
         var recipe = recipes[recipeName]
         recipeArray.push(recipe)
-        for (var i = 0; i < recipe.products.length; i++) {
-            var ing = recipe.products[i]
+        var prods = recipe.getProducts(spec)
+        for (var i = 0; i < prods.length; i++) {
+            var ing = prods[i]
             products[ing.item.name] = ing.item
         }
         var ings = recipe.getIngredients(spec)
@@ -82,8 +83,9 @@ function MatrixSolver(spec, recipes) {
             var k = itemIndexes[ing.item.name]
             recipeMatrix.addIndex(i, k, zero.sub(ing.amount))
         }
-        for (var j = 0; j < recipe.products.length; j++) {
-            var ing = recipe.products[j]
+        var prods = recipe.getProducts(spec)
+        for (var j = 0; j < prods.length; j++) {
+            var ing = prods[j]
             var k = itemIndexes[ing.item.name]
             recipeMatrix.addIndex(i, k, ing.amount)
         }
@@ -92,8 +94,9 @@ function MatrixSolver(spec, recipes) {
     }
     for (var i = 0; i < this.inputRecipes.length; i++) {
         var recipe = this.inputRecipes[i]
-        for (var j = 0; j < recipe.products.length; j++) {
-            var ing = recipe.products[j]
+        var prods = recipe.getProducts(spec)
+        for (var j = 0; j < prods.length; j++) {
+            var ing = prods[j]
             var k = itemIndexes[ing.item.name]
             if(k) {
                 recipeMatrix.addIndex(i + recipeArray.length, k, ing.amount)
@@ -192,8 +195,9 @@ MatrixSolver.prototype = {
                     continue
                 }
                 if (useLegacyCalculations) {
-                    for (var j = 0; j < recipe.products.length; j++) {
-                        var ing = recipe.products[j]
+                    var prods = recipe.getProducts(spec)
+                    for (var j = 0; j < prods.length; j++) {
+                        var ing = prods[j]
                         var k = this.itemIndexes[ing.item.name]
                         A.setIndex(i, k, zero)
                     }
@@ -205,8 +209,8 @@ MatrixSolver.prototype = {
                             A.setIndex(i, k, zero.sub(ing.amount))
                         }
                     }
-                    for (var j = 0; j < recipe.products.length; j++) {
-                        var ing = recipe.products[j]
+                    for (var j = 0; j < prods.length; j++) {
+                        var ing = prods[j]
                         var k = this.itemIndexes[ing.item.name]
                         A.addIndex(i, k, ing.amount.mul(prod))
                     }

@@ -12,7 +12,8 @@
             "type": "item",
             "group": "_base_super_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_air_intake_module": {
             "name": "_base_air_intake_module",
@@ -26,7 +27,8 @@
             "type": "item",
             "group": "_base_super_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_assembler_i": {
             "name": "_base_assembler_i",
@@ -40,7 +42,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_assembler_ii": {
             "name": "_base_assembler_ii",
@@ -54,7 +57,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_assembler_iii": {
             "name": "_base_assembler_iii",
@@ -68,7 +72,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_battery_i": {
             "name": "_base_battery_i",
@@ -82,7 +87,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_battery_ii": {
             "name": "_base_battery_ii",
@@ -96,7 +102,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_biomass_burner": {
             "name": "_base_biomass_burner",
@@ -110,7 +117,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_biomass": {
             "name": "_base_biomass",
@@ -124,7 +132,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": "chemical"
+            "fuel_category": "chemical",
+            "fuel_residual": ""
         },
         "_base_blast_furnance_base": {
             "name": "_base_blast_furnance_base",
@@ -138,7 +147,8 @@
             "type": "item",
             "group": "_base_super_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_blast_furnance_module": {
             "name": "_base_blast_furnance_module",
@@ -152,7 +162,8 @@
             "type": "item",
             "group": "_base_super_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_blast_furnace_electric": {
             "name": "_base_blast_furnace_electric",
@@ -166,7 +177,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_building_part": {
             "name": "_base_building_part",
@@ -180,7 +192,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_casting_machine": {
             "name": "_base_casting_machine",
@@ -194,7 +207,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_cement": {
             "name": "_base_cement",
@@ -208,7 +222,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_chemical_processor_i": {
             "name": "_base_chemical_processor_i",
@@ -222,7 +237,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_chest": {
             "name": "_base_chest",
@@ -236,7 +252,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_eic_ii": {
             "name": "_base_eic_ii",
@@ -250,7 +267,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_coked_ignium": {
             "name": "_base_coked_ignium",
@@ -264,7 +282,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": "chemical"
+            "fuel_category": "chemical",
+            "fuel_residual": ""
         },
         "_base_combustion_generator_i": {
             "name": "_base_combustion_generator_i",
@@ -278,7 +297,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_concrete": {
             "name": "_base_concrete",
@@ -292,7 +312,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_container": {
             "name": "_base_container",
@@ -306,7 +327,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_conveyor_balancer_i": {
             "name": "_base_conveyor_balancer_i",
@@ -320,7 +342,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_conveyor_balancer_ii": {
             "name": "_base_conveyor_balancer_ii",
@@ -334,7 +357,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_conveyor_balancer_iii": {
             "name": "_base_conveyor_balancer_iii",
@@ -348,7 +372,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_conveyor_i": {
             "name": "_base_conveyor_i",
@@ -362,7 +387,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_conveyor_ii": {
             "name": "_base_conveyor_ii",
@@ -376,7 +402,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_conveyor_iii": {
             "name": "_base_conveyor_iii",
@@ -390,7 +417,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_conveyor_slope_i": {
             "name": "_base_conveyor_slope_i",
@@ -404,7 +432,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_conveyor_slope_ii": {
             "name": "_base_conveyor_slope_ii",
@@ -418,7 +447,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_conveyor_slope_iii": {
             "name": "_base_conveyor_slope_iii",
@@ -432,7 +462,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_crusher_i": {
             "name": "_base_crusher_i",
@@ -446,7 +477,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_crusher_ii": {
             "name": "_base_crusher_ii",
@@ -460,7 +492,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_door_i": {
             "name": "_base_door_i",
@@ -474,7 +507,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_door_ii": {
             "name": "_base_door_ii",
@@ -488,7 +522,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_door_iii": {
             "name": "_base_door_iii",
@@ -502,7 +537,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_drone_miner_i": {
             "name": "_base_drone_miner_i",
@@ -516,7 +552,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_drone_miner_ii": {
             "name": "_base_drone_miner_ii",
@@ -530,7 +567,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_dynamite_i": {
             "name": "_base_dynamite_i",
@@ -544,7 +582,8 @@
             "type": "item",
             "group": "_base_handhelds",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_dynamite_remote_control": {
             "name": "_base_dynamite_remote_control",
@@ -558,7 +597,8 @@
             "type": "item",
             "group": "_base_handhelds",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_eic_i": {
             "name": "_base_eic_i",
@@ -572,7 +612,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_elevator_i": {
             "name": "_base_elevator_i",
@@ -586,7 +627,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_energy_cell": {
             "name": "_base_energy_cell",
@@ -600,7 +642,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_enriched_ignium_pellets": {
             "name": "_base_enriched_ignium_pellets",
@@ -614,7 +657,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_freight_elevator_i": {
             "name": "_base_freight_elevator_i",
@@ -628,7 +672,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_freight_elevator_ii": {
             "name": "_base_freight_elevator_ii",
@@ -642,7 +687,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_freight_elevator_iii": {
             "name": "_base_freight_elevator_iii",
@@ -656,7 +702,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_fuel_rod_casing": {
             "name": "_base_fuel_rod_casing",
@@ -670,7 +717,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_geological_scanner_i": {
             "name": "_base_geological_scanner_i",
@@ -684,7 +732,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_gravel": {
             "name": "_base_gravel",
@@ -698,7 +747,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_hot_air_stove_base": {
             "name": "_base_hot_air_stove_base",
@@ -712,7 +762,8 @@
             "type": "item",
             "group": "_base_super_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_hot_air_stove_module": {
             "name": "_base_hot_air_stove_module",
@@ -726,7 +777,8 @@
             "type": "item",
             "group": "_base_super_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_hydraulic_piston": {
             "name": "_base_hydraulic_piston",
@@ -740,7 +792,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_ignium_fuel_rod": {
             "name": "_base_ignium_fuel_rod",
@@ -754,7 +807,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": "chemical"
+            "fuel_category": "chemical",
+            "fuel_residual": "_base_fuel_rod_casing"
         },
         "_base_ignium_powder": {
             "name": "_base_ignium_powder",
@@ -768,7 +822,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_induction_furnace": {
             "name": "_base_induction_furnace",
@@ -782,7 +837,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_induction_smelter_i": {
             "name": "_base_induction_smelter_i",
@@ -796,7 +852,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_landing_pad": {
             "name": "_base_landing_pad",
@@ -810,7 +867,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_light_ceiling_i": {
             "name": "_base_light_ceiling_i",
@@ -824,7 +882,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_light_wall_i": {
             "name": "_base_light_wall_i",
@@ -838,7 +897,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_lightpole_i": {
             "name": "_base_lightpole_i",
@@ -852,7 +912,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_loader_1st_i_filter": {
             "name": "_base_loader_1st_i_filter",
@@ -866,7 +927,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_loader_1st_i": {
             "name": "_base_loader_1st_i",
@@ -880,7 +942,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_loader_2nd_i": {
             "name": "_base_loader_2nd_i",
@@ -894,7 +957,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_loader_3rd_i": {
             "name": "_base_loader_3rd_i",
@@ -908,7 +972,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_logistic_container_i": {
             "name": "_base_logistic_container_i",
@@ -922,7 +987,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_logistic_container_ii": {
             "name": "_base_logistic_container_ii",
@@ -936,7 +1002,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_logistic_container_iii": {
             "name": "_base_logistic_container_iii",
@@ -950,7 +1017,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_mic_ii": {
             "name": "_base_mic_ii",
@@ -964,7 +1032,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_mic_iii": {
             "name": "_base_mic_iii",
@@ -978,7 +1047,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_mic_i": {
             "name": "_base_mic_i",
@@ -992,7 +1062,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_minecart_depot_i": {
             "name": "_base_minecart_depot_i",
@@ -1006,7 +1077,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_minecart_tracks_straight": {
             "name": "_base_minecart_tracks_straight",
@@ -1020,7 +1092,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_mining_drill": {
             "name": "_base_mining_drill",
@@ -1034,7 +1107,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_mining_laser": {
             "name": "_base_mining_laser",
@@ -1048,7 +1122,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_monument": {
             "name": "_base_monument",
@@ -1062,7 +1137,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_ore_ignium": {
             "name": "_base_ore_ignium",
@@ -1076,7 +1152,8 @@
             "type": "item",
             "group": "_base_metallurgy",
             "order": "a",
-            "fuel_category": "chemical"
+            "fuel_category": "chemical",
+            "fuel_residual": ""
         },
         "_base_ore_limestone": {
             "name": "_base_ore_limestone",
@@ -1090,7 +1167,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_refined_ore_technum": {
             "name": "_base_refined_ore_technum",
@@ -1104,7 +1182,8 @@
             "type": "item",
             "group": "_base_metallurgy",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_refined_ore_xenoferrite": {
             "name": "_base_refined_ore_xenoferrite",
@@ -1118,7 +1197,8 @@
             "type": "item",
             "group": "_base_metallurgy",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_ore_technum": {
             "name": "_base_ore_technum",
@@ -1132,7 +1212,8 @@
             "type": "item",
             "group": "_base_metallurgy",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_ore_xenoferrite": {
             "name": "_base_ore_xenoferrite",
@@ -1146,7 +1227,8 @@
             "type": "item",
             "group": "_base_metallurgy",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_pipe_loader_i": {
             "name": "_base_pipe_loader_i",
@@ -1160,7 +1242,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_pipe": {
             "name": "_base_pipe",
@@ -1174,7 +1257,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_pipeline": {
             "name": "_base_pipeline",
@@ -1188,7 +1272,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_plumber_tool": {
             "name": "_base_plumber_tool",
@@ -1202,7 +1287,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_polymer_board": {
             "name": "_base_polymer_board",
@@ -1216,7 +1302,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_power_line_i": {
             "name": "_base_power_line_i",
@@ -1230,7 +1317,8 @@
             "type": "item",
             "group": "_base_handhelds",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_power_pole_i": {
             "name": "_base_power_pole_i",
@@ -1244,7 +1332,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_power_pole_ii": {
             "name": "_base_power_pole_ii",
@@ -1258,7 +1347,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_power_pole_iii": {
             "name": "_base_power_pole_iii",
@@ -1272,7 +1362,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_primitive_furnace": {
             "name": "_base_primitive_furnace",
@@ -1286,7 +1377,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_pumpjack_i": {
             "name": "_base_pumpjack_i",
@@ -1300,7 +1392,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_rail_miner_i": {
             "name": "_base_rail_miner_i",
@@ -1314,7 +1407,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_rail_miner_ii": {
             "name": "_base_rail_miner_ii",
@@ -1328,7 +1422,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_rail_miner_rock": {
             "name": "_base_rail_miner_rock",
@@ -1342,7 +1437,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_railings": {
             "name": "_base_railings",
@@ -1356,7 +1452,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_research_lab_i": {
             "name": "_base_research_lab_i",
@@ -1370,7 +1467,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_research_lab_ii": {
             "name": "_base_research_lab_ii",
@@ -1384,7 +1482,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_research_lab_iii": {
             "name": "_base_research_lab_iii",
@@ -1398,7 +1497,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_research_lab_iv": {
             "name": "_base_research_lab_iv",
@@ -1412,7 +1512,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_rubble_ignium": {
             "name": "_base_rubble_ignium",
@@ -1426,7 +1527,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_rubble_technum": {
             "name": "_base_rubble_technum",
@@ -1440,7 +1542,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_rubble_xenoferrite": {
             "name": "_base_rubble_xenoferrite",
@@ -1454,7 +1557,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_sand": {
             "name": "_base_sand",
@@ -1468,7 +1572,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_science_pack_i": {
             "name": "_base_science_pack_i",
@@ -1482,7 +1587,8 @@
             "type": "item",
             "group": "_base_science_packs",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_science_pack_ii": {
             "name": "_base_science_pack_ii",
@@ -1496,7 +1602,8 @@
             "type": "item",
             "group": "_base_science_packs",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_science_pack_iii": {
             "name": "_base_science_pack_iii",
@@ -1510,7 +1617,8 @@
             "type": "item",
             "group": "_base_science_packs",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_science_pack_iv": {
             "name": "_base_science_pack_iv",
@@ -1524,7 +1632,8 @@
             "type": "item",
             "group": "_base_science_packs",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_sign": {
             "name": "_base_sign",
@@ -1538,7 +1647,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_smelter_i": {
             "name": "_base_smelter_i",
@@ -1552,7 +1662,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_solar_panel_i": {
             "name": "_base_solar_panel_i",
@@ -1566,7 +1677,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_solar_panel_ii": {
             "name": "_base_solar_panel_ii",
@@ -1580,7 +1692,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_stairs_straight": {
             "name": "_base_stairs_straight",
@@ -1594,7 +1707,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_stone": {
             "name": "_base_stone",
@@ -1608,7 +1722,8 @@
             "type": "item",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_tank_i": {
             "name": "_base_tank_i",
@@ -1622,7 +1737,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_technum_rods": {
             "name": "_base_technum_rods",
@@ -1636,7 +1752,8 @@
             "type": "item",
             "group": "_base_metallurgy",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_technum_ingots": {
             "name": "_base_technum_ingots",
@@ -1650,7 +1767,8 @@
             "type": "item",
             "group": "_base_metallurgy",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_thermal_separator_i": {
             "name": "_base_thermal_separator_i",
@@ -1664,7 +1782,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_transformer_i": {
             "name": "_base_transformer_i",
@@ -1678,7 +1797,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_transformer_ii": {
             "name": "_base_transformer_ii",
@@ -1692,7 +1812,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_walkway_platform": {
             "name": "_base_walkway_platform",
@@ -1706,7 +1827,8 @@
             "type": "item",
             "group": "_base_buildings",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_wire_coil": {
             "name": "_base_wire_coil",
@@ -1720,7 +1842,8 @@
             "type": "item",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_xenoferrite_plates": {
             "name": "_base_xenoferrite_plates",
@@ -1734,7 +1857,8 @@
             "type": "item",
             "group": "_base_metallurgy",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_xenoferrite_ingots": {
             "name": "_base_xenoferrite_ingots",
@@ -1748,7 +1872,8 @@
             "type": "item",
             "group": "_base_metallurgy",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_xf_steel_beams": {
             "name": "_base_xf_steel_beams",
@@ -1762,7 +1887,8 @@
             "type": "item",
             "group": "_base_metallurgy",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_xf_steel_ingots": {
             "name": "_base_xf_steel_ingots",
@@ -1776,7 +1902,8 @@
             "type": "item",
             "group": "_base_metallurgy",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_air": {
             "name": "_base_air",
@@ -1790,7 +1917,8 @@
             "type": "fluid",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_bf_slag": {
             "name": "_base_bf_slag",
@@ -1804,7 +1932,8 @@
             "type": "fluid",
             "group": "molten_metals",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_hdo": {
             "name": "_base_hdo",
@@ -1818,7 +1947,8 @@
             "type": "fluid",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_hot_air": {
             "name": "_base_hot_air",
@@ -1832,7 +1962,8 @@
             "type": "fluid",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_liquid_polymer": {
             "name": "_base_liquid_polymer",
@@ -1846,7 +1977,8 @@
             "type": "fluid",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_molten_te": {
             "name": "_base_molten_te",
@@ -1860,7 +1992,8 @@
             "type": "fluid",
             "group": "molten_metals",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_molten_xf": {
             "name": "_base_molten_xf",
@@ -1874,7 +2007,8 @@
             "type": "fluid",
             "group": "molten_metals",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_olumic_acid": {
             "name": "_base_olumic_acid",
@@ -1888,7 +2022,8 @@
             "type": "fluid",
             "group": "_base_components",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         },
         "_base_olumite": {
             "name": "_base_olumite",
@@ -1902,7 +2037,8 @@
             "type": "fluid",
             "group": "all",
             "order": "a",
-            "fuel_category": ""
+            "fuel_category": "",
+            "fuel_residual": ""
         }
     },
     "recipes": {

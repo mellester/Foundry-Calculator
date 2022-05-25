@@ -15,12 +15,13 @@ limitations under the License.*/
 
 var energySuffixes = ["J", "kJ", "MJ", "GJ", "TJ", "PJ"]
 
-function Fuel(name, displayName, col, row, item, category, value) {
+function Fuel(name, displayName, col, row, item, residual, category, value) {
     this.name = name
     this.displayName = displayName
     this.icon_col = col
     this.icon_row = row
     this.item = item
+    this.residual = residual
     this.category = category
     this.value = value
 }
@@ -49,6 +50,7 @@ function getFuel(data, items) {
             d.icon_col,
             d.icon_row,
             getItem(data, items, fuelName),
+            d.fuel_residual ? getItem(data, items, d.fuel_residual) : null,
             d.fuel_category,
             RationalFromFloat(d.fuel_value)
         )

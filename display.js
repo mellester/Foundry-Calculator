@@ -850,6 +850,7 @@ function GroupRow(group, itemRates, totals, fuelUsers) {
     this.items = {}
     for (var i = 0; i < group.recipes.length; i++) {
         var recipe = group.recipes[i]
+        // var factory = spec.getFactory(recipe)
         for (var j = 0; j < recipe.products.length; j++) {
             var ing = recipe.products[j]
             this.items[ing.item.name] = ing.item
@@ -1121,8 +1122,9 @@ RecipeTable.prototype = {
             var recipeName = sortedTotals[i]
             var recipeRate = totals.totals[recipeName]
             var recipe = solver.recipes[recipeName]
-            for (var j = 0; j < recipe.products.length; j++) {
-                var ing = recipe.products[j]
+            var prods = recipe.getProducts(spec)
+            for (var j = 0; j < prods.length; j++) {
+                var ing = prods[j]
                 if (!(ing.item.name in items)) {
                     //itemOrder.push(ing.item.name)
                     items[ing.item.name] = zero

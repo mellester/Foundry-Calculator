@@ -311,6 +311,9 @@ function itemNeighbors(item, fuelLinks) {
         if (recipe.fuelIngredient) {
             ingredients = ingredients.concat(recipe.fuelIngredient(spec))
         }
+        if (recipe.fuelResidual) {
+            ingredients = ingredients.concat(recipe.fuelResidual(spec))
+        }
         for (let ing of ingredients) {
             touching.add(ing.item)
         }

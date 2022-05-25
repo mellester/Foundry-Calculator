@@ -66,8 +66,9 @@ Recipe.prototype = {
         if (factory) {
             prod = factory.prodEffect(spec)
         }
-        for (var i=0; i < this.products.length; i++) {
-            var product = this.products[i]
+        var prods = this.getProducts(spec)
+        for (var i=0; i < prods.length; i++) {
+            var product = prods[i]
             if (product.item.name == item.name) {
                 return product.amount.mul(prod)
             }
@@ -84,8 +85,25 @@ Recipe.prototype = {
         var fuelAmount = perItemEnergy.div(preferredFuel.value)
         return [new Ingredient(fuelAmount, preferredFuel.item)]
     },
+    fuelResidual: function(spec) {
+        if (!preferredFuel.residual) {
+            return []
+        }
+        var factory = spec.getFactory(this)
+        if (!factory || !factory.factory.fuel || factory.factory.fuel !== "chemical") {
+            return []
+        }
+        var basePower = factory.powerUsage(spec, one).power
+        var baseRate = factory.recipeRate(spec, this)
+        var perItemEnergy = basePower.div(baseRate)
+        var fuelAmount = perItemEnergy.div(preferredFuel.value)
+        return [new Ingredient(fuelAmount, preferredFuel.residual)]
+    },
     getIngredients: function(spec) {
         return this.ingredients.concat(this.fuelIngredient(spec))
+    },
+    getProducts: function(spec) {
+        return this.products.concat(this.fuelResidual(spec))
     },
     makesResource: function() {
         return false
