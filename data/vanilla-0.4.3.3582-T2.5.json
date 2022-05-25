@@ -3,7 +3,7 @@
         "_base_air_intake_base": {
             "name": "_base_air_intake_base",
             "localized_name": {
-                "en": "Air Intake Base 1"
+                "en": "Air Intake Base"
             },
             "stack_size": 1,
             "icon_col": 1,
@@ -17,7 +17,7 @@
         "_base_air_intake_module": {
             "name": "_base_air_intake_module",
             "localized_name": {
-                "en": "Air Intake Module 1"
+                "en": "Air Intake Module"
             },
             "stack_size": 100,
             "icon_col": 2,
@@ -73,7 +73,7 @@
         "_base_battery_i": {
             "name": "_base_battery_i",
             "localized_name": {
-                "en": "Battery I"
+                "en": "Battery (Small)"
             },
             "stack_size": 10,
             "icon_col": 6,
@@ -87,7 +87,7 @@
         "_base_battery_ii": {
             "name": "_base_battery_ii",
             "localized_name": {
-                "en": "Battery II"
+                "en": "Battery (Large)"
             },
             "stack_size": 10,
             "icon_col": 7,
@@ -101,7 +101,7 @@
         "_base_biomass_burner": {
             "name": "_base_biomass_burner",
             "localized_name": {
-                "en": "Biomass Burner"
+                "en": "Biomass Generator"
             },
             "stack_size": 10,
             "icon_col": 8,
@@ -157,7 +157,7 @@
         "_base_blast_furnace_electric": {
             "name": "_base_blast_furnace_electric",
             "localized_name": {
-                "en": "Blast Furnace, Electric_it_old"
+                "en": "Electric Blast Furnace"
             },
             "stack_size": 5,
             "icon_col": 9,
@@ -171,7 +171,7 @@
         "_base_building_part": {
             "name": "_base_building_part",
             "localized_name": {
-                "en": "BuildingPart"
+                "en": "Building Block"
             },
             "stack_size": 200,
             "icon_col": 13,
@@ -213,7 +213,7 @@
         "_base_chemical_processor_i": {
             "name": "_base_chemical_processor_i",
             "localized_name": {
-                "en": "Chemical Processor I"
+                "en": "Chemical Processor"
             },
             "stack_size": 5,
             "icon_col": 0,
@@ -227,7 +227,7 @@
         "_base_chest": {
             "name": "_base_chest",
             "localized_name": {
-                "en": "Chest"
+                "en": "Crate"
             },
             "stack_size": 10,
             "icon_col": 1,
@@ -269,7 +269,7 @@
         "_base_combustion_generator_i": {
             "name": "_base_combustion_generator_i",
             "localized_name": {
-                "en": "Combustion Generator I"
+                "en": "Combustion Generator"
             },
             "stack_size": 5,
             "icon_col": 4,
@@ -311,7 +311,7 @@
         "_base_conveyor_balancer_i": {
             "name": "_base_conveyor_balancer_i",
             "localized_name": {
-                "en": "Conveyor Balancer I"
+                "en": "Conveyor Distributor I"
             },
             "stack_size": 25,
             "icon_col": 7,
@@ -325,7 +325,7 @@
         "_base_conveyor_balancer_ii": {
             "name": "_base_conveyor_balancer_ii",
             "localized_name": {
-                "en": "Conveyor Balancer II"
+                "en": "Conveyor Distributor II"
             },
             "stack_size": 25,
             "icon_col": 8,
@@ -339,7 +339,7 @@
         "_base_conveyor_balancer_iii": {
             "name": "_base_conveyor_balancer_iii",
             "localized_name": {
-                "en": "Conveyor Balancer III"
+                "en": "Conveyor Distributor III"
             },
             "stack_size": 25,
             "icon_col": 9,
@@ -465,7 +465,7 @@
         "_base_door_i": {
             "name": "_base_door_i",
             "localized_name": {
-                "en": "Door I"
+                "en": "Door (Single)"
             },
             "stack_size": 10,
             "icon_col": 2,
@@ -479,7 +479,7 @@
         "_base_door_ii": {
             "name": "_base_door_ii",
             "localized_name": {
-                "en": "Door II"
+                "en": "Door (Double)"
             },
             "stack_size": 10,
             "icon_col": 3,
@@ -493,7 +493,7 @@
         "_base_door_iii": {
             "name": "_base_door_iii",
             "localized_name": {
-                "en": "Door III"
+                "en": "Hangar Gate"
             },
             "stack_size": 10,
             "icon_col": 4,
@@ -535,7 +535,7 @@
         "_base_dynamite_i": {
             "name": "_base_dynamite_i",
             "localized_name": {
-                "en": "Dynamite I"
+                "en": "Explosive Charge"
             },
             "stack_size": 50,
             "icon_col": 7,
@@ -549,7 +549,7 @@
         "_base_dynamite_remote_control": {
             "name": "_base_dynamite_remote_control",
             "localized_name": {
-                "en": "DynamiteRemoteControl"
+                "en": "Explosives Detonator"
             },
             "stack_size": 1,
             "icon_col": 8,
@@ -577,7 +577,7 @@
         "_base_elevator_i": {
             "name": "_base_elevator_i",
             "localized_name": {
-                "en": "ElevatorStation"
+                "en": "Elevator"
             },
             "stack_size": 1,
             "icon_col": 10,
@@ -703,7 +703,7 @@
         "_base_hot_air_stove_base": {
             "name": "_base_hot_air_stove_base",
             "localized_name": {
-                "en": "Hot Air Stove Base 1"
+                "en": "Hot Air Stove Base"
             },
             "stack_size": 1,
             "icon_col": 3,
@@ -717,7 +717,7 @@
         "_base_hot_air_stove_module": {
             "name": "_base_hot_air_stove_module",
             "localized_name": {
-                "en": "Hot Air Stove Module 1"
+                "en": "Hot Air Stove Module"
             },
             "stack_size": 100,
             "icon_col": 4,
@@ -815,7 +815,7 @@
         "_base_light_ceiling_i": {
             "name": "_base_light_ceiling_i",
             "localized_name": {
-                "en": "Light Ceiling I"
+                "en": "Ceiling Light I"
             },
             "stack_size": 50,
             "icon_col": 11,
@@ -829,7 +829,7 @@
         "_base_light_wall_i": {
             "name": "_base_light_wall_i",
             "localized_name": {
-                "en": "Light Wall I"
+                "en": "Wall Light I"
             },
             "stack_size": 50,
             "icon_col": 12,
@@ -857,7 +857,7 @@
         "_base_loader_1st_i_filter": {
             "name": "_base_loader_1st_i_filter",
             "localized_name": {
-                "en": "Loader I, 1st Lane, Filter"
+                "en": "Filter Loader"
             },
             "stack_size": 50,
             "icon_col": 14,
@@ -871,7 +871,7 @@
         "_base_loader_1st_i": {
             "name": "_base_loader_1st_i",
             "localized_name": {
-                "en": "Loader I, 1st Lane"
+                "en": "Loader"
             },
             "stack_size": 50,
             "icon_col": 15,
@@ -885,7 +885,7 @@
         "_base_loader_2nd_i": {
             "name": "_base_loader_2nd_i",
             "localized_name": {
-                "en": "Loader I, 2nd Lane"
+                "en": "Loader (2nd Lane)"
             },
             "stack_size": 50,
             "icon_col": 0,
@@ -899,7 +899,7 @@
         "_base_loader_3rd_i": {
             "name": "_base_loader_3rd_i",
             "localized_name": {
-                "en": "Loader I, 3rd Lane"
+                "en": "Loader (3rd Lane)"
             },
             "stack_size": 50,
             "icon_col": 1,
@@ -955,7 +955,7 @@
         "_base_mic_ii": {
             "name": "_base_mic_ii",
             "localized_name": {
-                "en": "Machinery Parts Advanced"
+                "en": "Advanced Machinery Parts"
             },
             "stack_size": 200,
             "icon_col": 5,
@@ -969,7 +969,7 @@
         "_base_mic_iii": {
             "name": "_base_mic_iii",
             "localized_name": {
-                "en": "Machinery Parts High-Tech"
+                "en": "High-Tech Machinery Parts"
             },
             "stack_size": 200,
             "icon_col": 6,
@@ -997,7 +997,7 @@
         "_base_minecart_depot_i": {
             "name": "_base_minecart_depot_i",
             "localized_name": {
-                "en": "Minecart Depot"
+                "en": "Rail Mining Depot"
             },
             "stack_size": 10,
             "icon_col": 8,
@@ -1011,7 +1011,7 @@
         "_base_minecart_tracks_straight": {
             "name": "_base_minecart_tracks_straight",
             "localized_name": {
-                "en": "Minecart Tracks"
+                "en": "Rail Mining Tracks"
             },
             "stack_size": 20,
             "icon_col": 9,
@@ -1025,7 +1025,7 @@
         "_base_mining_drill": {
             "name": "_base_mining_drill",
             "localized_name": {
-                "en": "MiningDrill"
+                "en": "Mining Drill"
             },
             "stack_size": 1,
             "icon_col": 10,
@@ -1039,7 +1039,7 @@
         "_base_mining_laser": {
             "name": "_base_mining_laser",
             "localized_name": {
-                "en": "MiningLaser"
+                "en": "Mining Laser"
             },
             "stack_size": 1,
             "icon_col": 11,
@@ -1067,7 +1067,7 @@
         "_base_ore_ignium": {
             "name": "_base_ore_ignium",
             "localized_name": {
-                "en": "Ore_Ignium"
+                "en": "Ignium Ore"
             },
             "stack_size": 100,
             "icon_col": 13,
@@ -1081,7 +1081,7 @@
         "_base_ore_limestone": {
             "name": "_base_ore_limestone",
             "localized_name": {
-                "en": "Ore_Limestone"
+                "en": "Limestone"
             },
             "stack_size": 200,
             "icon_col": 14,
@@ -1095,7 +1095,7 @@
         "_base_refined_ore_technum": {
             "name": "_base_refined_ore_technum",
             "localized_name": {
-                "en": "Ore_Refined_Technum"
+                "en": "Refined Technum Ore"
             },
             "stack_size": 100,
             "icon_col": 15,
@@ -1109,7 +1109,7 @@
         "_base_refined_ore_xenoferrite": {
             "name": "_base_refined_ore_xenoferrite",
             "localized_name": {
-                "en": "Ore_Refined_Xenoferrite"
+                "en": "Refined Xenoferrite Ore"
             },
             "stack_size": 100,
             "icon_col": 0,
@@ -1123,7 +1123,7 @@
         "_base_ore_technum": {
             "name": "_base_ore_technum",
             "localized_name": {
-                "en": "Ore_Technum"
+                "en": "Technum Ore"
             },
             "stack_size": 100,
             "icon_col": 1,
@@ -1137,7 +1137,7 @@
         "_base_ore_xenoferrite": {
             "name": "_base_ore_xenoferrite",
             "localized_name": {
-                "en": "Ore_Xenoferrite"
+                "en": "Xenoferrite Ore"
             },
             "stack_size": 100,
             "icon_col": 2,
@@ -1151,7 +1151,7 @@
         "_base_pipe_loader_i": {
             "name": "_base_pipe_loader_i",
             "localized_name": {
-                "en": "Pipe Loader I"
+                "en": "Pipe Loader"
             },
             "stack_size": 50,
             "icon_col": 3,
@@ -1193,7 +1193,7 @@
         "_base_plumber_tool": {
             "name": "_base_plumber_tool",
             "localized_name": {
-                "en": "PlumberTool"
+                "en": "Plumber Tool"
             },
             "stack_size": 1,
             "icon_col": 6,
@@ -1221,7 +1221,7 @@
         "_base_power_line_i": {
             "name": "_base_power_line_i",
             "localized_name": {
-                "en": "PowerLine"
+                "en": "Power Line"
             },
             "stack_size": 50,
             "icon_col": 8,
@@ -1235,7 +1235,7 @@
         "_base_power_pole_i": {
             "name": "_base_power_pole_i",
             "localized_name": {
-                "en": "PowerPole I"
+                "en": "Power Pole (Small)"
             },
             "stack_size": 25,
             "icon_col": 9,
@@ -1249,7 +1249,7 @@
         "_base_power_pole_ii": {
             "name": "_base_power_pole_ii",
             "localized_name": {
-                "en": "PowerPole II"
+                "en": "Power Pole (Large)"
             },
             "stack_size": 10,
             "icon_col": 10,
@@ -1263,7 +1263,7 @@
         "_base_power_pole_iii": {
             "name": "_base_power_pole_iii",
             "localized_name": {
-                "en": "PowerPole III"
+                "en": "Power Pole (Wall-Mounted)"
             },
             "stack_size": 25,
             "icon_col": 11,
@@ -1305,7 +1305,7 @@
         "_base_rail_miner_i": {
             "name": "_base_rail_miner_i",
             "localized_name": {
-                "en": "Rail Miner I"
+                "en": "Rail Miner (Ignium)"
             },
             "stack_size": 1,
             "icon_col": 14,
@@ -1319,7 +1319,7 @@
         "_base_rail_miner_ii": {
             "name": "_base_rail_miner_ii",
             "localized_name": {
-                "en": "Rail Miner II"
+                "en": "Rail Miner (XF & Technum)"
             },
             "stack_size": 1,
             "icon_col": 15,
@@ -1333,7 +1333,7 @@
         "_base_rail_miner_rock": {
             "name": "_base_rail_miner_rock",
             "localized_name": {
-                "en": "Rail Miner, Rocks"
+                "en": "Rail Miner (Limestone & Rock)"
             },
             "stack_size": 1,
             "icon_col": 0,
@@ -1417,7 +1417,7 @@
         "_base_rubble_ignium": {
             "name": "_base_rubble_ignium",
             "localized_name": {
-                "en": "Rubble_Ignium"
+                "en": "Ignium Ore Rubble"
             },
             "stack_size": 500,
             "icon_col": 6,
@@ -1431,7 +1431,7 @@
         "_base_rubble_technum": {
             "name": "_base_rubble_technum",
             "localized_name": {
-                "en": "Rubble_Technum"
+                "en": "Technum Ore Rubble"
             },
             "stack_size": 500,
             "icon_col": 7,
@@ -1445,7 +1445,7 @@
         "_base_rubble_xenoferrite": {
             "name": "_base_rubble_xenoferrite",
             "localized_name": {
-                "en": "Rubble_Xenoferrite"
+                "en": "Xenoferrite Ore Rubble"
             },
             "stack_size": 500,
             "icon_col": 8,
@@ -1557,7 +1557,7 @@
         "_base_solar_panel_i": {
             "name": "_base_solar_panel_i",
             "localized_name": {
-                "en": "Solar Panel I"
+                "en": "Solar Panel (Small)"
             },
             "stack_size": 10,
             "icon_col": 0,
@@ -1571,7 +1571,7 @@
         "_base_solar_panel_ii": {
             "name": "_base_solar_panel_ii",
             "localized_name": {
-                "en": "Solar Panel II"
+                "en": "Solar Panel (Large)"
             },
             "stack_size": 5,
             "icon_col": 1,
@@ -1641,7 +1641,7 @@
         "_base_technum_ingots": {
             "name": "_base_technum_ingots",
             "localized_name": {
-                "en": "Technum_Ingots"
+                "en": "Technum Ingots"
             },
             "stack_size": 100,
             "icon_col": 6,
@@ -1655,7 +1655,7 @@
         "_base_thermal_separator_i": {
             "name": "_base_thermal_separator_i",
             "localized_name": {
-                "en": "Thermal Separator I"
+                "en": "Thermal Separator"
             },
             "stack_size": 10,
             "icon_col": 7,
@@ -1669,7 +1669,7 @@
         "_base_transformer_i": {
             "name": "_base_transformer_i",
             "localized_name": {
-                "en": "Transformer I"
+                "en": "Transformer (Small)"
             },
             "stack_size": 10,
             "icon_col": 8,
@@ -1683,7 +1683,7 @@
         "_base_transformer_ii": {
             "name": "_base_transformer_ii",
             "localized_name": {
-                "en": "Transformer II"
+                "en": "Transformer (Large)"
             },
             "stack_size": 10,
             "icon_col": 9,
@@ -1739,7 +1739,7 @@
         "_base_xenoferrite_ingots": {
             "name": "_base_xenoferrite_ingots",
             "localized_name": {
-                "en": "Xenoferrite_Ingots"
+                "en": "Xenoferrite Ingots"
             },
             "stack_size": 100,
             "icon_col": 13,
@@ -1767,7 +1767,7 @@
         "_base_xf_steel_ingots": {
             "name": "_base_xf_steel_ingots",
             "localized_name": {
-                "en": "XF_Steel_Ingots"
+                "en": "XF Steel Ingots"
             },
             "stack_size": 100,
             "icon_col": 15,
@@ -1795,14 +1795,14 @@
         "_base_bf_slag": {
             "name": "_base_bf_slag",
             "localized_name": {
-                "en": "BF Slag"
+                "en": "Blast Furnace Slag"
             },
             "stack_size": 0,
             "icon_col": 1,
             "icon_row": 8,
             "fuel_value": 0,
             "type": "fluid",
-            "group": "all",
+            "group": "molten_metals",
             "order": "a",
             "fuel_category": ""
         },
@@ -1851,28 +1851,28 @@
         "_base_molten_te": {
             "name": "_base_molten_te",
             "localized_name": {
-                "en": "Molten Te"
+                "en": "Molten Technum"
             },
             "stack_size": 0,
             "icon_col": 5,
             "icon_row": 8,
             "fuel_value": 0,
             "type": "fluid",
-            "group": "all",
+            "group": "molten_metals",
             "order": "a",
             "fuel_category": ""
         },
         "_base_molten_xf": {
             "name": "_base_molten_xf",
             "localized_name": {
-                "en": "Molten XF"
+                "en": "Molten Xenoferrite"
             },
             "stack_size": 0,
             "icon_col": 6,
             "icon_row": 8,
             "fuel_value": 0,
             "type": "fluid",
-            "group": "all",
+            "group": "molten_metals",
             "order": "a",
             "fuel_category": ""
         },
@@ -2157,6 +2157,86 @@
                 {
                     "amount": 1,
                     "name": "_base_battery_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_bfm_te": {
+            "category": [
+                "blast_furnace"
+            ],
+            "enabled": false,
+            "energy_required": 1.0,
+            "icon_col": 5,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 4,
+                    "name": "_base_refined_ore_technum"
+                },
+                {
+                    "amount": 3,
+                    "name": "_base_coked_ignium"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_ore_limestone"
+                }
+            ],
+            "localized_name": {
+                "en": "Technum"
+            },
+            "name": "_base_bfm_te",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 30.0,
+                    "name": "_base_molten_te"
+                },
+                {
+                    "amount": 3.0,
+                    "name": "_base_bf_slag"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_bfm_xf": {
+            "category": [
+                "blast_furnace"
+            ],
+            "enabled": false,
+            "energy_required": 1.0,
+            "icon_col": 6,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 4,
+                    "name": "_base_refined_ore_xenoferrite"
+                },
+                {
+                    "amount": 3,
+                    "name": "_base_coked_ignium"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_ore_limestone"
+                }
+            ],
+            "localized_name": {
+                "en": "Xenoferrite"
+            },
+            "name": "_base_bfm_xf",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 30.0,
+                    "name": "_base_molten_xf"
+                },
+                {
+                    "amount": 3.0,
+                    "name": "_base_bf_slag"
                 }
             ],
             "subgroup": "all",
@@ -5921,6 +6001,12 @@
                 "all": "a"
             }
         },
+        "molten_metals": {
+            "order": "a",
+            "subgroups": {
+                "all": "a"
+            }
+        },
         "_base_components": {
             "order": "a",
             "subgroups": {
@@ -6022,14 +6108,18 @@
                 "thermal_separator"
             ],
             "crafting_speed": 1,
-            "energy_usage": 0,
+            "energy_usage": 3333.33,
             "icon_col": 7,
             "icon_row": 7,
             "localized_name": {
                 "en": "Thermal Separator"
             },
             "module_slots": 0,
-            "name": "Thermal Separator"
+            "name": "Thermal Separator",
+            "energy_source": {
+                "type": "burner",
+                "fuel_category": "chemical"
+            }
         },
         "crusher_i": {
             "crafting_categories": [
@@ -6086,6 +6176,20 @@
             },
             "module_slots": 0,
             "name": "Casting Machine"
+        },
+        "blast_furnace": {
+            "crafting_categories": [
+                "blast_furnace"
+            ],
+            "crafting_speed": 2,
+            "energy_usage": 30000000,
+            "icon_col": 10,
+            "icon_row": 0,
+            "localized_name": {
+                "en": "Blast Furnace"
+            },
+            "module_slots": 0,
+            "name": "Blast Furnace"
         }
     },
     "belts": {

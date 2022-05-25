@@ -63,11 +63,11 @@ FactoryDef.prototype = {
         b.textContent = "Crafting speed: "
         t.appendChild(b)
         t.appendChild(new Text(this.speed.toDecimal()))
-        t.appendChild(document.createElement("br"))
-        b = document.createElement("b")
-        b.textContent = "Module slots: "
-        t.appendChild(b)
-        t.appendChild(new Text(this.moduleSlots))
+        // t.appendChild(document.createElement("br"))
+        // b = document.createElement("b")
+        // b.textContent = "Module slots: "
+        // t.appendChild(b)
+        // t.appendChild(new Text(this.moduleSlots))
         return t
     }
 }

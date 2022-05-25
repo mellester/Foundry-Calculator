@@ -15,8 +15,9 @@ limitations under the License.*/
 
 var energySuffixes = ["J", "kJ", "MJ", "GJ", "TJ", "PJ"]
 
-function Fuel(name, col, row, item, category, value) {
+function Fuel(name, displayName, col, row, item, category, value) {
     this.name = name
+    this.displayName = displayName
     this.icon_col = col
     this.icon_row = row
     this.item = item
@@ -44,6 +45,7 @@ function getFuel(data, items) {
         var d = data.items[fuelName]
         var fuel = new Fuel(
             fuelName,
+            d.localized_name.en,
             d.icon_col,
             d.icon_row,
             getItem(data, items, fuelName),

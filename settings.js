@@ -28,7 +28,7 @@ var MODIFICATIONS = {
     "0-4-3-3582-T3": new Modification("Vanilla 0.4.3.3582 T3", "vanilla-0.4.3.3582-T3.json", false, [1024, 1024]),
 }
 
-var DEFAULT_MODIFICATION = "0-4-3-3582-T1"
+var DEFAULT_MODIFICATION = "0-4-3-3582-T3"
 
 function addOverrideOptions(version) {
     var tag = "local-" + version.replace(/\./g, "-")

@@ -95,7 +95,9 @@ function MatrixSolver(spec, recipes) {
         for (var j = 0; j < recipe.products.length; j++) {
             var ing = recipe.products[j]
             var k = itemIndexes[ing.item.name]
-            recipeMatrix.addIndex(i + recipeArray.length, k, ing.amount)
+            if(k) {
+                recipeMatrix.addIndex(i + recipeArray.length, k, ing.amount)
+            }
         }
     }
     // Add "recipe tax," so that wasted items will be wasted directly.
