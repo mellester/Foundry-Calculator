@@ -78,7 +78,7 @@ function makeGraph(totals, ignore) {
         var factory = spec.getFactory(recipe)
         var factoryCount = spec.getCount(recipe, rate)
         var node = new GraphNode(
-            recipeName,
+            recipe.displayName,
             recipe,
             factory,
             factoryCount,
@@ -450,8 +450,8 @@ function linkPath(d) {
 
 function linkTitle(d) {
     let itemName = ""
-    if (d.source.name !== d.item.name) {
-        itemName = `${formatName(d.item.name)} \u00d7 `
+    if (d.source.name !== (d.item.displayName ? d.item.displayName : d.item.name)) {
+        itemName = `${formatName(d.item.displayName ? d.item.displayName : d.item.name)} \u00d7 `
     }
     let fuel = ""
     if (d.fuel) {
