@@ -177,6 +177,13 @@ function changeFurnace(furnace) {
     itemUpdate()
 }
 
+// Triggered when the mining type is changed.
+function changeMining(mining) {
+    spec.setMining(mining)
+    solver.findSubgraphs(spec)
+    itemUpdate()
+}
+
 // Triggered when the preferred fuel is changed.
 function changeFuel(fuel) {
     setPreferredFuel(fuel.name)

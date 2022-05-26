@@ -252,6 +252,35 @@ function renderFurnace(settings) {
     cell.replaceChild(node, oldNode)
 }
 
+// mining type
+
+var DEFAULT_MINING = "underground"
+
+function renderMining(settings) {
+    var mining = DEFAULT_MINING
+    if ("mining" in settings) {
+        mining = settings.mining
+    }
+    if (mining !== spec.mining) {
+        spec.setMining(mining)
+    }
+    var oldNode = document.getElementById("mining")
+    var cell = oldNode.parentNode
+    var node = document.createElement("span")
+    node.id = "mining"
+    let miningTypes = [ "surface", "underground" ]
+    let dropdown = makeDropdown(d3.select(node))
+    let inputs = dropdown.selectAll("div").data(miningTypes).join("div")
+    let labels = addInputs(
+        inputs,
+        "mining_dropdown",
+        d => d === mining,
+        changeMining,
+    )
+    labels.append(d => getImage(d == "underground" ? solver.items['_base_minecart_depot_i'] : solver.items['_base_drone_miner_i'], false, dropdown.node()))
+    cell.replaceChild(node, oldNode)
+}
+
 // fuel
 var DEFAULT_FUEL = "_base_ore_ignium"
 
@@ -597,6 +626,7 @@ function renderSettings(settings) {
     renderPrecisions(settings)
     renderMinimumAssembler(settings)
     renderFurnace(settings)
+    //renderMining(settings)
     renderFuel(settings)
     renderOil(settings)
     renderKovarex(settings)

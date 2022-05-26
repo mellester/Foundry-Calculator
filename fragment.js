@@ -41,6 +41,9 @@ function formatSettings(targets) {
     if (spec.furnace.name != DEFAULT_FURNACE) {
         settings += "furnace=" + spec.furnace.name + "&"
     }
+    if (spec.mining != DEFAULT_MINING) {
+        settings += "mining=" + spec.mining + "&"
+    }
     if (preferredFuel.name != DEFAULT_FUEL) {
         settings += "fuel=" + preferredFuel.name + "&"
     }

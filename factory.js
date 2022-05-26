@@ -373,6 +373,14 @@ FactorySpec.prototype = {
     useFurnace: function(recipe) {
         return recipe.category == "crusher"
     },
+    setMining: function(name) {
+        this.mining = name
+        if (name == 'underground') {
+            solver.removeDisabledRecipes({"_base_ore_xenoferrite": true, "_base_ore_technum": true, "Technum Ore": true})
+        } else {
+            solver.addDisabledRecipes({"_base_ore_xenoferrite": true, "_base_ore_technum": true, "Technum Ore": true})
+        }
+    },
     getFactoryDef: function(recipe) {
         if (this.useFurnace(recipe)) {
             return this.furnace

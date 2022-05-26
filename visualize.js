@@ -90,12 +90,12 @@ function makeGraph(totals, ignore) {
     var links = []
     for (let node of nodes) {
         var recipe = node.recipe
-        if (ignore[recipe.name]) {
-            continue
-        }
         var ingredients = []
         if (recipe.fuelIngredient) {
             ingredients = recipe.fuelIngredient(spec)
+        }
+        if (ignore[recipe.name] && ingredients.length == 0) {
+            continue
         }
         var fuelIngCount = ingredients.length
         ingredients = ingredients.concat(recipe.ingredients)
