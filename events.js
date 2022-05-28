@@ -177,6 +177,13 @@ function changeFurnace(furnace) {
     itemUpdate()
 }
 
+// Triggered when the metallurgy is changed.
+function changeMetallurgy(metallurgy) {
+    spec.setMetallurgy(metallurgy.name)
+    solver.findSubgraphs(spec)
+    itemUpdate()
+}
+
 // Triggered when the mining type is changed.
 function changeMining(mining) {
     spec.setMining(mining)

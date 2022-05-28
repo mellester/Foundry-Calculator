@@ -22,13 +22,10 @@ function Modification(name, filename, legacy, sheetSize) {
 }
 
 var MODIFICATIONS = {
-    "0-4-3-3582-T1": new Modification("Vanilla 0.4.3.3582 T1", "vanilla-0.4.3.3582-T1.json", false, [1024, 1024]),
-    "0-4-3-3582-T2": new Modification("Vanilla 0.4.3.3582 T2", "vanilla-0.4.3.3582-T2.json", false, [1024, 1024]),
-    "0-4-3-3582-T2-5": new Modification("Vanilla 0.4.3.3582 T2.5", "vanilla-0.4.3.3582-T2.5.json", false, [1024, 1024]),
-    "0-4-3-3582-T3": new Modification("Vanilla 0.4.3.3582 T3", "vanilla-0.4.3.3582-T3.json", false, [1024, 1024]),
+    "0-4-3-3582": new Modification("Vanilla 0.4.3.3582", "vanilla-0.4.3.3582.json", false, [1024, 1024]),
 }
 
-var DEFAULT_MODIFICATION = "0-4-3-3582-T3"
+var DEFAULT_MODIFICATION = "0-4-3-3582"
 
 function addOverrideOptions(version) {
     var tag = "local-" + version.replace(/\./g, "-")
@@ -247,6 +244,34 @@ function renderFurnace(settings) {
         "furnace_dropdown",
         d => d.name === furnaceName,
         changeFurnace,
+    )
+    labels.append(d => getImage(d, false, dropdown.node()))
+    cell.replaceChild(node, oldNode)
+}
+
+// metallurgy
+
+var DEFAULT_METALLURGY = 'T3'
+
+function renderMetallurgy(settings) {
+    var metallurgyName = DEFAULT_METALLURGY
+    if ("metallurgy" in settings) {
+        metallurgyName = settings.metallurgy
+    }
+    if (metallurgyName !== spec.metallurgy.name) {
+        spec.setMetallurgy(metallurgyName)
+    }
+    var oldNode = document.getElementById("metallurgy")
+    var cell = oldNode.parentNode
+    var node = document.createElement("span")
+    node.id = "metallurgy"
+    let dropdown = makeDropdown(d3.select(node))
+    let inputs = dropdown.selectAll("div").data(solver.tiers).join("div")
+    let labels = addInputs(
+        inputs,
+        "metallurgy_dropdown",
+        d => d.name === metallurgyName,
+        changeMetallurgy,
     )
     labels.append(d => getImage(d, false, dropdown.node()))
     cell.replaceChild(node, oldNode)
@@ -626,7 +651,8 @@ function renderSettings(settings) {
     renderPrecisions(settings)
     renderMinimumAssembler(settings)
     renderFurnace(settings)
-    //renderMining(settings)
+    renderMetallurgy(settings)
+    renderMining(settings)
     renderFuel(settings)
     renderOil(settings)
     renderKovarex(settings)

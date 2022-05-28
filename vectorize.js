@@ -182,49 +182,6 @@ MatrixSolver.prototype = {
                 A.zeroRow(i)
             }
         }
-        // Apply productivity effects.
-        for (var i = 0; i < this.recipes.length; i++) {
-            var recipe = this.recipes[i]
-            if (recipe.name in disabled) {
-                continue
-            }
-            var factory = spec.getFactory(recipe)
-            if (factory) {
-                var prod = factory.prodEffect(spec)
-                if (prod.equal(one)) {
-                    continue
-                }
-                if (useLegacyCalculations) {
-                    var prods = recipe.getProducts(spec)
-                    for (var j = 0; j < prods.length; j++) {
-                        var ing = prods[j]
-                        var k = this.itemIndexes[ing.item.name]
-                        A.setIndex(i, k, zero)
-                    }
-                    var ings = recipe.getIngredients(spec)
-                    for (var j = 0; j < ings.length; j++) {
-                        var ing = ings[j]
-                        var k = this.itemIndexes[ing.item.name]
-                        if (k !== undefined) {
-                            A.setIndex(i, k, zero.sub(ing.amount))
-                        }
-                    }
-                    for (var j = 0; j < prods.length; j++) {
-                        var ing = prods[j]
-                        var k = this.itemIndexes[ing.item.name]
-                        A.addIndex(i, k, ing.amount.mul(prod))
-                    }
-                } else {
-                    for (var j = 0; j < this.items.length; j++) {
-                        var n = A.index(i, j)
-                        if (!zero.less(n)) {
-                            continue
-                        }
-                        A.setIndex(i, j, n.mul(prod))
-                    }
-                }
-            }
-        }
         this.setCost(A)
         this.lastProblem = A.copy()
         // Solve.

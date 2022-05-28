@@ -323,7 +323,7 @@ function compareFactories(a, b) {
     return 0
 }
 
-function FactorySpec(factories) {
+function FactorySpec(factories, tiers) {
     this.spec = {}
     this.factories = {}
     for (var i = 0; i < factories.length; i++) {
@@ -350,6 +350,9 @@ function FactorySpec(factories) {
     // XXX: Not used yet.
     this.defaultBeacon = null
     this.defaultBeaconCount = zero
+    
+    this.tiers = tiers;
+    this.metallurgy = tiers[tiers.length - 1]
 }
 FactorySpec.prototype = {
     constructor: FactorySpec,
@@ -379,6 +382,16 @@ FactorySpec.prototype = {
             solver.removeDisabledRecipes({"_base_ore_xenoferrite": true, "_base_ore_technum": true, "Technum Ore": true})
         } else {
             solver.addDisabledRecipes({"_base_ore_xenoferrite": true, "_base_ore_technum": true, "Technum Ore": true})
+        }
+    },
+    setMetallurgy: function(name) {
+        for (var i = 0; i < this.tiers.length; i++) {
+            if (this.tiers[i].name == name) {
+                this.metallurgy = this.tiers[i]
+                solver.addDisabledRecipes(this.tiers[this.tiers.length - 1].recipes)
+                solver.removeDisabledRecipes(this.metallurgy.recipes)
+                return
+            }
         }
     },
     getFactoryDef: function(recipe) {

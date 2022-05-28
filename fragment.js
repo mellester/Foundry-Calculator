@@ -41,18 +41,21 @@ function formatSettings(targets) {
     if (spec.furnace.name != DEFAULT_FURNACE) {
         settings += "furnace=" + spec.furnace.name + "&"
     }
+    if (spec.metallurgy.name != DEFAULT_METALLURGY) {
+        settings += "metallurgy=" + spec.metallurgy.name + "&"
+    }
     if (spec.mining != DEFAULT_MINING) {
         settings += "mining=" + spec.mining + "&"
     }
     if (preferredFuel.name != DEFAULT_FUEL) {
         settings += "fuel=" + preferredFuel.name + "&"
     }
-    if (oilGroup != DEFAULT_OIL) {
-        settings += "p=" + oilGroup + "&"
-    }
-    if (kovarexEnabled != DEFAULT_KOVAREX) {
-        settings += "k=off&"
-    }
+    // if (oilGroup != DEFAULT_OIL) {
+        // settings += "p=" + oilGroup + "&"
+    // }
+    // if (kovarexEnabled != DEFAULT_KOVAREX) {
+        // settings += "k=off&"
+    // }
     if (preferredBelt != DEFAULT_BELT) {
         settings += "belt=" + preferredBelt + "&"
     }
@@ -64,15 +67,15 @@ function formatSettings(targets) {
         var mprod = spec.miningProd.mul(hundred).toString()
         settings += "mprod=" + mprod + "&"
     }
-    if (spec.defaultModule) {
-        settings += "dm=" + spec.defaultModule.shortName() + "&"
-    }
-    if (spec.defaultBeacon) {
-        settings += "db=" + spec.defaultBeacon.shortName() + "&"
-    }
-    if (!spec.defaultBeaconCount.isZero()) {
-        settings += "dbc=" + spec.defaultBeaconCount.toDecimal(0) + "&"
-    }
+    // if (spec.defaultModule) {
+        // settings += "dm=" + spec.defaultModule.shortName() + "&"
+    // }
+    // if (spec.defaultBeacon) {
+        // settings += "db=" + spec.defaultBeacon.shortName() + "&"
+    // }
+    // if (!spec.defaultBeaconCount.isZero()) {
+        // settings += "dbc=" + spec.defaultBeaconCount.toDecimal(0) + "&"
+    // }
     if (visualizer !== DEFAULT_VISUALIZER) {
         settings += "vis=" + visualizer + "&"
     }

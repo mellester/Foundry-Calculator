@@ -122,7 +122,7 @@ function loadData(modName, settings) {
             shortModules[module.shortName()] = module
         }
         var factories = getFactories(data)
-        spec = new FactorySpec(factories)
+        spec = new FactorySpec(factories, data["tiers"])
         if ("ignore" in settings) {
             var ignore = settings.ignore.split(",")
             for (var i = 0; i < ignore.length; i++) {
@@ -138,6 +138,7 @@ function loadData(modName, settings) {
 
         itemGroups = getItemGroups(items, data)
         solver = new Solver(items, recipes)
+        solver.tiers = data['tiers']
 
         renderSettings(settings)
 

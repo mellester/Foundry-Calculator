@@ -256,7 +256,7 @@ function getRecipeGraph(data) {
         }
         recipes[name] = new MiningRecipe(
             name,
-            name,
+            entity.localized_name.en,
             entity.icon_col,
             entity.icon_row,
             "mining-" + category,
