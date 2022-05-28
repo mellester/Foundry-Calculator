@@ -72,10 +72,11 @@ FactoryDef.prototype = {
     }
 }
 
-function MinerDef(name, col, row, categories, power, speed, moduleSlots, energyUsage, fuel) {
+function MinerDef(name, col, row, categories, power, speed, moduleSlots, energyUsage, fuel, overrides) {
     FactoryDef.call(this, name, col, row, categories, 0, 0, moduleSlots, energyUsage, fuel)
     this.mining_power = power
     this.mining_speed = speed
+    this.overrides = overrides
 }
 MinerDef.prototype = Object.create(FactoryDef.prototype)
 MinerDef.prototype.less = function(other) {
@@ -268,7 +269,11 @@ Miner.prototype.recipeRate = function(spec, recipe) {
     } else {
         rate = one
     }
-    return rate.mul(miner.mining_speed).div(recipe.mining_time).mul(this.speedEffect(spec))
+    var mining_speed = miner.mining_speed;
+    if (recipe.name in miner.overrides) {
+        mining_speed = miner.overrides[recipe.name]
+    }
+    return rate.mul(mining_speed).div(recipe.mining_time).mul(this.speedEffect(spec))
 }
 Miner.prototype.prodEffect = function(spec) {
     var prod = Factory.prototype.prodEffect.call(this, spec)
@@ -534,6 +539,35 @@ function getFactories(data) {
             d.module_slots,
             RationalFromFloat(d.energy_usage),
             fuel
+        ))
+    }
+    for (var name in data["miners"]) {
+        var d = data["miners"][name]
+        var fuel = null
+        if (d.energy_source && d.energy_source.type === "burner") {
+            fuel = d.energy_source.fuel_category
+        }
+        var power
+        if (d.mining_power) {
+            power = RationalFromFloat(d.mining_power)
+        } else {
+            power = null
+        }
+        var overrides = {}
+        for (var oname in d.overrides) {
+            overrides[oname] = RationalFromFloats(d.overrides[oname], 60)
+        }
+        factories.push(new MinerDef(
+            d.name,
+            d.icon_col,
+            d.icon_row,
+            d.crafting_categories,
+            power,
+            RationalFromFloats(d.mining_speed, 60.0),
+            d.module_slots,
+            RationalFromFloat(d.energy_usage),
+            fuel,
+            overrides
         ))
     }
     return factories

@@ -232,9 +232,9 @@ function getRecipeGraph(data) {
         if (!category) {
             category = "basic-solid"
         }
-        if (category != "basic-solid") {
-            continue
-        }
+        // if (category != "basic-solid") {
+            // continue
+        // }
         var name = entity.name
         var props = entity.minable
         var ingredients = null
@@ -259,7 +259,7 @@ function getRecipeGraph(data) {
             entity.localized_name.en,
             entity.icon_col,
             entity.icon_row,
-            "mining-" + category,
+            "mining_" + category,
             hardness,
             RationalFromFloat(props.mining_time),
             ingredients,
