@@ -5862,22 +5862,6 @@
             },
             "icon_col": 6,
             "icon_row": 8
-        },
-        {
-            "name": "T2.5",
-            "displayName": "Tier 2.5",
-            "prefix": "T2.5;",
-            "recipes": {},
-            "icon_col": 7,
-            "icon_row": 5
-        },
-        {
-            "name": "T3",
-            "displayName": "Tier 3",
-            "prefix": "T3;",
-            "recipes": {},
-            "icon_col": 0,
-            "icon_row": 9
         }
     ],
     "resource": {
