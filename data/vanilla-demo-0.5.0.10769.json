@@ -1,0 +1,6020 @@
+{
+    "items": {
+        "_base_air_intake_base": {
+            "name": "_base_air_intake_base",
+            "localized_name": {
+                "en": "Air Intake Base"
+            },
+            "stack_size": 1,
+            "icon_col": 1,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_air_intake_module": {
+            "name": "_base_air_intake_module",
+            "localized_name": {
+                "en": "Air Intake Module"
+            },
+            "stack_size": 100,
+            "icon_col": 2,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_assembler_i": {
+            "name": "_base_assembler_i",
+            "localized_name": {
+                "en": "Assembler I"
+            },
+            "stack_size": 10,
+            "icon_col": 3,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_assembler_ii": {
+            "name": "_base_assembler_ii",
+            "localized_name": {
+                "en": "Assembler II"
+            },
+            "stack_size": 10,
+            "icon_col": 4,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_assembler_iii": {
+            "name": "_base_assembler_iii",
+            "localized_name": {
+                "en": "Assembler III"
+            },
+            "stack_size": 10,
+            "icon_col": 5,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_baseStation01": {
+            "name": "_base_baseStation01",
+            "localized_name": {
+                "en": "Drop Pod"
+            },
+            "stack_size": 1,
+            "icon_col": 6,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_battery_i": {
+            "name": "_base_battery_i",
+            "localized_name": {
+                "en": "Battery (Small)"
+            },
+            "stack_size": 10,
+            "icon_col": 7,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_battery_ii": {
+            "name": "_base_battery_ii",
+            "localized_name": {
+                "en": "Battery (Large)"
+            },
+            "stack_size": 10,
+            "icon_col": 8,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_biomass_burner": {
+            "name": "_base_biomass_burner",
+            "localized_name": {
+                "en": "Biomass Generator"
+            },
+            "stack_size": 10,
+            "icon_col": 9,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_biomass": {
+            "name": "_base_biomass",
+            "localized_name": {
+                "en": "Biomass"
+            },
+            "stack_size": 100,
+            "icon_col": 10,
+            "icon_row": 0,
+            "fuel_value": 5000,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "chemical",
+            "fuel_residual": ""
+        },
+        "_base_blast_furnace_base": {
+            "name": "_base_blast_furnace_base",
+            "localized_name": {
+                "en": "Blast Furnace Base"
+            },
+            "stack_size": 1,
+            "icon_col": 11,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_blast_furnace_module": {
+            "name": "_base_blast_furnace_module",
+            "localized_name": {
+                "en": "Blast Furnace Module"
+            },
+            "stack_size": 100,
+            "icon_col": 12,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_boiler_i": {
+            "name": "_base_boiler_i",
+            "localized_name": {
+                "en": "Boiler"
+            },
+            "stack_size": 20,
+            "icon_col": 13,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_building_part": {
+            "name": "_base_building_part",
+            "localized_name": {
+                "en": "Building Block"
+            },
+            "stack_size": 200,
+            "icon_col": 14,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_burner_generator_lvg": {
+            "name": "_base_burner_generator_lvg",
+            "localized_name": {
+                "en": "Burner Generator"
+            },
+            "stack_size": 10,
+            "icon_col": 15,
+            "icon_row": 0,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_casting_machine": {
+            "name": "_base_casting_machine",
+            "localized_name": {
+                "en": "Casting Machine"
+            },
+            "stack_size": 5,
+            "icon_col": 0,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_cement": {
+            "name": "_base_cement",
+            "localized_name": {
+                "en": "Cement"
+            },
+            "stack_size": 200,
+            "icon_col": 1,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_chemical_processor_i": {
+            "name": "_base_chemical_processor_i",
+            "localized_name": {
+                "en": "Chemical Processor"
+            },
+            "stack_size": 25,
+            "icon_col": 2,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_chest": {
+            "name": "_base_chest",
+            "localized_name": {
+                "en": "Crate"
+            },
+            "stack_size": 10,
+            "icon_col": 3,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_eic_ii": {
+            "name": "_base_eic_ii",
+            "localized_name": {
+                "en": "Circuit Board"
+            },
+            "stack_size": 200,
+            "icon_col": 4,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_coked_ignium": {
+            "name": "_base_coked_ignium",
+            "localized_name": {
+                "en": "Coked Ignium"
+            },
+            "stack_size": 100,
+            "icon_col": 5,
+            "icon_row": 1,
+            "fuel_value": 6000,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "chemical",
+            "fuel_residual": ""
+        },
+        "_base_concrete": {
+            "name": "_base_concrete",
+            "localized_name": {
+                "en": "Concrete"
+            },
+            "stack_size": 200,
+            "icon_col": 6,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_container": {
+            "name": "_base_container",
+            "localized_name": {
+                "en": "Container"
+            },
+            "stack_size": 10,
+            "icon_col": 7,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_conveyor_balancer_i": {
+            "name": "_base_conveyor_balancer_i",
+            "localized_name": {
+                "en": "Conveyor Balancer I"
+            },
+            "stack_size": 25,
+            "icon_col": 8,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_conveyor_balancer_ii": {
+            "name": "_base_conveyor_balancer_ii",
+            "localized_name": {
+                "en": "Conveyor Balancer II"
+            },
+            "stack_size": 25,
+            "icon_col": 9,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_conveyor_balancer_iii": {
+            "name": "_base_conveyor_balancer_iii",
+            "localized_name": {
+                "en": "Conveyor Balancer III"
+            },
+            "stack_size": 25,
+            "icon_col": 10,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_conveyor_i": {
+            "name": "_base_conveyor_i",
+            "localized_name": {
+                "en": "Conveyor I"
+            },
+            "stack_size": 100,
+            "icon_col": 11,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_conveyor_ii": {
+            "name": "_base_conveyor_ii",
+            "localized_name": {
+                "en": "Conveyor II"
+            },
+            "stack_size": 100,
+            "icon_col": 12,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_conveyor_iii": {
+            "name": "_base_conveyor_iii",
+            "localized_name": {
+                "en": "Conveyor III"
+            },
+            "stack_size": 100,
+            "icon_col": 13,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_conveyor_slope_i": {
+            "name": "_base_conveyor_slope_i",
+            "localized_name": {
+                "en": "Conveyor Slope I"
+            },
+            "stack_size": 50,
+            "icon_col": 14,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_conveyor_slope_ii": {
+            "name": "_base_conveyor_slope_ii",
+            "localized_name": {
+                "en": "Conveyor Slope II"
+            },
+            "stack_size": 50,
+            "icon_col": 15,
+            "icon_row": 1,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_conveyor_slope_iii": {
+            "name": "_base_conveyor_slope_iii",
+            "localized_name": {
+                "en": "Conveyor Slope III"
+            },
+            "stack_size": 50,
+            "icon_col": 0,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_crusher_i": {
+            "name": "_base_crusher_i",
+            "localized_name": {
+                "en": "Crusher I"
+            },
+            "stack_size": 10,
+            "icon_col": 1,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_crusher_ii": {
+            "name": "_base_crusher_ii",
+            "localized_name": {
+                "en": "Crusher II"
+            },
+            "stack_size": 10,
+            "icon_col": 2,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_dirt": {
+            "name": "_base_dirt",
+            "localized_name": {
+                "en": "Dirt"
+            },
+            "stack_size": 200,
+            "icon_col": 3,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_distillation_column_i": {
+            "name": "_base_distillation_column_i",
+            "localized_name": {
+                "en": "Distillation Column"
+            },
+            "stack_size": 10,
+            "icon_col": 4,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_door_i": {
+            "name": "_base_door_i",
+            "localized_name": {
+                "en": "Door (Single)"
+            },
+            "stack_size": 10,
+            "icon_col": 5,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_door_ii": {
+            "name": "_base_door_ii",
+            "localized_name": {
+                "en": "Door (Double)"
+            },
+            "stack_size": 10,
+            "icon_col": 6,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_door_iii": {
+            "name": "_base_door_iii",
+            "localized_name": {
+                "en": "Hangar Gate"
+            },
+            "stack_size": 10,
+            "icon_col": 7,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_drone_miner_i": {
+            "name": "_base_drone_miner_i",
+            "localized_name": {
+                "en": "Drone Miner I"
+            },
+            "stack_size": 10,
+            "icon_col": 8,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_drone_miner_ii": {
+            "name": "_base_drone_miner_ii",
+            "localized_name": {
+                "en": "Drone Miner II"
+            },
+            "stack_size": 10,
+            "icon_col": 9,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_dynamite_i": {
+            "name": "_base_dynamite_i",
+            "localized_name": {
+                "en": "Explosive Charge"
+            },
+            "stack_size": 50,
+            "icon_col": 10,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_handhelds",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_dynamite_remote_control": {
+            "name": "_base_dynamite_remote_control",
+            "localized_name": {
+                "en": "Explosives Detonator"
+            },
+            "stack_size": 1,
+            "icon_col": 11,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_handhelds",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_eic_i": {
+            "name": "_base_eic_i",
+            "localized_name": {
+                "en": "Electronic Components"
+            },
+            "stack_size": 200,
+            "icon_col": 12,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_elevator_i": {
+            "name": "_base_elevator_i",
+            "localized_name": {
+                "en": "Elevator"
+            },
+            "stack_size": 1,
+            "icon_col": 13,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_energy_cell": {
+            "name": "_base_energy_cell",
+            "localized_name": {
+                "en": "Energy Cell"
+            },
+            "stack_size": 200,
+            "icon_col": 14,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_enriched_ignium_pellets": {
+            "name": "_base_enriched_ignium_pellets",
+            "localized_name": {
+                "en": "Enriched Ignium Pellets"
+            },
+            "stack_size": 200,
+            "icon_col": 15,
+            "icon_row": 2,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_escalator": {
+            "name": "_base_escalator",
+            "localized_name": {
+                "en": "Escalator"
+            },
+            "stack_size": 200,
+            "icon_col": 0,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_explosives_i": {
+            "name": "_base_explosives_i",
+            "localized_name": {
+                "en": "Explosives"
+            },
+            "stack_size": 50,
+            "icon_col": 1,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_flare_stack": {
+            "name": "_base_flare_stack",
+            "localized_name": {
+                "en": "Flare Stack"
+            },
+            "stack_size": 20,
+            "icon_col": 2,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_assembler_fluid_i": {
+            "name": "_base_assembler_fluid_i",
+            "localized_name": {
+                "en": "Fluid Assembler I"
+            },
+            "stack_size": 10,
+            "icon_col": 3,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_freight_elevator_i": {
+            "name": "_base_freight_elevator_i",
+            "localized_name": {
+                "en": "Freight Elevator I"
+            },
+            "stack_size": 10,
+            "icon_col": 4,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_freight_elevator_ii": {
+            "name": "_base_freight_elevator_ii",
+            "localized_name": {
+                "en": "Freight Elevator II"
+            },
+            "stack_size": 10,
+            "icon_col": 5,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_freight_elevator_iii": {
+            "name": "_base_freight_elevator_iii",
+            "localized_name": {
+                "en": "Freight Elevator III"
+            },
+            "stack_size": 10,
+            "icon_col": 6,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_fuel_rod_casing": {
+            "name": "_base_fuel_rod_casing",
+            "localized_name": {
+                "en": "Fuel Rod Casing"
+            },
+            "stack_size": 200,
+            "icon_col": 7,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_geological_scanner_i": {
+            "name": "_base_geological_scanner_i",
+            "localized_name": {
+                "en": "Geological Scanner"
+            },
+            "stack_size": 10,
+            "icon_col": 8,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_gravel": {
+            "name": "_base_gravel",
+            "localized_name": {
+                "en": "Gravel"
+            },
+            "stack_size": 200,
+            "icon_col": 9,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_hot_air_stove_base": {
+            "name": "_base_hot_air_stove_base",
+            "localized_name": {
+                "en": "Hot Air Stove Base"
+            },
+            "stack_size": 1,
+            "icon_col": 10,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_hot_air_stove_module": {
+            "name": "_base_hot_air_stove_module",
+            "localized_name": {
+                "en": "Hot Air Stove Module"
+            },
+            "stack_size": 100,
+            "icon_col": 11,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_hydraulic_piston": {
+            "name": "_base_hydraulic_piston",
+            "localized_name": {
+                "en": "Hydraulic Piston"
+            },
+            "stack_size": 200,
+            "icon_col": 12,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_ignium_fuel_rod": {
+            "name": "_base_ignium_fuel_rod",
+            "localized_name": {
+                "en": "Ignium Fuel Rod"
+            },
+            "stack_size": 200,
+            "icon_col": 13,
+            "icon_row": 3,
+            "fuel_value": 200000,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "chemical",
+            "fuel_residual": "_base_fuel_rod_casing"
+        },
+        "_base_ignium_powder": {
+            "name": "_base_ignium_powder",
+            "localized_name": {
+                "en": "Ignium Powder"
+            },
+            "stack_size": 100,
+            "icon_col": 14,
+            "icon_row": 3,
+            "fuel_value": 20000,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_incinerator": {
+            "name": "_base_incinerator",
+            "localized_name": {
+                "en": "Incinerator"
+            },
+            "stack_size": 10,
+            "icon_col": 15,
+            "icon_row": 3,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_jetpack_fuel": {
+            "name": "_base_jetpack_fuel",
+            "localized_name": {
+                "en": "Jetpack Fuel"
+            },
+            "stack_size": 200,
+            "icon_col": 0,
+            "icon_row": 4,
+            "fuel_value": 25000,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "chemical",
+            "fuel_residual": ""
+        },
+        "_base_ladder_i": {
+            "name": "_base_ladder_i",
+            "localized_name": {
+                "en": "Ladder"
+            },
+            "stack_size": 200,
+            "icon_col": 1,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_light_ceiling_i": {
+            "name": "_base_light_ceiling_i",
+            "localized_name": {
+                "en": "Ceiling Light I"
+            },
+            "stack_size": 50,
+            "icon_col": 2,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_light_wall_i": {
+            "name": "_base_light_wall_i",
+            "localized_name": {
+                "en": "Wall Light I"
+            },
+            "stack_size": 50,
+            "icon_col": 3,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_lightpole_i": {
+            "name": "_base_lightpole_i",
+            "localized_name": {
+                "en": "Lightpole I"
+            },
+            "stack_size": 25,
+            "icon_col": 4,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_loader_1st_i": {
+            "name": "_base_loader_1st_i",
+            "localized_name": {
+                "en": "Loader"
+            },
+            "stack_size": 50,
+            "icon_col": 5,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_loader_1st_i_filter": {
+            "name": "_base_loader_1st_i_filter",
+            "localized_name": {
+                "en": "Filter Loader"
+            },
+            "stack_size": 50,
+            "icon_col": 6,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_loader_2nd_i": {
+            "name": "_base_loader_2nd_i",
+            "localized_name": {
+                "en": "Loader (2nd Lane)"
+            },
+            "stack_size": 50,
+            "icon_col": 7,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_loader_3rd_i": {
+            "name": "_base_loader_3rd_i",
+            "localized_name": {
+                "en": "Loader (3rd Lane)"
+            },
+            "stack_size": 50,
+            "icon_col": 8,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_logistic_container_i": {
+            "name": "_base_logistic_container_i",
+            "localized_name": {
+                "en": "Logistic Container I"
+            },
+            "stack_size": 10,
+            "icon_col": 9,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_logistic_container_ii": {
+            "name": "_base_logistic_container_ii",
+            "localized_name": {
+                "en": "Logistic Container II"
+            },
+            "stack_size": 10,
+            "icon_col": 10,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_logistic_container_iii": {
+            "name": "_base_logistic_container_iii",
+            "localized_name": {
+                "en": "Logistic Container III"
+            },
+            "stack_size": 10,
+            "icon_col": 11,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_mic_ii": {
+            "name": "_base_mic_ii",
+            "localized_name": {
+                "en": "Advanced Machinery Parts"
+            },
+            "stack_size": 200,
+            "icon_col": 12,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_mic_iii": {
+            "name": "_base_mic_iii",
+            "localized_name": {
+                "en": "High-Tech Machinery Parts"
+            },
+            "stack_size": 200,
+            "icon_col": 13,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_mic_i": {
+            "name": "_base_mic_i",
+            "localized_name": {
+                "en": "Machinery Parts"
+            },
+            "stack_size": 200,
+            "icon_col": 14,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_ore_mineral_rock": {
+            "name": "_base_ore_mineral_rock",
+            "localized_name": {
+                "en": "Mineral Rocks"
+            },
+            "stack_size": 200,
+            "icon_col": 15,
+            "icon_row": 4,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_mining_drill": {
+            "name": "_base_mining_drill",
+            "localized_name": {
+                "en": "Mining Drill"
+            },
+            "stack_size": 1,
+            "icon_col": 0,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_mining_laser": {
+            "name": "_base_mining_laser",
+            "localized_name": {
+                "en": "Mining Laser"
+            },
+            "stack_size": 1,
+            "icon_col": 1,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_modular_fluid_tank_base": {
+            "name": "_base_modular_fluid_tank_base",
+            "localized_name": {
+                "en": "Modular Storage Tank (Base)"
+            },
+            "stack_size": 1,
+            "icon_col": 3,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_modular_fluid_tank_module": {
+            "name": "_base_modular_fluid_tank_module",
+            "localized_name": {
+                "en": "Modular Storage Tank (Module)"
+            },
+            "stack_size": 100,
+            "icon_col": 3,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_ore_vein_scanner": {
+            "name": "_base_ore_vein_scanner",
+            "localized_name": {
+                "en": "Ore Scanner"
+            },
+            "stack_size": 1,
+            "icon_col": 4,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_handhelds",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_ore_ignium": {
+            "name": "_base_ore_ignium",
+            "localized_name": {
+                "en": "Refined Ignium Ore"
+            },
+            "stack_size": 200,
+            "icon_col": 5,
+            "icon_row": 5,
+            "fuel_value": 10000,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "chemical",
+            "fuel_residual": ""
+        },
+        "_base_refined_ore_technum": {
+            "name": "_base_refined_ore_technum",
+            "localized_name": {
+                "en": "Refined Technum Ore"
+            },
+            "stack_size": 100,
+            "icon_col": 6,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_metallurgy",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_refined_ore_xenoferrite": {
+            "name": "_base_refined_ore_xenoferrite",
+            "localized_name": {
+                "en": "Refined Xenoferrite Ore"
+            },
+            "stack_size": 100,
+            "icon_col": 7,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_metallurgy",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_ore_technum": {
+            "name": "_base_ore_technum",
+            "localized_name": {
+                "en": "Technum Ore"
+            },
+            "stack_size": 200,
+            "icon_col": 8,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_metallurgy",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_ore_xenoferrite": {
+            "name": "_base_ore_xenoferrite",
+            "localized_name": {
+                "en": "Xenoferrite Ore"
+            },
+            "stack_size": 200,
+            "icon_col": 9,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_metallurgy",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_pipe_intake_i": {
+            "name": "_base_pipe_intake_i",
+            "localized_name": {
+                "en": "Pipe Intake"
+            },
+            "stack_size": 20,
+            "icon_col": 10,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_pipe": {
+            "name": "_base_pipe",
+            "localized_name": {
+                "en": "Pipe"
+            },
+            "stack_size": 100,
+            "icon_col": 11,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_pipeline": {
+            "name": "_base_pipeline",
+            "localized_name": {
+                "en": "Pipeline"
+            },
+            "stack_size": 50,
+            "icon_col": 12,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_plumber_tool": {
+            "name": "_base_plumber_tool",
+            "localized_name": {
+                "en": "Plumber Tool"
+            },
+            "stack_size": 1,
+            "icon_col": 13,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_polelight_i": {
+            "name": "_base_polelight_i",
+            "localized_name": {
+                "en": "Pole Light"
+            },
+            "stack_size": 25,
+            "icon_col": 14,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_polymer_board": {
+            "name": "_base_polymer_board",
+            "localized_name": {
+                "en": "Polymer Board"
+            },
+            "stack_size": 200,
+            "icon_col": 15,
+            "icon_row": 5,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_power_line_i": {
+            "name": "_base_power_line_i",
+            "localized_name": {
+                "en": "Power Line"
+            },
+            "stack_size": 50,
+            "icon_col": 0,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_handhelds",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_power_pole_i": {
+            "name": "_base_power_pole_i",
+            "localized_name": {
+                "en": "Power Pole (Small)"
+            },
+            "stack_size": 25,
+            "icon_col": 1,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_power_pole_ii": {
+            "name": "_base_power_pole_ii",
+            "localized_name": {
+                "en": "Power Pole (Large)"
+            },
+            "stack_size": 10,
+            "icon_col": 2,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_power_pole_iii": {
+            "name": "_base_power_pole_iii",
+            "localized_name": {
+                "en": "Power Pole (Wall-Mounted)"
+            },
+            "stack_size": 25,
+            "icon_col": 3,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_pump_pipes_i": {
+            "name": "_base_pump_pipes_i",
+            "localized_name": {
+                "en": "Pump (Pipes)"
+            },
+            "stack_size": 50,
+            "icon_col": 4,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_pumpjack_i": {
+            "name": "_base_pumpjack_i",
+            "localized_name": {
+                "en": "Pumpjack I"
+            },
+            "stack_size": 10,
+            "icon_col": 5,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_railings": {
+            "name": "_base_railings",
+            "localized_name": {
+                "en": "Railings"
+            },
+            "stack_size": 50,
+            "icon_col": 6,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_research_entity": {
+            "name": "_base_research_entity",
+            "localized_name": {
+                "en": "Research Server"
+            },
+            "stack_size": 10,
+            "icon_col": 7,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_robot01_arm": {
+            "name": "_base_robot01_arm",
+            "localized_name": {
+                "en": "Robot Arm"
+            },
+            "stack_size": 10,
+            "icon_col": 11,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_robot01_head": {
+            "name": "_base_robot01_head",
+            "localized_name": {
+                "en": "Robot Head"
+            },
+            "stack_size": 10,
+            "icon_col": 11,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_robot01_leg": {
+            "name": "_base_robot01_leg",
+            "localized_name": {
+                "en": "Robot Leg"
+            },
+            "stack_size": 10,
+            "icon_col": 11,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_robot01_torso": {
+            "name": "_base_robot01_torso",
+            "localized_name": {
+                "en": "Robot Torso"
+            },
+            "stack_size": 10,
+            "icon_col": 11,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_rubble_ignium": {
+            "name": "_base_rubble_ignium",
+            "localized_name": {
+                "en": "Ignium Ore Rubble"
+            },
+            "stack_size": 200,
+            "icon_col": 12,
+            "icon_row": 6,
+            "fuel_value": 10000,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "chemical",
+            "fuel_residual": ""
+        },
+        "_base_rubble_technum": {
+            "name": "_base_rubble_technum",
+            "localized_name": {
+                "en": "Technum Ore Rubble"
+            },
+            "stack_size": 200,
+            "icon_col": 13,
+            "icon_row": 6,
+            "fuel_value": 20000,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_rubble_xenoferrite": {
+            "name": "_base_rubble_xenoferrite",
+            "localized_name": {
+                "en": "Xenoferrite Ore Rubble"
+            },
+            "stack_size": 200,
+            "icon_col": 14,
+            "icon_row": 6,
+            "fuel_value": 20000,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_sand": {
+            "name": "_base_sand",
+            "localized_name": {
+                "en": "Sand"
+            },
+            "stack_size": 200,
+            "icon_col": 15,
+            "icon_row": 6,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_science_pack_i": {
+            "name": "_base_science_pack_i",
+            "localized_name": {
+                "en": "Science Pack I"
+            },
+            "stack_size": 100,
+            "icon_col": 0,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_science_packs",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_science_pack_ii": {
+            "name": "_base_science_pack_ii",
+            "localized_name": {
+                "en": "Science Pack II"
+            },
+            "stack_size": 100,
+            "icon_col": 1,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_science_packs",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_science_pack_iii": {
+            "name": "_base_science_pack_iii",
+            "localized_name": {
+                "en": "Science Pack III"
+            },
+            "stack_size": 100,
+            "icon_col": 2,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_science_packs",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_science_pack_iv": {
+            "name": "_base_science_pack_iv",
+            "localized_name": {
+                "en": "Science Pack IV"
+            },
+            "stack_size": 100,
+            "icon_col": 3,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_science_packs",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_sign": {
+            "name": "_base_sign",
+            "localized_name": {
+                "en": "Sign"
+            },
+            "stack_size": 50,
+            "icon_col": 4,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_smelter_i": {
+            "name": "_base_smelter_i",
+            "localized_name": {
+                "en": "Smelter"
+            },
+            "stack_size": 10,
+            "icon_col": 5,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_smelter_small_i": {
+            "name": "_base_smelter_small_i",
+            "localized_name": {
+                "en": "Smelter (Small)"
+            },
+            "stack_size": 10,
+            "icon_col": 6,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_solarlight_i": {
+            "name": "_base_solarlight_i",
+            "localized_name": {
+                "en": "Solar Light"
+            },
+            "stack_size": 25,
+            "icon_col": 7,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_solar_panel_i": {
+            "name": "_base_solar_panel_i",
+            "localized_name": {
+                "en": "Solar Panel (Small)"
+            },
+            "stack_size": 10,
+            "icon_col": 8,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_solar_panel_ii": {
+            "name": "_base_solar_panel_ii",
+            "localized_name": {
+                "en": "Solar Panel (Large)"
+            },
+            "stack_size": 5,
+            "icon_col": 9,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_stairs_straight": {
+            "name": "_base_stairs_straight",
+            "localized_name": {
+                "en": "Stairs"
+            },
+            "stack_size": 50,
+            "icon_col": 10,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_steel_mixture": {
+            "name": "_base_steel_mixture",
+            "localized_name": {
+                "en": "Xenoferrite-Ignium Ore Blend"
+            },
+            "stack_size": 200,
+            "icon_col": 11,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_metallurgy",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_stone": {
+            "name": "_base_stone",
+            "localized_name": {
+                "en": "Stone"
+            },
+            "stack_size": 200,
+            "icon_col": 12,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_tank_i": {
+            "name": "_base_tank_i",
+            "localized_name": {
+                "en": "Tank I"
+            },
+            "stack_size": 10,
+            "icon_col": 13,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_technum_rods": {
+            "name": "_base_technum_rods",
+            "localized_name": {
+                "en": "Technum Rods"
+            },
+            "stack_size": 200,
+            "icon_col": 14,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_metallurgy",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_technum_ingots": {
+            "name": "_base_technum_ingots",
+            "localized_name": {
+                "en": "Technum Ingots"
+            },
+            "stack_size": 100,
+            "icon_col": 15,
+            "icon_row": 7,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_metallurgy",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_transformer_i": {
+            "name": "_base_transformer_i",
+            "localized_name": {
+                "en": "Transformer (Small)"
+            },
+            "stack_size": 10,
+            "icon_col": 0,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_transformer_ii": {
+            "name": "_base_transformer_ii",
+            "localized_name": {
+                "en": "Transformer (Large)"
+            },
+            "stack_size": 10,
+            "icon_col": 1,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_turbine_i": {
+            "name": "_base_turbine_i",
+            "localized_name": {
+                "en": "Steam Turbine"
+            },
+            "stack_size": 5,
+            "icon_col": 2,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_walkway_platform": {
+            "name": "_base_walkway_platform",
+            "localized_name": {
+                "en": "Walkway"
+            },
+            "stack_size": 200,
+            "icon_col": 3,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_buildings",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_wire_coil": {
+            "name": "_base_wire_coil",
+            "localized_name": {
+                "en": "Wire Coil"
+            },
+            "stack_size": 200,
+            "icon_col": 4,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_xenoferrite_plates": {
+            "name": "_base_xenoferrite_plates",
+            "localized_name": {
+                "en": "Xenoferrite Plates"
+            },
+            "stack_size": 200,
+            "icon_col": 5,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_metallurgy",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_xenoferrite_ingots": {
+            "name": "_base_xenoferrite_ingots",
+            "localized_name": {
+                "en": "Xenoferrite Ingots"
+            },
+            "stack_size": 100,
+            "icon_col": 6,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_metallurgy",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_xf_steel_beams": {
+            "name": "_base_xf_steel_beams",
+            "localized_name": {
+                "en": "Steel Beams"
+            },
+            "stack_size": 200,
+            "icon_col": 7,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "item",
+            "group": "_base_metallurgy",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_air": {
+            "name": "_base_air",
+            "localized_name": {
+                "en": "Air"
+            },
+            "stack_size": 0,
+            "icon_col": 8,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_bf_slag": {
+            "name": "_base_bf_slag",
+            "localized_name": {
+                "en": "Blast Furnace Slag"
+            },
+            "stack_size": 0,
+            "icon_col": 9,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_hdo": {
+            "name": "_base_hdo",
+            "localized_name": {
+                "en": "High Density Olumite"
+            },
+            "stack_size": 0,
+            "icon_col": 10,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_hot_air": {
+            "name": "_base_hot_air",
+            "localized_name": {
+                "en": "Hot Air"
+            },
+            "stack_size": 0,
+            "icon_col": 11,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_liquid_polymer": {
+            "name": "_base_liquid_polymer",
+            "localized_name": {
+                "en": "Liquid Polymer"
+            },
+            "stack_size": 0,
+            "icon_col": 12,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_molten_te": {
+            "name": "_base_molten_te",
+            "localized_name": {
+                "en": "Molten Technum"
+            },
+            "stack_size": 0,
+            "icon_col": 13,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_molten_xf": {
+            "name": "_base_molten_xf",
+            "localized_name": {
+                "en": "Molten Xenoferrite"
+            },
+            "stack_size": 0,
+            "icon_col": 14,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_olumic_acid": {
+            "name": "_base_olumic_acid",
+            "localized_name": {
+                "en": "Olumic Acid"
+            },
+            "stack_size": 0,
+            "icon_col": 15,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_olumite": {
+            "name": "_base_olumite",
+            "localized_name": {
+                "en": "Olumite"
+            },
+            "stack_size": 0,
+            "icon_col": 0,
+            "icon_row": 9,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        }
+    },
+    "recipes": {
+        "_base_assembler_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 8.0,
+            "icon_col": 3,
+            "icon_row": 0,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Assembler I"
+            },
+            "name": "_base_assembler_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_assembler_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_assembler_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 6.0,
+            "icon_col": 4,
+            "icon_row": 0,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_assembler_i"
+                },
+                {
+                    "amount": 6,
+                    "name": "_base_mic_ii"
+                }
+            ],
+            "localized_name": {
+                "en": "Assembler II"
+            },
+            "name": "_base_assembler_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_assembler_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_assembler_iii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 6.0,
+            "icon_col": 5,
+            "icon_row": 0,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_assembler_ii"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_mic_iii"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_eic_ii"
+                }
+            ],
+            "localized_name": {
+                "en": "Assembler III"
+            },
+            "name": "_base_assembler_iii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_assembler_iii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_basic_refining_liquid_polymer": {
+            "category": [
+                "distillation_column"
+            ],
+            "enabled": false,
+            "energy_required": 4.0,
+            "icon_col": 12,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 100.0,
+                    "name": "_base_olumite"
+                }
+            ],
+            "localized_name": {
+                "en": "Olumite Refining: Liquid Polymer"
+            },
+            "name": "_base_basic_refining_liquid_polymer",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 75.0,
+                    "name": "_base_liquid_polymer"
+                },
+                {
+                    "amount": 50.0,
+                    "name": "_base_waste_gas"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_battery_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 7,
+            "icon_row": 0,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_eic_i"
+                },
+                {
+                    "amount": 20,
+                    "name": "_base_technum_rods"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_energy_cell"
+                }
+            ],
+            "localized_name": {
+                "en": "Battery (Small)"
+            },
+            "name": "_base_battery_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_battery_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_battery_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 7.5,
+            "icon_col": 8,
+            "icon_row": 0,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_eic_ii"
+                },
+                {
+                    "amount": 20,
+                    "name": "_base_energy_cell"
+                }
+            ],
+            "localized_name": {
+                "en": "Battery (Large)"
+            },
+            "name": "_base_battery_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_battery_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_biomass_burner": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 4.0,
+            "icon_col": 9,
+            "icon_row": 0,
+            "ingredients": [
+                {
+                    "amount": 5,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_eic_i"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_technum_rods"
+                }
+            ],
+            "localized_name": {
+                "en": "Biomass Burner"
+            },
+            "name": "_base_biomass_burner",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_biomass_burner"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_boiler_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 13,
+            "icon_row": 0,
+            "ingredients": [
+                {
+                    "amount": 5,
+                    "name": "_base_pipe"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_xf_steel_beams"
+                }
+            ],
+            "localized_name": {
+                "en": "Boiler"
+            },
+            "name": "_base_boiler_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_boiler_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_building_part": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 14,
+            "icon_row": 0,
+            "ingredients": [
+                {
+                    "amount": 6,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_technum_rods"
+                }
+            ],
+            "localized_name": {
+                "en": "Building Block"
+            },
+            "name": "_base_building_part",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 10,
+                    "name": "_base_building_part"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_burner_generator_lvg": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 4.0,
+            "icon_col": 15,
+            "icon_row": 0,
+            "ingredients": [
+                {
+                    "amount": 25,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_eic_i"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_technum_rods"
+                }
+            ],
+            "localized_name": {
+                "en": "Burner Generator"
+            },
+            "name": "_base_burner_generator_lvg",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_burner_generator_lvg"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_casting_machine": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 8.0,
+            "icon_col": 0,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 15,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 20,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Casting Machine"
+            },
+            "name": "_base_casting_machine",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_casting_machine"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_cement": {
+            "category": [
+                "crusher"
+            ],
+            "enabled": false,
+            "energy_required": 12.0,
+            "icon_col": 1,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_ore_mineral_rock"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_rubble_xenoferrite"
+                }
+            ],
+            "localized_name": {
+                "en": "Cement"
+            },
+            "name": "_base_cement",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 2,
+                    "name": "_base_cement"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_chemical_processor_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 8.0,
+            "icon_col": 2,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 20,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_polymer_board"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_eic_ii"
+                }
+            ],
+            "localized_name": {
+                "en": "Chemical Processor"
+            },
+            "name": "_base_chemical_processor_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_chemical_processor_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_concrete": {
+            "category": [
+                "casting_machine"
+            ],
+            "enabled": false,
+            "energy_required": 15.0,
+            "icon_col": 6,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_cement"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_gravel"
+                },
+                {
+                    "amount": 20.0,
+                    "name": "_base_water"
+                }
+            ],
+            "localized_name": {
+                "en": "Concrete"
+            },
+            "name": "_base_concrete",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 4,
+                    "name": "_base_concrete"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_container": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 7,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 30,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "localized_name": {
+                "en": "Container"
+            },
+            "name": "_base_container",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_container"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_conveyor_balancer_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 8,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 4,
+                    "name": "_base_conveyor_i"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Conveyor Balancer I"
+            },
+            "name": "_base_conveyor_balancer_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_conveyor_balancer_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_conveyor_balancer_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 9,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 4,
+                    "name": "_base_conveyor_ii"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Conveyor Balancer II"
+            },
+            "name": "_base_conveyor_balancer_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_conveyor_balancer_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_conveyor_balancer_iii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 10,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 4,
+                    "name": "_base_conveyor_iii"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_ii"
+                }
+            ],
+            "localized_name": {
+                "en": "Conveyor Balancer III"
+            },
+            "name": "_base_conveyor_balancer_iii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_conveyor_balancer_iii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_conveyor_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 11,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_mic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Conveyor I"
+            },
+            "name": "_base_conveyor_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 2,
+                    "name": "_base_conveyor_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_conveyor_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 12,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_conveyor_i"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Conveyor II"
+            },
+            "name": "_base_conveyor_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 2,
+                    "name": "_base_conveyor_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_conveyor_iii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 7.5,
+            "icon_col": 13,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_conveyor_ii"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_ii"
+                }
+            ],
+            "localized_name": {
+                "en": "Conveyor III"
+            },
+            "name": "_base_conveyor_iii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 2,
+                    "name": "_base_conveyor_iii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_conveyor_slope_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 14,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_conveyor_i"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_mic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Conveyor Slope I"
+            },
+            "name": "_base_conveyor_slope_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_conveyor_slope_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_conveyor_slope_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 2.5,
+            "icon_col": 15,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_conveyor_slope_i"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Conveyor Slope II"
+            },
+            "name": "_base_conveyor_slope_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_conveyor_slope_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_conveyor_slope_iii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.75,
+            "icon_col": 0,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_conveyor_slope_ii"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_ii"
+                }
+            ],
+            "localized_name": {
+                "en": "Conveyor Slope III"
+            },
+            "name": "_base_conveyor_slope_iii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_conveyor_slope_iii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_crate": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 2.0,
+            "icon_col": 3,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 6,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "localized_name": {
+                "en": "Crate"
+            },
+            "name": "_base_crate",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_chest"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_crusher_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 8.0,
+            "icon_col": 1,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Crusher I"
+            },
+            "name": "_base_crusher_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_crusher_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_crusher_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 6.0,
+            "icon_col": 2,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_crusher_i"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_mic_iii"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_eic_ii"
+                }
+            ],
+            "localized_name": {
+                "en": "Crusher II"
+            },
+            "name": "_base_crusher_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_crusher_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_distillation_column_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 10.0,
+            "icon_col": 4,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 30,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 30,
+                    "name": "_base_pipe"
+                },
+                {
+                    "amount": 15,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 15,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Distillation Column"
+            },
+            "name": "_base_distillation_column_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_distillation_column_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_door_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 5,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Door (Single)"
+            },
+            "name": "_base_door_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_door_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_door_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 6,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 20,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Door (Double)"
+            },
+            "name": "_base_door_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_door_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_door_iii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 7,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 25,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Hangar Gate"
+            },
+            "name": "_base_door_iii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_door_iii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_drone_miner_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 8,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 8,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 6,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Drone Miner I"
+            },
+            "name": "_base_drone_miner_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_drone_miner_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_drone_miner_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 7.5,
+            "icon_col": 9,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_drone_miner_i"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_eic_ii"
+                }
+            ],
+            "localized_name": {
+                "en": "Drone Miner II"
+            },
+            "name": "_base_drone_miner_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_drone_miner_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_dynamite_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 10,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_explosives_i"
+                },
+                {
+                    "amount": 3,
+                    "name": "_base_wire_coil"
+                },
+                {
+                    "amount": 3,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Explosive Charge"
+            },
+            "name": "_base_dynamite_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_dynamite_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_dynamite_remote_control": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 8.0,
+            "icon_col": 11,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 40,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Explosives Detonator"
+            },
+            "name": "_base_dynamite_remote_control",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_dynamite_remote_control"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_eic_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 12,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_technum_rods"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_wire_coil"
+                }
+            ],
+            "localized_name": {
+                "en": "Electronic Components"
+            },
+            "name": "_base_eic_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_eic_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 4,
+            "icon_row": 1,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_polymer_board"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Circuit Board"
+            },
+            "name": "_base_eic_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_eic_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_energy_cell": {
+            "category": [
+                "assembler_fluid"
+            ],
+            "enabled": false,
+            "energy_required": 30.0,
+            "icon_col": 14,
+            "icon_row": 2,
+            "ingredients": [
+                {
+                    "amount": 6,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 6,
+                    "name": "_base_eic_i"
+                },
+                {
+                    "amount": 60.0,
+                    "name": "_base_olumic_acid"
+                }
+            ],
+            "localized_name": {
+                "en": "Energy Cell"
+            },
+            "name": "_base_energy_cell",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 6,
+                    "name": "_base_energy_cell"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_escalator": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 0,
+            "icon_row": 3,
+            "ingredients": [
+                {
+                    "amount": 3,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "localized_name": {
+                "en": "Escalator"
+            },
+            "name": "_base_escalator",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_escalator"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_explosives_ii": {
+            "category": [
+                "assembler_fluid"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 1,
+            "icon_row": 3,
+            "ingredients": [
+                {
+                    "amount": 4,
+                    "name": "_base_ignium_powder"
+                },
+                {
+                    "amount": 50.0,
+                    "name": "_base_ldo"
+                }
+            ],
+            "localized_name": {
+                "en": "Explosives"
+            },
+            "name": "_base_explosives_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_explosives_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_explosives_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 1,
+            "icon_row": 3,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_rubble_ignium"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_rubble_technum"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_biomass"
+                }
+            ],
+            "localized_name": {
+                "en": "Explosives (Primitive)"
+            },
+            "name": "_base_explosives_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_explosives_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_flare_stack": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 2,
+            "icon_row": 3,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Flare Stack"
+            },
+            "name": "_base_flare_stack",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_flare_stack"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_assembler_fluid_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 10.0,
+            "icon_col": 3,
+            "icon_row": 3,
+            "ingredients": [
+                {
+                    "amount": 15,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_eic_ii"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_polymer_board"
+                }
+            ],
+            "localized_name": {
+                "en": "Fluid-Assembler I"
+            },
+            "name": "_base_assembler_fluid_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_assembler_fluid_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_gravel": {
+            "category": [
+                "crusher"
+            ],
+            "enabled": false,
+            "energy_required": 12.0,
+            "icon_col": 9,
+            "icon_row": 3,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_ore_mineral_rock"
+                }
+            ],
+            "localized_name": {
+                "en": "Gravel"
+            },
+            "name": "_base_gravel",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 6,
+                    "name": "_base_gravel"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_ignium_powder": {
+            "category": [
+                "crusher"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 14,
+            "icon_row": 3,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_rubble_ignium"
+                }
+            ],
+            "localized_name": {
+                "en": "Ignium Powder"
+            },
+            "name": "_base_ignium_powder",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 5,
+                    "name": "_base_ignium_powder"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_incinerator": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 15,
+            "icon_row": 3,
+            "ingredients": [
+                {
+                    "amount": 20,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_eic_i"
+                },
+                {
+                    "amount": 25,
+                    "name": "_base_concrete"
+                }
+            ],
+            "localized_name": {
+                "en": "Incinerator"
+            },
+            "name": "_base_incinerator",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_incinerator"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_jetpack_fuel": {
+            "category": [
+                "assembler_fluid"
+            ],
+            "enabled": false,
+            "energy_required": 4.0,
+            "icon_col": 0,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 30.0,
+                    "name": "_base_liquid_fuel"
+                }
+            ],
+            "localized_name": {
+                "en": "Jetpack Fuel"
+            },
+            "name": "_base_jetpack_fuel",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_jetpack_fuel"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_ladder_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 1,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "localized_name": {
+                "en": "Ladder"
+            },
+            "name": "_base_ladder_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_ladder_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_light_ceiling_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 2.0,
+            "icon_col": 2,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Ceiling Light"
+            },
+            "name": "_base_light_ceiling_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_light_ceiling_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_lightpole_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 4,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 5,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_eic_i"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_technum_rods"
+                }
+            ],
+            "localized_name": {
+                "en": "Light Pole"
+            },
+            "name": "_base_lightpole_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_lightpole_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_light_wall_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 2.0,
+            "icon_col": 3,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Wall Light"
+            },
+            "name": "_base_light_wall_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_light_wall_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_loader_1st_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 5,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 4,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Loader"
+            },
+            "name": "_base_loader_1st_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_loader_1st_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_loader_2nd_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 7,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 8,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Loader, 2nd Lane"
+            },
+            "name": "_base_loader_2nd_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_loader_2nd_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_loader_3rd_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 8,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 12,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Loader, 3rd Lane"
+            },
+            "name": "_base_loader_3rd_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_loader_3rd_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_logistic_container_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 9,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 15,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Logistic Container I"
+            },
+            "name": "_base_logistic_container_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_logistic_container_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_logistic_container_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 7.5,
+            "icon_col": 10,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 15,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Logistic Container II"
+            },
+            "name": "_base_logistic_container_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_logistic_container_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_logistic_container_iii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 10.0,
+            "icon_col": 11,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 25,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 4,
+                    "name": "_base_mic_iii"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_eic_ii"
+                }
+            ],
+            "localized_name": {
+                "en": "Logistic Container III"
+            },
+            "name": "_base_logistic_container_iii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_logistic_container_iii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_mic_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 14,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "localized_name": {
+                "en": "Machinery Parts"
+            },
+            "name": "_base_mic_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_mic_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_mic_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 4.5,
+            "icon_col": 12,
+            "icon_row": 4,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 1,
+                    "name": "_base_xf_steel_beams"
+                }
+            ],
+            "localized_name": {
+                "en": "Advanced Machinery Parts"
+            },
+            "name": "_base_mic_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_mic_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_olumic_acid": {
+            "category": [
+                "chemical_processor"
+            ],
+            "enabled": false,
+            "energy_required": 8.0,
+            "icon_col": 15,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 16,
+                    "name": "_base_ignium_powder"
+                },
+                {
+                    "amount": 75.0,
+                    "name": "_base_olumite_gas"
+                },
+                {
+                    "amount": 25.0,
+                    "name": "_base_water"
+                }
+            ],
+            "localized_name": {
+                "en": "Olumic Acid"
+            },
+            "name": "_base_olumic_acid",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 40.0,
+                    "name": "_base_olumic_acid"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_ore_scanner_hh": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 10.0,
+            "icon_col": 4,
+            "icon_row": 5,
+            "ingredients": [
+                {
+                    "amount": 4,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 20,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Ore Scanner (Handheld)"
+            },
+            "name": "_base_ore_scanner_hh",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_ore_vein_scanner"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_ore_technum": {
+            "category": [
+                "crusher"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 8,
+            "icon_row": 5,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_rubble_technum"
+                }
+            ],
+            "localized_name": {
+                "en": "Technum Ore"
+            },
+            "name": "_base_ore_technum",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_ore_technum"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_ore_xenoferrite": {
+            "category": [
+                "crusher"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 9,
+            "icon_row": 5,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_rubble_xenoferrite"
+                }
+            ],
+            "localized_name": {
+                "en": "Xenoferrite Ore"
+            },
+            "name": "_base_ore_xenoferrite",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_ore_xenoferrite"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_pipe": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 4.0,
+            "icon_col": 11,
+            "icon_row": 5,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_xf_steel_beams"
+                }
+            ],
+            "localized_name": {
+                "en": "Pipe"
+            },
+            "name": "_base_pipe",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 2,
+                    "name": "_base_pipe"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_pipe_intake_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 10,
+            "icon_row": 5,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_pipe"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_mic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Pipe Intake"
+            },
+            "name": "_base_pipe_intake_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_pipe_intake_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_polymer_board": {
+            "category": [
+                "casting_machine"
+            ],
+            "enabled": false,
+            "energy_required": 2.0,
+            "icon_col": 15,
+            "icon_row": 5,
+            "ingredients": [
+                {
+                    "amount": 5.0,
+                    "name": "_base_liquid_polymer"
+                }
+            ],
+            "localized_name": {
+                "en": "Polymer Board"
+            },
+            "name": "_base_polymer_board",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_polymer_board"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_power_line": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 4.0,
+            "icon_col": 0,
+            "icon_row": 6,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_wire_coil"
+                }
+            ],
+            "localized_name": {
+                "en": "Power Line"
+            },
+            "name": "_base_power_line",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 2,
+                    "name": "_base_power_line_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_power_pole_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 1,
+            "icon_row": 6,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Power Pole (Small)"
+            },
+            "name": "_base_power_pole_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_power_pole_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_power_pole_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 2,
+            "icon_row": 6,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_eic_i"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_polymer_board"
+                }
+            ],
+            "localized_name": {
+                "en": "Power Pole (Large)"
+            },
+            "name": "_base_power_pole_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_power_pole_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_power_pole_iii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 3,
+            "icon_row": 6,
+            "ingredients": [
+                {
+                    "amount": 4,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Power Pole (Wall-Mounted)"
+            },
+            "name": "_base_power_pole_iii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_power_pole_iii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_pumps_pipes_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 4,
+            "icon_row": 6,
+            "ingredients": [
+                {
+                    "amount": 6,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Pump (Pipes)"
+            },
+            "name": "_base_pumps_pipes_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_pump_pipes_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_pumpjack_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 8.0,
+            "icon_col": 5,
+            "icon_row": 6,
+            "ingredients": [
+                {
+                    "amount": 12,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 8,
+                    "name": "_base_pipe"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Pumpjack I"
+            },
+            "name": "_base_pumpjack_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_pumpjack_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_railings": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 6,
+            "icon_row": 6,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "localized_name": {
+                "en": "Railings"
+            },
+            "name": "_base_railings",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_railings"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_research_entity": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 4.0,
+            "icon_col": 7,
+            "icon_row": 6,
+            "ingredients": [
+                {
+                    "amount": 20,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_eic_i"
+                },
+                {
+                    "amount": 20,
+                    "name": "_base_technum_rods"
+                }
+            ],
+            "localized_name": {
+                "en": "Research Server"
+            },
+            "name": "_base_research_entity",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_research_entity"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_science_pack_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 30.0,
+            "icon_col": 0,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 8,
+                    "name": "_base_technum_rods"
+                }
+            ],
+            "localized_name": {
+                "en": "Science Pack I"
+            },
+            "name": "_base_science_pack_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_science_pack_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_science_pack_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 30.0,
+            "icon_col": 1,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 6,
+                    "name": "_base_conveyor_i"
+                },
+                {
+                    "amount": 12,
+                    "name": "_base_building_part"
+                }
+            ],
+            "localized_name": {
+                "en": "Science Pack II"
+            },
+            "name": "_base_science_pack_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_science_pack_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_science_pack_iii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 45.0,
+            "icon_col": 2,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 5,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 12,
+                    "name": "_base_concrete"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_pipe"
+                }
+            ],
+            "localized_name": {
+                "en": "Science Pack III"
+            },
+            "name": "_base_science_pack_iii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_science_pack_iii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_science_pack_iv": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 30.0,
+            "icon_col": 3,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 6,
+                    "name": "_base_eic_ii"
+                },
+                {
+                    "amount": 6,
+                    "name": "_base_energy_cell"
+                },
+                {
+                    "amount": 6,
+                    "name": "_base_explosives_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Science Pack IV"
+            },
+            "name": "_base_science_pack_iv",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_science_pack_iv"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_sign": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 4,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 4,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "localized_name": {
+                "en": "Sign"
+            },
+            "name": "_base_sign",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_sign"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_smelter_small_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 10.0,
+            "icon_col": 6,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 15,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Smelter (Small)"
+            },
+            "name": "_base_smelter_small_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_smelter_small_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_solar_panel_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 8.0,
+            "icon_col": 8,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_eic_i"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_technum_rods"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_energy_cell"
+                }
+            ],
+            "localized_name": {
+                "en": "Solar Panel (Small)"
+            },
+            "name": "_base_solar_panel_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_solar_panel_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_solar_panel_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 10.0,
+            "icon_col": 9,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 30,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_mic_ii"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_eic_ii"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_energy_cell"
+                }
+            ],
+            "localized_name": {
+                "en": "Solar Panel (Large)"
+            },
+            "name": "_base_solar_panel_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_solar_panel_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_stairs": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 10,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "localized_name": {
+                "en": "Stairs"
+            },
+            "name": "_base_stairs",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_stairs_straight"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_steel_mixture": {
+            "category": [
+                "crusher"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 11,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 4,
+                    "name": "_base_rubble_xenoferrite"
+                },
+                {
+                    "amount": 2,
+                    "name": "_base_rubble_ignium"
+                }
+            ],
+            "localized_name": {
+                "en": "Xenoferrite-Ignium Ore Blend"
+            },
+            "name": "_base_steel_mixture",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_steel_mixture"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_technum_rods_t1_primitive": {
+            "category": [
+                "base_station"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 14,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_rubble_technum"
+                }
+            ],
+            "localized_name": {
+                "en": "Technum Rods"
+            },
+            "name": "_base_technum_rods_t1_primitive",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_technum_rods"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_xf_plates_t1_primitive": {
+            "category": [
+                "base_station"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 5,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_rubble_xenoferrite"
+                }
+            ],
+            "localized_name": {
+                "en": "Xenoferrite Plates"
+            },
+            "name": "_base_xf_plates_t1_primitive",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_technum_rods_t1": {
+            "category": [
+                "smelter"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 14,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_rubble_technum"
+                }
+            ],
+            "localized_name": {
+                "en": "Technum Rods (Tier 1)"
+            },
+            "name": "_base_technum_rods_t1",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_technum_rods"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_xf_plates_t1": {
+            "category": [
+                "smelter"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 5,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_rubble_xenoferrite"
+                }
+            ],
+            "localized_name": {
+                "en": "Xenoferrite Plates (Tier 1)"
+            },
+            "name": "_base_xf_plates_t1",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_technum_ingots_2_5": {
+            "category": [
+                "induction_smelter"
+            ],
+            "enabled": false,
+            "energy_required": 2.0,
+            "icon_col": 15,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_refined_ore_technum"
+                }
+            ],
+            "localized_name": {
+                "en": "Technum Ingots (Tier 2)"
+            },
+            "name": "_base_technum_ingots_2_5",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 3,
+                    "name": "_base_technum_ingots"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_xf_ingots_2_5": {
+            "category": [
+                "induction_smelter"
+            ],
+            "enabled": false,
+            "energy_required": 2.0,
+            "icon_col": 6,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_refined_ore_xenoferrite"
+                }
+            ],
+            "localized_name": {
+                "en": "Xenoferrite Ingots (Tier 2)"
+            },
+            "name": "_base_xf_ingots_2_5",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 3,
+                    "name": "_base_xenoferrite_ingots"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_refined_technum_ore": {
+            "category": [
+                "crusher"
+            ],
+            "enabled": false,
+            "energy_required": 2.0,
+            "icon_col": 6,
+            "icon_row": 5,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_ore_technum"
+                }
+            ],
+            "localized_name": {
+                "en": "Refined Technum Ore"
+            },
+            "name": "_base_refined_technum_ore",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 3,
+                    "name": "_base_refined_ore_technum"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_refined_xf_ore": {
+            "category": [
+                "crusher"
+            ],
+            "enabled": false,
+            "energy_required": 2.0,
+            "icon_col": 7,
+            "icon_row": 5,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_ore_xenoferrite"
+                }
+            ],
+            "localized_name": {
+                "en": "Refined Xenoferrite Ore"
+            },
+            "name": "_base_refined_xf_ore",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 3,
+                    "name": "_base_refined_ore_xenoferrite"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_technum_ingots_t2": {
+            "category": [
+                "induction_smelter"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 15,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_ore_technum"
+                }
+            ],
+            "localized_name": {
+                "en": "Technum Ingots (Tier 1)"
+            },
+            "name": "_base_technum_ingots_t2",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_technum_ingots"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_technum_rods_t2": {
+            "category": [
+                "smelter"
+            ],
+            "enabled": false,
+            "energy_required": 6.0,
+            "icon_col": 14,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_ore_technum"
+                }
+            ],
+            "localized_name": {
+                "en": "Technum Rods (Tier 2)"
+            },
+            "name": "_base_technum_rods_t2",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 3,
+                    "name": "_base_technum_rods"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_xf_ingots_t2": {
+            "category": [
+                "induction_smelter"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 6,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_ore_xenoferrite"
+                }
+            ],
+            "localized_name": {
+                "en": "Xenoferrite Ingots (Tier 1)"
+            },
+            "name": "_base_xf_ingots_t2",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_xenoferrite_ingots"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_xf_plates_t2": {
+            "category": [
+                "smelter"
+            ],
+            "enabled": false,
+            "energy_required": 6.0,
+            "icon_col": 5,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 2,
+                    "name": "_base_ore_xenoferrite"
+                }
+            ],
+            "localized_name": {
+                "en": "Xenoferrite Plates (Tier 2)"
+            },
+            "name": "_base_xf_plates_t2",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 3,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_tank": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 13,
+            "icon_row": 7,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 20,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 5,
+                    "name": "_base_mic_ii"
+                }
+            ],
+            "localized_name": {
+                "en": "Tank"
+            },
+            "name": "_base_tank",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_tank_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_transformer_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 5.0,
+            "icon_col": 0,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 15,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_eic_i"
+                },
+                {
+                    "amount": 15,
+                    "name": "_base_technum_rods"
+                }
+            ],
+            "localized_name": {
+                "en": "Transformer (Small)"
+            },
+            "name": "_base_transformer_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_transformer_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_transformer_ii": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 10.0,
+            "icon_col": 1,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 25,
+                    "name": "_base_xenoferrite_plates"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_eic_i"
+                },
+                {
+                    "amount": 10,
+                    "name": "_base_eic_ii"
+                }
+            ],
+            "localized_name": {
+                "en": "Transformer (Large)"
+            },
+            "name": "_base_transformer_ii",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_transformer_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_turbine_i": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 8.0,
+            "icon_col": 2,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 10,
+                    "name": "_base_pipe"
+                },
+                {
+                    "amount": 40,
+                    "name": "_base_mic_i"
+                },
+                {
+                    "amount": 25,
+                    "name": "_base_xf_steel_beams"
+                },
+                {
+                    "amount": 25,
+                    "name": "_base_eic_i"
+                }
+            ],
+            "localized_name": {
+                "en": "Steam Turbine"
+            },
+            "name": "_base_turbine_i",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_turbine_i"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_walkway_platform": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 3,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 3,
+                    "name": "_base_xenoferrite_plates"
+                }
+            ],
+            "localized_name": {
+                "en": "Walkway"
+            },
+            "name": "_base_walkway_platform",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_walkway_platform"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_wire_coil": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 1.5,
+            "icon_col": 4,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_technum_rods"
+                }
+            ],
+            "localized_name": {
+                "en": "Wire Coil"
+            },
+            "name": "_base_wire_coil",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 2,
+                    "name": "_base_wire_coil"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_steel_t1": {
+            "category": [
+                "smelter"
+            ],
+            "enabled": false,
+            "energy_required": 6.0,
+            "icon_col": 7,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_steel_mixture"
+                }
+            ],
+            "localized_name": {
+                "en": "Steel Beams (T1)"
+            },
+            "name": "_base_steel_t1",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_xf_steel_beams"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_xf_steel_beams": {
+            "category": [
+                "assembler"
+            ],
+            "enabled": false,
+            "energy_required": 3.0,
+            "icon_col": 7,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 1,
+                    "name": "_base_xf_steel_ingots"
+                }
+            ],
+            "localized_name": {
+                "en": "Steel Beams"
+            },
+            "name": "_base_xf_steel_beams",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 1,
+                    "name": "_base_xf_steel_beams"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        }
+    },
+    "sprites": {
+        "extra": {
+            "clock": {
+                "icon_col": 0,
+                "icon_row": 0,
+                "name": "time"
+            }
+        },
+        "hash": "1",
+        "height": 1024,
+        "width": 1024
+    },
+    "modules": [],
+    "fuel": [
+        "_base_biomass",
+        "_base_coked_ignium",
+        "_base_ignium_fuel_rod",
+        "_base_jetpack_fuel",
+        "_base_ore_ignium",
+        "_base_rubble_ignium"
+    ],
+    "groups": {
+        "all": {
+            "order": "z",
+            "subgroups": {
+                "all": "a"
+            }
+        },
+        "_base_buildings": {
+            "order": "a",
+            "subgroups": {
+                "all": "a"
+            }
+        },
+        "_base_components": {
+            "order": "a",
+            "subgroups": {
+                "all": "a"
+            }
+        },
+        "_base_handhelds": {
+            "order": "a",
+            "subgroups": {
+                "all": "a"
+            }
+        },
+        "_base_metallurgy": {
+            "order": "a",
+            "subgroups": {
+                "all": "a"
+            }
+        },
+        "_base_science_packs": {
+            "order": "a",
+            "subgroups": {
+                "all": "a"
+            }
+        },
+        "": {
+            "order": "a",
+            "subgroups": {
+                "all": "a"
+            }
+        }
+    },
+    "tiers": [
+        {
+            "name": "T1",
+            "displayName": "Tier 1",
+            "prefix": "T1;",
+            "recipes": {
+                "_base_technum_rods_t1": true,
+                "_base_xf_plates_t1": true
+            },
+            "icon_col": 9,
+            "icon_row": 5
+        },
+        {
+            "name": "T2",
+            "displayName": "Tier 2",
+            "prefix": "T2;",
+            "recipes": {
+                "_base_technum_rods_t1": true,
+                "_base_xf_plates_t1": true,
+                "_base_refined_technum_ore": true,
+                "_base_refined_xf_ore": true,
+                "_base_technum_ingots_t2": true,
+                "_base_technum_rods_t2": true,
+                "_base_xf_ingots_t2": true,
+                "_base_xf_plates_t2": true
+            },
+            "icon_col": 6,
+            "icon_row": 8
+        },
+        {
+            "name": "T2.5",
+            "displayName": "Tier 2.5",
+            "prefix": "T2.5;",
+            "recipes": {
+                "_base_technum_rods_t1": true,
+                "_base_xf_plates_t1": true,
+                "_base_technum_ingots_2_5": true,
+                "_base_xf_ingots_2_5": true,
+                "_base_refined_technum_ore": true,
+                "_base_refined_xf_ore": true,
+                "_base_technum_ingots_t2": true,
+                "_base_technum_rods_t2": true,
+                "_base_xf_ingots_t2": true,
+                "_base_xf_plates_t2": true
+            },
+            "icon_col": 7,
+            "icon_row": 5
+        },
+        {
+            "name": "T3",
+            "displayName": "Tier 3",
+            "prefix": "T3;",
+            "recipes": {
+                "_base_technum_rods_t1": true,
+                "_base_xf_plates_t1": true,
+                "_base_technum_ingots_2_5": true,
+                "_base_xf_ingots_2_5": true,
+                "_base_refined_technum_ore": true,
+                "_base_refined_xf_ore": true,
+                "_base_technum_ingots_t2": true,
+                "_base_technum_rods_t2": true,
+                "_base_xf_ingots_t2": true,
+                "_base_xf_plates_t2": true
+            },
+            "icon_col": 14,
+            "icon_row": 8
+        }
+    ],
+    "resource": {
+        "_resource_base_ore_technum": {
+            "category": "ore",
+            "icon_col": 8,
+            "icon_row": 5,
+            "localized_name": {
+                "en": "Technum Ore"
+            },
+            "minable": {
+                "mining_time": 1,
+                "results": [
+                    {
+                        "amount": 1,
+                        "name": "_base_ore_technum"
+                    }
+                ]
+            },
+            "name": "_resource_base_ore_technum"
+        },
+        "_resource_base_ore_xenoferrite": {
+            "category": "ore",
+            "icon_col": 9,
+            "icon_row": 5,
+            "localized_name": {
+                "en": "Xenoferrite Ore"
+            },
+            "minable": {
+                "mining_time": 1,
+                "results": [
+                    {
+                        "amount": 1,
+                        "name": "_base_ore_xenoferrite"
+                    }
+                ]
+            },
+            "name": "_resource_base_ore_xenoferrite"
+        },
+        "_resource_base_ore_mineral_rock": {
+            "category": "ore",
+            "icon_col": 15,
+            "icon_row": 4,
+            "localized_name": {
+                "en": "Mineral Rocks"
+            },
+            "minable": {
+                "mining_time": 1,
+                "results": [
+                    {
+                        "amount": 1,
+                        "name": "_base_ore_mineral_rock"
+                    }
+                ]
+            },
+            "name": "_resource_base_ore_mineral_rock"
+        },
+        "_resource_base_olumite": {
+            "category": "fluid",
+            "icon_col": 0,
+            "icon_row": 9,
+            "localized_name": {
+                "en": "Olumite"
+            },
+            "minable": {
+                "mining_time": 1,
+                "results": [
+                    {
+                        "amount": 1,
+                        "name": "_base_olumite"
+                    }
+                ]
+            },
+            "name": "_resource_base_olumite"
+        }
+    },
+    "machine": {
+        "assembler_i": {
+            "crafting_categories": [
+                "assembler"
+            ],
+            "crafting_speed": 1,
+            "energy_usage": 50000,
+            "icon_col": 3,
+            "icon_row": 0,
+            "localized_name": {
+                "en": "Assembler I"
+            },
+            "module_slots": 0,
+            "name": "Assembler I"
+        },
+        "assembler_ii": {
+            "crafting_categories": [
+                "assembler"
+            ],
+            "crafting_speed": 1.5,
+            "energy_usage": 100000,
+            "icon_col": 4,
+            "icon_row": 0,
+            "localized_name": {
+                "en": "Assembler II"
+            },
+            "module_slots": 0,
+            "name": "Assembler II"
+        },
+        "assembler_iii": {
+            "crafting_categories": [
+                "assembler"
+            ],
+            "crafting_speed": 2,
+            "energy_usage": 150000,
+            "icon_col": 5,
+            "icon_row": 0,
+            "localized_name": {
+                "en": "Assembler III"
+            },
+            "module_slots": 0,
+            "name": "Assembler III"
+        },
+        "smelter": {
+            "crafting_categories": [
+                "smelter"
+            ],
+            "crafting_speed": 2,
+            "energy_usage": 100000,
+            "icon_col": 6,
+            "icon_row": 7,
+            "localized_name": {
+                "en": "Smelter"
+            },
+            "module_slots": 0,
+            "name": "Smelter"
+        },
+        "crusher_i": {
+            "crafting_categories": [
+                "crusher"
+            ],
+            "crafting_speed": 0.5,
+            "energy_usage": 75000,
+            "icon_col": 1,
+            "icon_row": 2,
+            "localized_name": {
+                "en": "Crusher I"
+            },
+            "module_slots": 0,
+            "name": "Crusher I"
+        },
+        "crusher_ii": {
+            "crafting_categories": [
+                "crusher"
+            ],
+            "crafting_speed": 1,
+            "energy_usage": 150000,
+            "icon_col": 2,
+            "icon_row": 2,
+            "localized_name": {
+                "en": "Crusher II"
+            },
+            "module_slots": 0,
+            "name": "Crusher II"
+        },
+        "chemical_processor_i": {
+            "crafting_categories": [
+                "chemical_processor"
+            ],
+            "crafting_speed": 1,
+            "energy_usage": 250000,
+            "icon_col": 2,
+            "icon_row": 1,
+            "localized_name": {
+                "en": "Chemical Processor"
+            },
+            "module_slots": 0,
+            "name": "Chemical Processor"
+        },
+        "casting_machine": {
+            "crafting_categories": [
+                "casting_machine"
+            ],
+            "crafting_speed": 1,
+            "energy_usage": 100000,
+            "icon_col": 0,
+            "icon_row": 1,
+            "localized_name": {
+                "en": "Casting Machine"
+            },
+            "module_slots": 0,
+            "name": "Casting Machine"
+        },
+        "blast_furnace": {
+            "crafting_categories": [
+                "blast_furnace"
+            ],
+            "crafting_speed": 2,
+            "energy_usage": 30000000,
+            "icon_col": 11,
+            "icon_row": 0,
+            "localized_name": {
+                "en": "Blast Furnace"
+            },
+            "module_slots": 0,
+            "name": "Blast Furnace"
+        }
+    },
+    "miners": {
+        "drone_miner_i": {
+            "crafting_categories": [
+                "mining_ore"
+            ],
+            "mining_speed": 50,
+            "energy_usage": 200000,
+            "mining_power": 1,
+            "icon_col": 8,
+            "icon_row": 2,
+            "localized_name": {
+                "en": "Drone Miner I"
+            },
+            "module_slots": 0,
+            "name": "Drone Miner I",
+            "overrides": {}
+        },
+        "pump_jack": {
+            "crafting_categories": [
+                "mining_fluid"
+            ],
+            "mining_speed": 1800,
+            "energy_usage": 200000,
+            "mining_power": 1,
+            "icon_col": 5,
+            "icon_row": 6,
+            "localized_name": {
+                "en": "Pumpjack I"
+            },
+            "module_slots": 0,
+            "name": "Pumpjack I",
+            "overrides": {}
+        }
+    },
+    "belts": {
+        "_base_conveyor_i": {
+            "icon_col": 11,
+            "icon_row": 1,
+            "localized_name": {
+                "en": "Conveyor I"
+            },
+            "name": "_base_conveyor_i",
+            "speed": 160
+        },
+        "_base_conveyor_ii": {
+            "icon_col": 12,
+            "icon_row": 1,
+            "localized_name": {
+                "en": "Conveyor II"
+            },
+            "name": "_base_conveyor_ii",
+            "speed": 320
+        },
+        "_base_conveyor_iii": {
+            "icon_col": 13,
+            "icon_row": 1,
+            "localized_name": {
+                "en": "Conveyor III"
+            },
+            "name": "_base_conveyor_iii",
+            "speed": 640
+        }
+    }
+}
