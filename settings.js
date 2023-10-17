@@ -280,7 +280,7 @@ function renderMetallurgy(settings) {
 
 // mining type
 
-var DEFAULT_MINING = "underground"
+var DEFAULT_MINING = "surface"
 
 function renderMining(settings) {
     var mining = DEFAULT_MINING
@@ -290,21 +290,24 @@ function renderMining(settings) {
     if (mining !== spec.mining) {
         spec.setMining(mining)
     }
-    var oldNode = document.getElementById("mining")
-    var cell = oldNode.parentNode
-    var node = document.createElement("span")
-    node.id = "mining"
-    let miningTypes = [ "surface", "underground" ]
-    let dropdown = makeDropdown(d3.select(node))
-    let inputs = dropdown.selectAll("div").data(miningTypes).join("div")
-    let labels = addInputs(
-        inputs,
-        "mining_dropdown",
-        d => d === mining,
-        changeMining,
-    )
-    labels.append(d => getImage(d == "underground" ? solver.items['_base_minecart_depot_i'] : solver.items['_base_drone_miner_i'], false, dropdown.node()))
-    cell.replaceChild(node, oldNode)
+    if ('_base_minecart_depot_i' in solver.items)
+    {
+        var oldNode = document.getElementById("mining")
+        var cell = oldNode.parentNode
+        var node = document.createElement("span")
+        node.id = "mining"
+        let miningTypes = [ "surface", "underground" ]
+        let dropdown = makeDropdown(d3.select(node))
+        let inputs = dropdown.selectAll("div").data(miningTypes).join("div")
+        let labels = addInputs(
+            inputs,
+            "mining_dropdown",
+            d => d === mining,
+            changeMining,
+        )
+        labels.append(d => getImage(d == "underground" ? solver.items['_base_minecart_depot_i'] : solver.items['_base_drone_miner_i'], false, dropdown.node()))
+        cell.replaceChild(node, oldNode)
+    }
 }
 
 // fuel
