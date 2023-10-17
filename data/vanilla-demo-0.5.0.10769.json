@@ -2085,13 +2085,43 @@
             "fuel_category": "",
             "fuel_residual": ""
         },
+        "_base_liquid_fuel": {
+            "name": "_base_liquid_fuel",
+            "localized_name": {
+                "en": "Liquid Fuel"
+            },
+            "stack_size": 0,
+            "icon_col": 12,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
         "_base_liquid_polymer": {
             "name": "_base_liquid_polymer",
             "localized_name": {
                 "en": "Liquid Polymer"
             },
             "stack_size": 0,
-            "icon_col": 12,
+            "icon_col": 13,
+            "icon_row": 8,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_ldo": {
+            "name": "_base_ldo",
+            "localized_name": {
+                "en": "Low Density Olumite"
+            },
+            "stack_size": 0,
+            "icon_col": 14,
             "icon_row": 8,
             "fuel_value": 0,
             "type": "fluid",
@@ -2106,7 +2136,7 @@
                 "en": "Molten Technum"
             },
             "stack_size": 0,
-            "icon_col": 13,
+            "icon_col": 15,
             "icon_row": 8,
             "fuel_value": 0,
             "type": "fluid",
@@ -2121,8 +2151,8 @@
                 "en": "Molten Xenoferrite"
             },
             "stack_size": 0,
-            "icon_col": 14,
-            "icon_row": 8,
+            "icon_col": 0,
+            "icon_row": 9,
             "fuel_value": 0,
             "type": "fluid",
             "group": "all",
@@ -2136,8 +2166,8 @@
                 "en": "Olumic Acid"
             },
             "stack_size": 0,
-            "icon_col": 15,
-            "icon_row": 8,
+            "icon_col": 1,
+            "icon_row": 9,
             "fuel_value": 0,
             "type": "fluid",
             "group": "_base_components",
@@ -2148,10 +2178,70 @@
         "_base_olumite": {
             "name": "_base_olumite",
             "localized_name": {
-                "en": "Olumite"
+                "en": "Crude Olumite"
             },
             "stack_size": 0,
-            "icon_col": 0,
+            "icon_col": 2,
+            "icon_row": 9,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_olumite_gas": {
+            "name": "_base_olumite_gas",
+            "localized_name": {
+                "en": "Olumite Gas"
+            },
+            "stack_size": 0,
+            "icon_col": 3,
+            "icon_row": 9,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_steam": {
+            "name": "_base_steam",
+            "localized_name": {
+                "en": "Steam"
+            },
+            "stack_size": 0,
+            "icon_col": 4,
+            "icon_row": 9,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "all",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_waste_gas": {
+            "name": "_base_waste_gas",
+            "localized_name": {
+                "en": "Waste Gas"
+            },
+            "stack_size": 0,
+            "icon_col": 5,
+            "icon_row": 9,
+            "fuel_value": 0,
+            "type": "fluid",
+            "group": "_base_components",
+            "order": "a",
+            "fuel_category": "",
+            "fuel_residual": ""
+        },
+        "_base_water": {
+            "name": "_base_water",
+            "localized_name": {
+                "en": "Water"
+            },
+            "stack_size": 0,
+            "icon_col": 6,
             "icon_row": 9,
             "fuel_value": 0,
             "type": "fluid",
@@ -2266,13 +2356,45 @@
             "subgroup": "all",
             "type": "recipe"
         },
+        "_base_basic_refining_ldo": {
+            "category": [
+                "distillation_column"
+            ],
+            "enabled": false,
+            "energy_required": 4.0,
+            "icon_col": 14,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 100.0,
+                    "name": "_base_olumite"
+                }
+            ],
+            "localized_name": {
+                "en": "Olumite Refining: Low Density Olumite"
+            },
+            "name": "_base_basic_refining_ldo",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 100.0,
+                    "name": "_base_ldo"
+                },
+                {
+                    "amount": 25.0,
+                    "name": "_base_waste_gas"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
         "_base_basic_refining_liquid_polymer": {
             "category": [
                 "distillation_column"
             ],
             "enabled": false,
             "energy_required": 4.0,
-            "icon_col": 12,
+            "icon_col": 13,
             "icon_row": 8,
             "ingredients": [
                 {
@@ -2289,6 +2411,42 @@
                 {
                     "amount": 75.0,
                     "name": "_base_liquid_polymer"
+                },
+                {
+                    "amount": 50.0,
+                    "name": "_base_waste_gas"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_basic_refining_gas": {
+            "category": [
+                "distillation_column"
+            ],
+            "enabled": false,
+            "energy_required": 4.0,
+            "icon_col": 3,
+            "icon_row": 9,
+            "ingredients": [
+                {
+                    "amount": 100.0,
+                    "name": "_base_olumite"
+                }
+            ],
+            "localized_name": {
+                "en": "Olumite Refining: Olumite Gas"
+            },
+            "name": "_base_basic_refining_gas",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 90.0,
+                    "name": "_base_olumite_gas"
+                },
+                {
+                    "amount": 10.0,
+                    "name": "_base_waste_gas"
                 }
             ],
             "subgroup": "all",
@@ -3918,6 +4076,34 @@
             "subgroup": "all",
             "type": "recipe"
         },
+        "_base_liquid_fuel": {
+            "category": [
+                "chemical_processor"
+            ],
+            "enabled": false,
+            "energy_required": 8.0,
+            "icon_col": 12,
+            "icon_row": 8,
+            "ingredients": [
+                {
+                    "amount": 50.0,
+                    "name": "_base_ldo"
+                }
+            ],
+            "localized_name": {
+                "en": "Liquid Fuel"
+            },
+            "name": "_base_liquid_fuel",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 50.0,
+                    "name": "_base_liquid_fuel"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
         "_base_loader_1st_i": {
             "category": [
                 "assembler"
@@ -4204,8 +4390,8 @@
             ],
             "enabled": false,
             "energy_required": 8.0,
-            "icon_col": 15,
-            "icon_row": 8,
+            "icon_col": 1,
+            "icon_row": 9,
             "ingredients": [
                 {
                     "amount": 16,
@@ -5623,7 +5809,7 @@
                 "name": "time"
             }
         },
-        "hash": "1",
+        "hash": "0",
         "height": 1024,
         "width": 1024
     },
@@ -5744,8 +5930,8 @@
                 "_base_xf_ingots_t2": true,
                 "_base_xf_plates_t2": true
             },
-            "icon_col": 14,
-            "icon_row": 8
+            "icon_col": 0,
+            "icon_row": 9
         }
     ],
     "resource": {
@@ -5805,10 +5991,10 @@
         },
         "_resource_base_olumite": {
             "category": "fluid",
-            "icon_col": 0,
+            "icon_col": 2,
             "icon_row": 9,
             "localized_name": {
-                "en": "Olumite"
+                "en": "Crude Olumite"
             },
             "minable": {
                 "mining_time": 1,
