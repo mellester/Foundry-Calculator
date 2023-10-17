@@ -5771,34 +5771,6 @@
             ],
             "subgroup": "all",
             "type": "recipe"
-        },
-        "_base_xf_steel_beams": {
-            "category": [
-                "assembler"
-            ],
-            "enabled": false,
-            "energy_required": 3.0,
-            "icon_col": 7,
-            "icon_row": 8,
-            "ingredients": [
-                {
-                    "amount": 1,
-                    "name": "_base_xf_steel_ingots"
-                }
-            ],
-            "localized_name": {
-                "en": "Steel Beams"
-            },
-            "name": "_base_xf_steel_beams",
-            "order": "a",
-            "results": [
-                {
-                    "amount": 1,
-                    "name": "_base_xf_steel_beams"
-                }
-            ],
-            "subgroup": "all",
-            "type": "recipe"
         }
     },
     "sprites": {
