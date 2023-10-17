@@ -5936,6 +5936,24 @@
                 ]
             },
             "name": "_resource_base_olumite"
+        },
+        "_resource_base_water": {
+            "category": "fluid",
+            "icon_col": 6,
+            "icon_row": 9,
+            "localized_name": {
+                "en": "Water"
+            },
+            "minable": {
+                "mining_time": 1,
+                "results": [
+                    {
+                        "amount": 1,
+                        "name": "_base_water"
+                    }
+                ]
+            },
+            "name": "_resource_base_water"
         }
     },
     "machine": {
