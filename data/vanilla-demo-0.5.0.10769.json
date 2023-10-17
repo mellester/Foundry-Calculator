@@ -2289,10 +2289,6 @@
                 {
                     "amount": 75.0,
                     "name": "_base_liquid_polymer"
-                },
-                {
-                    "amount": 50.0,
-                    "name": "_base_waste_gas"
                 }
             ],
             "subgroup": "all",
