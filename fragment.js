@@ -39,7 +39,7 @@ function formatSettings(targets) {
         settings += "min=" + minimumAssembler + "&"
     }
     if (spec.furnace.name != DEFAULT_FURNACE) {
-        settings += "furnace=" + spec.furnace.name + "&"
+        settings += "crusher=" + spec.furnace.name + "&"
     }
     if (spec.metallurgy.name != DEFAULT_METALLURGY) {
         settings += "metallurgy=" + spec.metallurgy.name + "&"

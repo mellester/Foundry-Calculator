@@ -346,8 +346,8 @@ function FactorySpec(factories, tiers) {
     }
     this.setMinimum("1")
     var smelters = this.factories["crusher"]
-    this.furnace = smelters[smelters.length - 1]
-    DEFAULT_FURNACE = this.furnace.name
+    this.furnace = smelters[0]
+    // DEFAULT_FURNACE = this.furnace.name
     this.miningProd = zero
     this.ignore = {}
 
@@ -357,7 +357,7 @@ function FactorySpec(factories, tiers) {
     this.defaultBeaconCount = zero
     
     this.tiers = tiers;
-    this.metallurgy = tiers[tiers.length - 1]
+    this.metallurgy = tiers[0]
 }
 FactorySpec.prototype = {
     constructor: FactorySpec,
