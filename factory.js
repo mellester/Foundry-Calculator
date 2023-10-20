@@ -358,10 +358,6 @@ function FactorySpec(factories, tiers) {
     
     this.tiers = tiers;
     this.metallurgy = tiers[0]
-    for (var j = 0; j < this.tiers.length; j++) {
-        solver.addDisabledRecipes(this.tiers[j].recipes)
-    }
-    solver.removeDisabledRecipes(this.metallurgy.recipes)
 }
 FactorySpec.prototype = {
     constructor: FactorySpec,
