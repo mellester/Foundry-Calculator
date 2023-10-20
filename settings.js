@@ -264,7 +264,6 @@ function renderMetallurgy(settings) {
     }
     if (metallurgyName !== spec.metallurgy.name) {
         spec.setMetallurgy(metallurgyName)
-        solver.findSubgraphs(spec)
     }
     var oldNode = document.getElementById("metallurgy")
     var cell = oldNode.parentNode
