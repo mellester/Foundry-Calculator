@@ -26,7 +26,7 @@ var MODIFICATIONS = {
     "0-5-0-10769": new Modification("Vanilla Demo 0.5.0.10769", "vanilla-demo-0.5.0.10769.json", false, [1024, 1024]),
 }
 
-var DEFAULT_MODIFICATION = "0-4-3-3582"
+var DEFAULT_MODIFICATION = "0-5-0-10769"
 
 function addOverrideOptions(version) {
     var tag = "local-" + version.replace(/\./g, "-")
@@ -223,12 +223,15 @@ function setMinimumAssembler(min) {
 // furnace
 
 // Assigned during FactorySpec initialization.
-var DEFAULT_FURNACE
+var DEFAULT_FURNACE = 'Crusher I'
 
 function renderFurnace(settings) {
     var furnaceName = DEFAULT_FURNACE
     if ("furnace" in settings) {
         furnaceName = settings.furnace
+    }
+    if ("crusher" in settings) {
+        furnaceName = settings.crusher
     }
     if (furnaceName !== spec.furnace.name) {
         spec.setFurnace(furnaceName)
@@ -252,7 +255,7 @@ function renderFurnace(settings) {
 
 // metallurgy
 
-var DEFAULT_METALLURGY = 'T3'
+var DEFAULT_METALLURGY = 'T1'
 
 function renderMetallurgy(settings) {
     var metallurgyName = DEFAULT_METALLURGY
