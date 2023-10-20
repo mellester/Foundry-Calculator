@@ -393,7 +393,9 @@ FactorySpec.prototype = {
         for (var i = 0; i < this.tiers.length; i++) {
             if (this.tiers[i].name == name) {
                 this.metallurgy = this.tiers[i]
-                solver.addDisabledRecipes(this.tiers[this.tiers.length - 1].recipes)
+                for (var j = 0; j < this.tiers.length; j++) {
+                    solver.addDisabledRecipes(this.tiers[j].recipes)
+                }
                 solver.removeDisabledRecipes(this.metallurgy.recipes)
                 return
             }
