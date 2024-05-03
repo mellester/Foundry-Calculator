@@ -170,9 +170,16 @@ function changeMin(min) {
     itemUpdate()
 }
 
-// Triggered when the furnace is changed.
-function changeFurnace(furnace) {
-    spec.setFurnace(furnace.name)
+// Triggered when the crusher is changed.
+function changeCrusher(crusher) {
+    spec.setCrusher(crusher.name)
+    solver.findSubgraphs(spec)
+    itemUpdate()
+}
+
+// Triggered when the smelter is changed.
+function changeSmelter(smelter) {
+    spec.setSmelter(smelter.name)
     solver.findSubgraphs(spec)
     itemUpdate()
 }

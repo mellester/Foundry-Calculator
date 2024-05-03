@@ -393,6 +393,15 @@ class UsageRow {
             let amount = recipe.gives(this.item, spec)
             recipeRate = portion.div(amount)
         }
+        else if (this.item.recipes.length > 1) {
+            for (var rcp in this.item.recipes) {
+                if (!solver.disabledRecipes[this.item.recipes[rcp].name]) {
+                    recipe = this.item.recipes[rcp];
+                    let amount = recipe.gives(this.item, spec)
+                    recipeRate = portion.div(amount)
+                }
+            }
+        }
         this.factory.setCount(recipe, recipeRate)
 
         if (totalRate === null) {

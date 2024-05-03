@@ -123,6 +123,8 @@ function loadData(modName, settings) {
         }
         var factories = getFactories(data)
         spec = new FactorySpec(factories, data["tiers"])
+        spec.ignore["_base_waste_gas"] = true;
+        spec.ignore["Waste Gas"] = true;
         if ("ignore" in settings) {
             var ignore = settings.ignore.split(",")
             for (var i = 0; i < ignore.length; i++) {

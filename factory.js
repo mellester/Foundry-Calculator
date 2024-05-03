@@ -345,8 +345,10 @@ function FactorySpec(factories, tiers) {
         this.factories[category].sort(compareFactories)
     }
     this.setMinimum("1")
-    var smelters = this.factories["crusher"]
-    this.furnace = smelters[0]
+    var crushers = this.factories["crusher"]
+    this.crusher = crushers[0]
+    var smelters = this.factories["smelter"].concat(this.factories["advanced_smelter"])
+    this.smelter = smelters[0]
     // DEFAULT_FURNACE = this.furnace.name
     this.miningProd = zero
     this.ignore = {}
@@ -369,25 +371,49 @@ FactorySpec.prototype = {
     useMinimum: function(recipe) {
         return recipe.category in assembly_machine_categories
     },
-    setFurnace: function(name) {
-        var smelters = this.factories["crusher"]
-        for (var i = 0; i < smelters.length; i++) {
-            if (smelters[i].name == name) {
-                this.furnace = smelters[i]
+    setCrusher: function(name) {
+        var crushers = this.factories["crusher"]
+        for (var i = 0; i < crushers.length; i++) {
+            if (crushers[i].name == name) {
+                this.crusher = crushers[i]
                 return
             }
         }
     },
-    useFurnace: function(recipe) {
+    useCrusher: function(recipe) {
         return recipe.category == "crusher"
+    },
+    setSmelter: function(name) {
+        var smelters = this.factories["crusher"]
+        for (var i = 0; i < smelters.length; i++) {
+            if (smelters[i].name == name) {
+                this.smelter = smelters[i]
+                return
+            }
+        }
+        smelters = this.factories["advanced_smelter"]
+        for (var i = 0; i < smelters.length; i++) {
+            if (smelters[i].name == name) {
+                this.smelter = smelters[i]
+                return
+            }
+        }
+    },
+    useSmelter: function(recipe) {
+        if (Array.isArray(recipe.category)) {
+            for (var i in recipe.category) {
+                return recipe.category[i] == "smelter" || recipe.category[i] == "advanced_smelter"
+            }
+        }
+        return recipe.category == "smelter" || recipe.category == "advanced_smelter"
     },
     setMining: function(name) {
         this.mining = name
-        if (name == 'underground') {
-            solver.removeDisabledRecipes({"_base_ore_xenoferrite": true, "_base_ore_technum": true, "Technum Ore": true})
-        } else {
-            solver.addDisabledRecipes({"_base_ore_xenoferrite": true, "_base_ore_technum": true, "Technum Ore": true})
-        }
+        // if (name == 'underground') {
+            // solver.removeDisabledRecipes({"_base_ore_xenoferrite": true, "_base_ore_technum": true, "Technum Ore": true})
+        // } else {
+            // solver.addDisabledRecipes({"_base_ore_xenoferrite": true, "_base_ore_technum": true, "Technum Ore": true})
+        // }
     },
     setMetallurgy: function(name) {
         for (var i = 0; i < this.tiers.length; i++) {
@@ -402,8 +428,11 @@ FactorySpec.prototype = {
         }
     },
     getFactoryDef: function(recipe) {
-        if (this.useFurnace(recipe)) {
-            return this.furnace
+        if (this.useCrusher(recipe)) {
+            return this.crusher
+        }
+        if (this.useSmelter(recipe)) {
+            return this.smelter
         }
         var factories = this.factories[recipe.category]
         if (!factories) {

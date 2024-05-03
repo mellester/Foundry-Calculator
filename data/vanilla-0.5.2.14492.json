@@ -3220,7 +3220,7 @@
             "icon_row": 13,
             "fuel_value": 0,
             "type": "fluid",
-            "group": "all",
+            "group": "molten_metals",
             "order": "a",
             "fuel_category": "",
             "fuel_residual": ""
@@ -3355,7 +3355,7 @@
             "icon_row": 14,
             "fuel_value": 0,
             "type": "fluid",
-            "group": "all",
+            "group": "molten_metals",
             "order": "a",
             "fuel_category": "",
             "fuel_residual": ""
@@ -3370,7 +3370,7 @@
             "icon_row": 14,
             "fuel_value": 0,
             "type": "fluid",
-            "group": "all",
+            "group": "molten_metals",
             "order": "a",
             "fuel_category": "",
             "fuel_residual": ""
@@ -4141,6 +4141,86 @@
                 {
                     "amount": 1,
                     "name": "_base_battery_ii"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_bfm_te": {
+            "category": [
+                "blast_furnace"
+            ],
+            "enabled": false,
+            "energy_required": 1.0,
+            "icon_col": 0,
+            "icon_row": 14,
+            "ingredients": [
+                {
+                    "amount": 640,
+                    "name": "_base_ore_technum"
+                },
+                {
+                    "amount": 320,
+                    "name": "_base_coked_ignium"
+                },
+                {
+                    "amount": 128,
+                    "name": "_base_ore_mineral_rock"
+                }
+            ],
+            "localized_name": {
+                "en": "Technum"
+            },
+            "name": "_base_bfm_te",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 5760.0,
+                    "name": "_base_molten_te"
+                },
+                {
+                    "amount": 640.0,
+                    "name": "_base_bf_slag"
+                }
+            ],
+            "subgroup": "all",
+            "type": "recipe"
+        },
+        "_base_bfm_xf": {
+            "category": [
+                "blast_furnace"
+            ],
+            "enabled": false,
+            "energy_required": 1.0,
+            "icon_col": 1,
+            "icon_row": 14,
+            "ingredients": [
+                {
+                    "amount": 640,
+                    "name": "_base_ore_xenoferrite"
+                },
+                {
+                    "amount": 320,
+                    "name": "_base_coked_ignium"
+                },
+                {
+                    "amount": 128,
+                    "name": "_base_ore_mineral_rock"
+                }
+            ],
+            "localized_name": {
+                "en": "Xenoferrite"
+            },
+            "name": "_base_bfm_xf",
+            "order": "a",
+            "results": [
+                {
+                    "amount": 5760.0,
+                    "name": "_base_molten_xf"
+                },
+                {
+                    "amount": 640.0,
+                    "name": "_base_bf_slag"
                 }
             ],
             "subgroup": "all",
@@ -9399,62 +9479,6 @@
             "subgroup": "all",
             "type": "recipe"
         },
-        "_base_technum_rods_t1_primitive": {
-            "category": [
-                "base_station"
-            ],
-            "enabled": false,
-            "energy_required": 3.0,
-            "icon_col": 8,
-            "icon_row": 12,
-            "ingredients": [
-                {
-                    "amount": 2,
-                    "name": "_base_rubble_technum"
-                }
-            ],
-            "localized_name": {
-                "en": "Technum Rods"
-            },
-            "name": "_base_technum_rods_t1_primitive",
-            "order": "a",
-            "results": [
-                {
-                    "amount": 1,
-                    "name": "_base_technum_rods"
-                }
-            ],
-            "subgroup": "all",
-            "type": "recipe"
-        },
-        "_base_xf_plates_t1_primitive": {
-            "category": [
-                "base_station"
-            ],
-            "enabled": false,
-            "energy_required": 3.0,
-            "icon_col": 4,
-            "icon_row": 13,
-            "ingredients": [
-                {
-                    "amount": 2,
-                    "name": "_base_rubble_xenoferrite"
-                }
-            ],
-            "localized_name": {
-                "en": "Xenoferrite Plates"
-            },
-            "name": "_base_xf_plates_t1_primitive",
-            "order": "a",
-            "results": [
-                {
-                    "amount": 1,
-                    "name": "_base_xenoferrite_plates"
-                }
-            ],
-            "subgroup": "all",
-            "type": "recipe"
-        },
         "_base_firmarlite_sheet_t1": {
             "category": [
                 "casting_machine"
@@ -10143,6 +10167,12 @@
                 "all": "a"
             }
         },
+        "molten_metals": {
+            "order": "a",
+            "subgroups": {
+                "all": "a"
+            }
+        },
         "_base_decor": {
             "order": "a",
             "subgroups": {
@@ -10166,12 +10196,6 @@
             "subgroups": {
                 "all": "a"
             }
-        },
-        "": {
-            "order": "a",
-            "subgroups": {
-                "all": "a"
-            }
         }
     },
     "tiers": [
@@ -10183,8 +10207,8 @@
                 "_base_xf_plates_t1": true,
                 "_base_technum_rods_t1": true
             },
-            "icon_col": 2,
-            "icon_row": 9
+            "icon_col": 0,
+            "icon_row": 11
         },
         {
             "name": "T2",
@@ -10198,6 +10222,21 @@
             },
             "icon_col": 2,
             "icon_row": 9
+        },
+        {
+            "name": "T3",
+            "displayName": "Tier 3",
+            "prefix": "T3;",
+            "recipes": {
+                "_base_ore_xenoferrite": true,
+                "_base_ore_technum": true,
+                "_base_bfm_te": true,
+                "_base_bfm_xf": true,
+                "_base_xf_plates_t3": true,
+                "_base_technum_rods_t3": true
+            },
+            "icon_col": 1,
+            "icon_row": 14
         }
     ],
     "resource": {
@@ -10348,6 +10387,34 @@
             },
             "module_slots": 0,
             "name": "Smelter"
+        },
+        "advanced_smelter": {
+            "crafting_categories": [
+                "advanced_smelter"
+            ],
+            "crafting_speed": 1.5,
+            "energy_usage": 150000,
+            "icon_col": 15,
+            "icon_row": 11,
+            "localized_name": {
+                "en": "Advanced Smelter"
+            },
+            "module_slots": 0,
+            "name": "Advanced Smelter"
+        },
+        "distillation_column": {
+            "crafting_categories": [
+                "distillation_column"
+            ],
+            "crafting_speed": 1,
+            "energy_usage": 1000000,
+            "icon_col": 11,
+            "icon_row": 3,
+            "localized_name": {
+                "en": "Distillation Column"
+            },
+            "module_slots": 0,
+            "name": "Distillation Column"
         },
         "crusher_i": {
             "crafting_categories": [

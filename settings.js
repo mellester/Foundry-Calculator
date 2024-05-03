@@ -221,34 +221,61 @@ function setMinimumAssembler(min) {
     minimumAssembler = min
 }
 
-// furnace
+// crusher
 
 // Assigned during FactorySpec initialization.
-var DEFAULT_FURNACE = 'Crusher I'
+var DEFAULT_CRUSHER = 'Crusher I'
 
-function renderFurnace(settings) {
-    var furnaceName = DEFAULT_FURNACE
-    if ("furnace" in settings) {
-        furnaceName = settings.furnace
-    }
+function renderCrusher(settings) {
+    var crusherName = DEFAULT_CRUSHER
     if ("crusher" in settings) {
-        furnaceName = settings.crusher
+        crusherName = settings.crusher
     }
-    if (furnaceName !== spec.furnace.name) {
-        spec.setFurnace(furnaceName)
+    if (crusherName !== spec.crusher.name) {
+        spec.setCrusher(crusherName)
     }
-    var oldNode = document.getElementById("furnace")
+    var oldNode = document.getElementById("crusher")
     var cell = oldNode.parentNode
     var node = document.createElement("span")
-    node.id = "furnace"
-    let furnaces = spec.factories["crusher"]
+    node.id = "crusher"
+    let crushers = spec.factories["crusher"]
     let dropdown = makeDropdown(d3.select(node))
-    let inputs = dropdown.selectAll("div").data(furnaces).join("div")
+    let inputs = dropdown.selectAll("div").data(crushers).join("div")
     let labels = addInputs(
         inputs,
-        "furnace_dropdown",
-        d => d.name === furnaceName,
-        changeFurnace,
+        "crusher_dropdown",
+        d => d.name === crusherName,
+        changeCrusher,
+    )
+    labels.append(d => getImage(d, false, dropdown.node()))
+    cell.replaceChild(node, oldNode)
+}
+
+// smelter
+
+// Assigned during FactorySpec initialization.
+var DEFAULT_SMELTER = 'Smelter'
+
+function renderSmelter(settings) {
+    var smelterName = DEFAULT_SMELTER
+    if ("smelter" in settings) {
+        smelterName = settings.smelter
+    }
+    if (smelterName !== spec.smelter.name) {
+        spec.setSmelter(smelterName)
+    }
+    var oldNode = document.getElementById("smelter")
+    var cell = oldNode.parentNode
+    var node = document.createElement("span")
+    node.id = "smelter"
+    let smelters = spec.factories["smelter"].concat(spec.factories["advanced_smelter"])
+    let dropdown = makeDropdown(d3.select(node))
+    let inputs = dropdown.selectAll("div").data(smelters).join("div")
+    let labels = addInputs(
+        inputs,
+        "smelter_dropdown",
+        d => d.name === smelterName,
+        changeSmelter,
     )
     labels.append(d => getImage(d, false, dropdown.node()))
     cell.replaceChild(node, oldNode)
@@ -658,7 +685,8 @@ function renderSettings(settings) {
     renderRateOptions(settings)
     renderPrecisions(settings)
     renderMinimumAssembler(settings)
-    renderFurnace(settings)
+    renderCrusher(settings)
+    renderSmelter(settings)
     renderMetallurgy(settings)
     renderMining(settings)
     renderFuel(settings)
