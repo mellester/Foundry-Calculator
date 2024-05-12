@@ -141,6 +141,7 @@ function loadData(modName, settings) {
         itemGroups = getItemGroups(items, data)
         solver = new Solver(items, recipes)
         solver.tiers = data['tiers']
+        spec.setMetallurgy(data['tiers'][0].name)
 
         renderSettings(settings)
 
