@@ -384,7 +384,7 @@ FactorySpec.prototype = {
         return recipe.category == "crusher"
     },
     setSmelter: function(name) {
-        var smelters = this.factories["crusher"]
+        var smelters = this.factories["smelter"]
         for (var i = 0; i < smelters.length; i++) {
             if (smelters[i].name == name) {
                 this.smelter = smelters[i]
@@ -432,6 +432,18 @@ FactorySpec.prototype = {
             return this.crusher
         }
         if (this.useSmelter(recipe)) {
+            var canUseBasicSmelter = false
+            if (Array.isArray(recipe.category)) {
+                for (var i in recipe.category) {
+                    if (recipe.category[i] == "smelter") canUseBasicSmelter = true;
+                }
+            }
+            else {
+                if (recipe.category == "smelter") canUseBasicSmelter = true;
+            }
+            if (!canUseBasicSmelter) {
+                return this.factories["advanced_smelter"][0]
+            }
             return this.smelter
         }
         var factories = this.factories[recipe.category]
