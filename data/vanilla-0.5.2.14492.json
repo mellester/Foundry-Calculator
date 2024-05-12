@@ -10458,6 +10458,34 @@
             "module_slots": 0,
             "name": "Chemical Processor"
         },
+        "electric_arc_furnace": {
+            "crafting_categories": [
+                "electric_arc_furnace"
+            ],
+            "crafting_speed": 1,
+            "energy_usage": 4000000,
+            "icon_col": 5,
+            "icon_row": 4,
+            "localized_name": {
+                "en": "Electric Arc Furnace"
+            },
+            "module_slots": 0,
+            "name": "Electric Arc Furnace"
+        },
+        "assembler_fluid": {
+            "crafting_categories": [
+                "assembler_fluid"
+            ],
+            "crafting_speed": 1,
+            "energy_usage": 300000,
+            "icon_col": 15,
+            "icon_row": 4,
+            "localized_name": {
+                "en": "Fluid Assembler I"
+            },
+            "module_slots": 0,
+            "name": "Fluid Assembler I"
+        },
         "casting_machine": {
             "crafting_categories": [
                 "casting_machine"
