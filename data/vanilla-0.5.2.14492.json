@@ -10205,7 +10205,8 @@
             "prefix": "T1;",
             "recipes": {
                 "_base_xf_plates_t1": true,
-                "_base_technum_rods_t1": true
+                "_base_technum_rods_t1": true,
+                "_base_steel_t1": true
             },
             "icon_col": 0,
             "icon_row": 11
@@ -10218,7 +10219,8 @@
                 "_base_ore_xenoferrite": true,
                 "_base_ore_technum": true,
                 "_base_xf_plates_t2": true,
-                "_base_technum_rods_t2": true
+                "_base_technum_rods_t2": true,
+                "_base_steel_t2": true
             },
             "icon_col": 2,
             "icon_row": 9
@@ -10233,7 +10235,8 @@
                 "_base_bfm_te": true,
                 "_base_bfm_xf": true,
                 "_base_xf_plates_t3": true,
-                "_base_technum_rods_t3": true
+                "_base_technum_rods_t3": true,
+                "_base_steel_t2": true
             },
             "icon_col": 1,
             "icon_row": 14
