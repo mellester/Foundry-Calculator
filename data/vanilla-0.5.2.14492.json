@@ -10279,6 +10279,24 @@
             },
             "name": "_resource_base_rubble_xenoferrite"
         },
+        "_resource_base_rubble_ignium": {
+            "category": "ore",
+            "icon_col": 0,
+            "icon_row": 11,
+            "localized_name": {
+                "en": "Ignium Ore Rubble"
+            },
+            "minable": {
+                "mining_time": 1,
+                "results": [
+                    {
+                        "amount": 1,
+                        "name": "_base_rubble_ignium"
+                    }
+                ]
+            },
+            "name": "_resource_base_rubble_ignium"
+        },
         "_resource_base_ore_mineral_rock": {
             "category": "ore",
             "icon_col": 2,
