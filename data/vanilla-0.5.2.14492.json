@@ -4151,7 +4151,7 @@
                 "blast_furnace"
             ],
             "enabled": false,
-            "energy_required": 1.0,
+            "energy_required": 30.0,
             "icon_col": 0,
             "icon_row": 14,
             "ingredients": [
@@ -4191,7 +4191,7 @@
                 "blast_furnace"
             ],
             "enabled": false,
-            "energy_required": 1.0,
+            "energy_required": 30.0,
             "icon_col": 1,
             "icon_row": 14,
             "ingredients": [
@@ -10507,7 +10507,7 @@
             "crafting_categories": [
                 "blast_furnace"
             ],
-            "crafting_speed": 2,
+            "crafting_speed": 1,
             "energy_usage": 30000000,
             "icon_col": 4,
             "icon_row": 1,
