@@ -86,7 +86,7 @@ function loadDataRunner(modName, callback) {
     useLegacyCalculations = mod.legacy
     var filename = "data/" + mod.filename
     xobj.overrideMimeType("application/json")
-    xobj.open("GET", filename+'?_=' + new Date().getTime(), true)
+    xobj.open("GET", filename, true)
     xobj.onreadystatechange = function() {
         if (xobj.readyState == 4 && xobj.status == "200") {
             var data = JSON.parse(xobj.responseText)
