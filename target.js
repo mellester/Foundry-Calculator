@@ -100,6 +100,11 @@ function BuildTarget(index, itemName) {
         ItemHandler(this),
     )
     labels.append(d => getImage(d, false, dropdown.node()))
+    labels.append(d => {
+        let div = document.createElement("div")
+        div.innerText = d.displayName
+        return div
+    })
 
     // Use a single global target count, as a given target's index can change.
     targetCount++

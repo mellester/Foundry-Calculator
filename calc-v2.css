@@ -392,6 +392,18 @@ div.graph {
     overflow-y: scroll;
     transition: height 0.3s;
 }
+.dropdownWrapper div.itemDropdown div div span label div {
+    display: none;
+}
+.dropdownWrapper.open div.itemDropdown div div span label div {
+    display: block;
+    width: 64px;
+    height: 36px;
+    font-size: 10px;
+}
+.dropdownWrapper.open div.itemDropdown div div span {
+    vertical-align: top;
+}
 /* debug */
 #debug_tab table td.zero-out {
     background-color: var(--dark);
