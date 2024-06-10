@@ -280,6 +280,10 @@ function ItemRow(row, item, canIgnore) {
     }
     this.image = im
     nameCell.appendChild(im)
+    var label = document.createElement("div")
+    label.innerText = item.displayName
+    label.classList.add("factory-item-label")
+    nameCell.appendChild(label)
     row.appendChild(nameCell)
 
     var rateCell = document.createElement("td")
