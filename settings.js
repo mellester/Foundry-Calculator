@@ -183,7 +183,7 @@ function renderPrecisions(settings) {
 }
 
 // minimum assembler
-var DEFAULT_MINIMUM = "1"
+var DEFAULT_MINIMUM = "3"
 
 var minimumAssembler = DEFAULT_MINIMUM
 
@@ -225,7 +225,7 @@ function setMinimumAssembler(min) {
 // crusher
 
 // Assigned during FactorySpec initialization.
-var DEFAULT_CRUSHER = 'Crusher I'
+var DEFAULT_CRUSHER = 'Crusher II'
 
 function renderCrusher(settings) {
     var crusherName = DEFAULT_CRUSHER
@@ -284,7 +284,7 @@ function renderSmelter(settings) {
 
 // metallurgy
 
-var DEFAULT_METALLURGY = 'T1'
+var DEFAULT_METALLURGY = 'T3'
 
 function renderMetallurgy(settings) {
     var metallurgyName = DEFAULT_METALLURGY
@@ -454,7 +454,7 @@ function setKovarex(enabled) {
 }
 
 // belt
-var DEFAULT_BELT = "_base_conveyor_i"
+var DEFAULT_BELT = "_base_conveyor_iii"
 
 var preferredBelt = DEFAULT_BELT
 var preferredBeltSpeed = null
