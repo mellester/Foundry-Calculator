@@ -28,7 +28,7 @@ var MODIFICATIONS = {
     "0-5-2-14492": new Modification("Vanilla 0.5.2.14492", "vanilla-0.5.2.14492.json", false, [1024, 1024]),
 }
 
-var DEFAULT_MODIFICATION = "0-5-2-14492"
+var DEFAULT_MODIFICATION = "0.6.0.17632"
 
 function addOverrideOptions(version) {
     var tag = "local-" + version.replace(/\./g, "-")
