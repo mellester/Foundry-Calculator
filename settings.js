@@ -255,7 +255,7 @@ function renderCrusher(settings) {
 // smelter
 
 // Assigned during FactorySpec initialization.
-var DEFAULT_SMELTER = 'Smelter'
+var DEFAULT_SMELTER = 'Advanced Smelter'
 
 function renderSmelter(settings) {
     var smelterName = DEFAULT_SMELTER
