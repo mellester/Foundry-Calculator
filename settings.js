@@ -126,7 +126,7 @@ var longRateNames = {
     "h": "hour",
 }
 
-var DEFAULT_RATE = "m"
+var DEFAULT_RATE = "s"
 
 var displayRateFactor = displayRates[DEFAULT_RATE]
 var rateName = DEFAULT_RATE
