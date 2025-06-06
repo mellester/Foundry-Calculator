@@ -1,6 +1,6 @@
 # Foundry Calculator
 
-This is the repostory for the [Foundry Calculator](https://erkle64.github.io/Foundry-Calculator/calc.html), a tool for calculating resource requirements and production ratios in the game [Foundry](https://www.foundry-game.com/).
+This is the repostory for the [Foundry Calculator](https://carionsm.github.io/Foundry-Calculator/calc.html), a tool for calculating resource requirements and production ratios in the game [Foundry](https://www.foundry-game.com/).
 It is adapted from [Factorio Calculator](https://kirkmcdonald.github.io/calc.html).
 
 ## Running locally
