@@ -312,7 +312,7 @@ function renderMetallurgy(settings) {
 
 // mining type
 
-var DEFAULT_MINING = "surface"
+var DEFAULT_MINING = "underground"
 
 function renderMining(settings) {
     var mining = DEFAULT_MINING
