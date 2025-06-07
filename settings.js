@@ -337,7 +337,7 @@ function renderMining(settings) {
             d => d === mining,
             changeMining,
         )
-        labels.append(d => getImage(d == "underground" ? solver.items['_base_minecart_depot_ii'] : solver.items['_base_drone_miner_ii'], false, dropdown.node()))
+        labels.append(d => getImage(d == "underground" ? solver.items['_base_minecart_depot_i'] : solver.items['_base_drone_miner_ii'], false, dropdown.node()))
         cell.replaceChild(node, oldNode)
     }
 }
