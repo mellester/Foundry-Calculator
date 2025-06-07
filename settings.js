@@ -166,7 +166,7 @@ function renderRateOptions(settings) {
 var DEFAULT_RATE_PRECISION = 3
 var ratePrecision = DEFAULT_RATE_PRECISION
 
-var DEFAULT_COUNT_PRECISION = 1
+var DEFAULT_COUNT_PRECISION = 2
 var countPrecision = DEFAULT_COUNT_PRECISION
 
 function renderPrecisions(settings) {
