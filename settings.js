@@ -312,7 +312,7 @@ function renderMetallurgy(settings) {
 
 // mining type
 
-var DEFAULT_MINING = "Drone Miner II"
+var DEFAULT_MINING = "surface"
 
 function renderMining(settings) {
     var mining = DEFAULT_MINING
