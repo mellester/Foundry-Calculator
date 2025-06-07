@@ -284,7 +284,7 @@ function renderSmelter(settings) {
 
 // metallurgy
 
-var DEFAULT_METALLURGY = 'T3'
+var DEFAULT_METALLURGY = 'T2'
 
 function renderMetallurgy(settings) {
     var metallurgyName = DEFAULT_METALLURGY
