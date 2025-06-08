@@ -3952,10 +3952,6 @@
                     "name": "_base_concrete"
                 },
                 {
-                    "amount": 60,
-                    "name": "_base_polymer_board"
-                },
-                {
                     "amount": 10,
                     "name": "_base_eic_i"
                 }
