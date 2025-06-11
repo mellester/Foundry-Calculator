@@ -27,6 +27,7 @@ var MODIFICATIONS = {
     "0-5-0-10769": new Modification("Vanilla Demo 0.5.0.10769", "vanilla-demo-0.5.0.10769.json", false, [1024, 1024]),
     "0-5-2-14492": new Modification("Vanilla 0.5.2.14492", "vanilla-0.5.2.14492.json", false, [1024, 1024]),
     "0.6.0.21116": new Modification("Vanilla 0.6.0.21116", "vanilla-0.6.0.21116.json", false, [1024, 1024]),
+    "latest": new Modification("Latest", "latest.json", false, [1024, 1024]),
 }
 
 var DEFAULT_MODIFICATION = "0.6.0.21116"
