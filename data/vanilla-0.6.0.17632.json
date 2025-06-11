@@ -3936,27 +3936,23 @@
             "icon_row": 0,
             "ingredients": [
                 {
-                    "amount": 100,
-                    "name": "_base_xenoferrite_plates"
+                    "amount": 90,
+                    "name": "_base_firmarlite_sheet"
                 },
                 {
-                    "amount": 25,
+                    "amount": 15,
                     "name": "_base_xf_steel_beams"
                 },
                 {
-                    "amount": 25,
+                    "amount": 15,
                     "name": "_base_mic_ii"
                 },
                 {
-                    "amount": 60,
+                    "amount": 30,
                     "name": "_base_concrete"
                 },
                 {
-                    "amount": 60,
-                    "name": "_base_polymer_board"
-                },
-                {
-                    "amount": 50,
+                    "amount": 10,
                     "name": "_base_eic_i"
                 }
             ],
@@ -3967,7 +3963,7 @@
             "order": "a",
             "results": [
                 {
-                    "amount": 320,
+                    "amount": 150,
                     "name": "_base_construction_material_i"
                 }
             ],

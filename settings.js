@@ -128,7 +128,7 @@ var longRateNames = {
     "h": "hour",
 }
 
-var DEFAULT_RATE = "s"
+var DEFAULT_RATE = "m"
 
 var displayRateFactor = displayRates[DEFAULT_RATE]
 var rateName = DEFAULT_RATE
@@ -168,7 +168,7 @@ function renderRateOptions(settings) {
 var DEFAULT_RATE_PRECISION = 3
 var ratePrecision = DEFAULT_RATE_PRECISION
 
-var DEFAULT_COUNT_PRECISION = 1
+var DEFAULT_COUNT_PRECISION = 2
 var countPrecision = DEFAULT_COUNT_PRECISION
 
 function renderPrecisions(settings) {
@@ -286,7 +286,7 @@ function renderSmelter(settings) {
 
 // metallurgy
 
-var DEFAULT_METALLURGY = 'T3'
+var DEFAULT_METALLURGY = 'T2'
 
 function renderMetallurgy(settings) {
     var metallurgyName = DEFAULT_METALLURGY
@@ -339,7 +339,7 @@ function renderMining(settings) {
             d => d === mining,
             changeMining,
         )
-        labels.append(d => getImage(d == "underground" ? solver.items['_base_minecart_depot_i'] : solver.items['_base_drone_miner_i'], false, dropdown.node()))
+        labels.append(d => getImage(d == "underground" ? solver.items['_base_minecart_depot_i'] : solver.items['_base_drone_miner_ii'], false, dropdown.node()))
         cell.replaceChild(node, oldNode)
     }
 }
