@@ -17,6 +17,8 @@ var PX_WIDTH = 64
 var PX_HEIGHT = 64
 
 var sheet_hash
+var sheet_height
+var sheet_width
 
 function Sprite(name, col, row) {
     this.name = name
@@ -69,6 +71,9 @@ function getExtraImage(name) {
 
 function getSprites(data) {
     sheet_hash = data.sprites.hash
+    sheet_width = data.sprites.width
+    sheet_height = data.sprites.height
+    spriteSheetSize = [sheet_width, sheet_height]
     sprites = {}
     for (var name in data.sprites.extra) {
         var d = data.sprites.extra[name]
